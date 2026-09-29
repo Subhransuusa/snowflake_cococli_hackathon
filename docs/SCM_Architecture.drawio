@@ -1,0 +1,273 @@
+<mxfile host="Electron" agent="CoCo">
+  <diagram id="scm-full-arch" name="SCM Full Architecture - All Objects">
+    <mxGraphModel dx="1983" dy="885" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontStyle=1;fontColor=#1a1a2e;" value="MFG: Supply Chain Ontology &amp; Governed Conversational Analytics — Complete Object Map" vertex="1">
+          <mxGeometry height="40" width="1600" x="400" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontStyle=2;fontColor=#666666;" value="HACKATHON_DB.COCOCLI  |  19 Tables  |  6 Views  |  6 Semantic Views  |  28 VQRs  |  1 Cortex Search  |  5 Cortex Agents  |  5 Domain Skills" vertex="1">
+          <mxGeometry height="20" width="1300" x="550" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="step1" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontStyle=1;fontColor=#4a86c8;" value="Layer 1" vertex="1">
+          <mxGeometry height="20" width="60" x="95" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="step2" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontStyle=1;fontColor=#4a86c8;" value="Layer 2" vertex="1">
+          <mxGeometry height="20" width="60" x="370" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="step3" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontStyle=1;fontColor=#4a86c8;" value="Layer 3" vertex="1">
+          <mxGeometry height="20" width="60" x="765" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="step4" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontStyle=1;fontColor=#4a86c8;" value="Layer 4" vertex="1">
+          <mxGeometry height="20" width="60" x="1200" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="step5" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontStyle=1;fontColor=#4a86c8;" value="Layer 5" vertex="1">
+          <mxGeometry height="20" width="60" x="1695" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="ds_group" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;verticalAlign=top;spacingTop=5;arcSize=10;" value="Data Sources" vertex="1">
+          <mxGeometry height="520" width="200" x="30" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="ds_erp" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" value="ERP / Transactional&#xa;(Orders, POs, Customers)" vertex="1">
+          <mxGeometry height="55" width="160" x="50" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="ds_log" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" value="Logistics&#xa;(Shipments, Carriers)" vertex="1">
+          <mxGeometry height="55" width="160" x="50" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ds_sup" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" value="Supplier Portal&#xa;(Parts, Quality, Ratings)" vertex="1">
+          <mxGeometry height="55" width="160" x="50" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="ds_iot" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" value="IoT / WMS&#xa;(Inventory Snapshots)" vertex="1">
+          <mxGeometry height="55" width="160" x="50" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="ds_geo" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" value="Geospatial / IoT&#xa;(Lat/Lng, Trade Areas)" vertex="1">
+          <mxGeometry height="55" width="160" x="50" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="ds_mkt" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" value="Market Intelligence&#xa;(Demand Trends, Forecasts)" vertex="1">
+          <mxGeometry height="55" width="160" x="50" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="ds_docs" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;size=15;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" value="Supplier Review Docs&#xa;(15 text documents)" vertex="1">
+          <mxGeometry height="50" width="160" x="50" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="cdm_group" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=14;verticalAlign=top;spacingTop=5;arcSize=10;" value="Canonical Data Model — 19 Tables (Ontology)" vertex="1">
+          <mxGeometry height="520" width="310" x="290" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="t_sup" parent="1" style="shape=table;startSize=22;container=0;collapsible=0;childLayout=tableLayout;fixedRows=0;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;html=1;" value="SUPPLIERS (15)" vertex="1">
+          <mxGeometry height="26" width="130" x="310" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="t_parts" parent="1" style="shape=table;startSize=22;container=0;collapsible=0;childLayout=tableLayout;fixedRows=0;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;html=1;" value="PARTS (20)" vertex="1">
+          <mxGeometry height="26" width="130" x="310" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="t_plants" parent="1" style="shape=table;startSize=22;container=0;collapsible=0;childLayout=tableLayout;fixedRows=0;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;html=1;" value="PLANTS (8)" vertex="1">
+          <mxGeometry height="26" width="130" x="310" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="t_cust" parent="1" style="shape=table;startSize=22;container=0;collapsible=0;childLayout=tableLayout;fixedRows=0;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;html=1;" value="CUSTOMERS (20)" vertex="1">
+          <mxGeometry height="26" width="130" x="310" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="t_sp" parent="1" style="shape=table;startSize=22;container=0;collapsible=0;childLayout=tableLayout;fixedRows=0;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;html=1;" value="SUPPLIER_PARTS (35)" vertex="1">
+          <mxGeometry height="26" width="130" x="450" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="t_po" parent="1" style="shape=table;startSize=22;container=0;collapsible=0;childLayout=tableLayout;fixedRows=0;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;html=1;" value="PURCHASE_ORDERS (428)" vertex="1">
+          <mxGeometry height="26" width="130" x="450" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="t_so" parent="1" style="shape=table;startSize=22;container=0;collapsible=0;childLayout=tableLayout;fixedRows=0;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;html=1;" value="SALES_ORDERS (400)" vertex="1">
+          <mxGeometry height="26" width="130" x="450" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ol" parent="1" style="shape=table;startSize=22;container=0;collapsible=0;childLayout=tableLayout;fixedRows=0;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;html=1;" value="ORDER_LINES (830)" vertex="1">
+          <mxGeometry height="26" width="130" x="450" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="t_sh" parent="1" style="shape=table;startSize=22;container=0;collapsible=0;childLayout=tableLayout;fixedRows=0;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;html=1;" value="SHIPMENTS (329)" vertex="1">
+          <mxGeometry height="26" width="130" x="310" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="t_sl" parent="1" style="shape=table;startSize=22;container=0;collapsible=0;childLayout=tableLayout;fixedRows=0;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;html=1;" value="SHIPMENT_LINES (760)" vertex="1">
+          <mxGeometry height="26" width="130" x="450" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="t_pi" parent="1" style="shape=table;startSize=22;container=0;collapsible=0;childLayout=tableLayout;fixedRows=0;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;html=1;" value="PLANT_INVENTORY (9450)" vertex="1">
+          <mxGeometry height="26" width="130" x="310" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="geo_label" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;fontStyle=3;fontColor=#336699;" value="Geospatial + Intelligence" vertex="1">
+          <mxGeometry height="20" width="140" x="310" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="t_sg" parent="1" style="shape=table;startSize=22;container=0;collapsible=0;childLayout=tableLayout;fixedRows=0;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;html=1;" value="SUPPLIER_GEOLOCATION (15)" vertex="1">
+          <mxGeometry height="26" width="135" x="310" y="348" as="geometry" />
+        </mxCell>
+        <mxCell id="t_pg" parent="1" style="shape=table;startSize=22;container=0;collapsible=0;childLayout=tableLayout;fixedRows=0;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;html=1;" value="PLANT_GEOLOCATION (8)" vertex="1">
+          <mxGeometry height="26" width="135" x="450" y="348" as="geometry" />
+        </mxCell>
+        <mxCell id="t_cg" parent="1" style="shape=table;startSize=22;container=0;collapsible=0;childLayout=tableLayout;fixedRows=0;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;html=1;" value="CUSTOMER_GEOLOCATION (20)" vertex="1">
+          <mxGeometry height="26" width="135" x="310" y="378" as="geometry" />
+        </mxCell>
+        <mxCell id="t_sr" parent="1" style="shape=table;startSize=22;container=0;collapsible=0;childLayout=tableLayout;fixedRows=0;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;html=1;" value="SHIPPING_ROUTES (113)" vertex="1">
+          <mxGeometry height="26" width="135" x="450" y="378" as="geometry" />
+        </mxCell>
+        <mxCell id="t_mt" parent="1" style="shape=table;startSize=22;container=0;collapsible=0;childLayout=tableLayout;fixedRows=0;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;html=1;" value="MARKET_TRENDS (1456)" vertex="1">
+          <mxGeometry height="26" width="135" x="310" y="408" as="geometry" />
+        </mxCell>
+        <mxCell id="t_df" parent="1" style="shape=table;startSize=22;container=0;collapsible=0;childLayout=tableLayout;fixedRows=0;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;html=1;" value="DEMAND_FORECAST (960)" vertex="1">
+          <mxGeometry height="26" width="135" x="450" y="408" as="geometry" />
+        </mxCell>
+        <mxCell id="t_srat" parent="1" style="shape=table;startSize=22;container=0;collapsible=0;childLayout=tableLayout;fixedRows=0;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;html=1;" value="SUPPLIER_RATINGS (15)" vertex="1">
+          <mxGeometry height="26" width="135" x="310" y="438" as="geometry" />
+        </mxCell>
+        <mxCell id="t_rd" parent="1" style="shape=table;startSize=22;container=0;collapsible=0;childLayout=tableLayout;fixedRows=0;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=9;html=1;" value="SUPPLIER_REVIEW_DOCS (15)" vertex="1">
+          <mxGeometry height="26" width="135" x="450" y="438" as="geometry" />
+        </mxCell>
+        <mxCell id="ont_chain" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;fontStyle=2;fontColor=#555555;" value="Ontology: Supplier → Part → Plant → Shipment → Order → Customer  (16 FKs)" vertex="1">
+          <mxGeometry height="20" width="270" x="310" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="mv_label" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;fontStyle=3;fontColor=#336699;" value="6 Metric Views" vertex="1">
+          <mxGeometry height="20" width="90" x="310" y="498" as="geometry" />
+        </mxCell>
+        <mxCell id="v_otd" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=8;fontStyle=0;align=center;" value="V_ON_TIME_DELIVERY" vertex="1">
+          <mxGeometry height="20" width="90" x="310" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="v_fill" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=8;fontStyle=0;align=center;" value="V_FILL_RATE" vertex="1">
+          <mxGeometry height="20" width="90" x="405" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="v_doi" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=8;fontStyle=0;align=center;" value="V_DAYS_OF_INVENTORY" vertex="1">
+          <mxGeometry height="20" width="90" x="500" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="v_lc" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=8;fontStyle=0;align=center;" value="V_LANDED_COST" vertex="1">
+          <mxGeometry height="20" width="90" x="310" y="544" as="geometry" />
+        </mxCell>
+        <mxCell id="v_sotd" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=8;fontStyle=0;align=center;" value="V_SHIPMENT_OTD" vertex="1">
+          <mxGeometry height="20" width="90" x="405" y="544" as="geometry" />
+        </mxCell>
+        <mxCell id="v_exec" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=8;fontStyle=0;align=center;" value="V_SCM_EXECUTIVE" vertex="1">
+          <mxGeometry height="20" width="90" x="500" y="544" as="geometry" />
+        </mxCell>
+        <mxCell id="sv_group" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=14;verticalAlign=top;spacingTop=5;arcSize=10;" value="Semantic Layer — 6 Semantic Views (28 VQRs) + Cortex Search" vertex="1">
+          <mxGeometry height="520" width="340" x="660" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="sv_proc" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;align=center;" value="SCM_PROCUREMENT&#xa;5 tables | 5 VQRs&#xa;OTD (88.24%) · Landed Cost" vertex="1">
+          <mxGeometry height="60" width="200" x="680" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sv_fill" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;align=center;" value="SCM_FULFILLMENT&#xa;5 tables | 5 VQRs&#xa;Fill Rate (91.72%)" vertex="1">
+          <mxGeometry height="60" width="200" x="680" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="sv_inv" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;align=center;" value="SCM_INVENTORY&#xa;3 tables | 4 VQRs&#xa;DOI (23.2 days)" vertex="1">
+          <mxGeometry height="60" width="200" x="680" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="sv_log" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;align=center;" value="SCM_LOGISTICS&#xa;5 tables | 5 VQRs&#xa;Delivery OTD (83.56%)" vertex="1">
+          <mxGeometry height="60" width="200" x="680" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="sv_dem" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;align=center;" value="SV_DEMAND_FORECAST&#xa;3 tables | 4 VQRs&#xa;Trend Signal · YoY Growth" vertex="1">
+          <mxGeometry height="60" width="200" x="680" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="sv_geo" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;align=center;" value="SV_GEOSPATIAL_DEMAND&#xa;6 tables | 5 VQRs&#xa;Routes · Distances · Trade Areas" vertex="1">
+          <mxGeometry height="60" width="200" x="680" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="cs_box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;align=center;fontStyle=1;dashed=0;" value="SUPPLIER_REVIEW_SEARCH&#xa;(Cortex Search Service)&#xa;15 docs indexed&#xa;arctic-embed-m-v1.5" vertex="1">
+          <mxGeometry height="95" width="90" x="895" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ca_label" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;align=center;fontStyle=2;dashed=1;" value="Cortex Analyst&#xa;(built-in NL→SQL engine)&#xa;Activated by tool type:&#xa;cortex_analyst_text_to_sql" vertex="1">
+          <mxGeometry height="80" width="90" x="895" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ag_group" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=14;verticalAlign=top;spacingTop=5;arcSize=10;" value="Cortex Agents (5) + Domain Skills (5) + @AGENT_SKILLS Stage" vertex="1">
+          <mxGeometry height="520" width="340" x="1060" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="ag_router" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=18;fillColor=#1a1a2e;strokeColor=#333366;fontSize=11;fontStyle=1;fontColor=#ffffff;" value="SCM_ROUTER&#xa;(Master Orchestrator)&#xa;7 tools + 5 skills" vertex="1">
+          <mxGeometry height="65" width="220" x="1120" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="skills_label" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;fontStyle=3;fontColor=#9673a6;" value="5 Domain Skills (@AGENT_SKILLS stage — SKILL.md instruction files)" vertex="1">
+          <mxGeometry height="18" width="300" x="1080" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="sa_label" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;fontStyle=3;fontColor=#666666;" value="Standalone Agents (parallel entry points — NOT called by Router)" vertex="1">
+          <mxGeometry height="18" width="310" x="1080" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ag_analyst" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b8cce4;strokeColor=#5b739d;fontSize=9;align=center;fontStyle=1;dashed=1;" value="SCM_ANALYST&#xa;Core KPIs (4 tools)" vertex="1">
+          <mxGeometry height="40" width="140" x="1080" y="292" as="geometry" />
+        </mxCell>
+        <mxCell id="ag_reviewer" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=9;align=center;fontStyle=1;dashed=1;" value="SUPPLIER_REVIEWER&#xa;Search + Analyst (2 tools)" vertex="1">
+          <mxGeometry height="40" width="140" x="1230" y="292" as="geometry" />
+        </mxCell>
+        <mxCell id="ag_demand" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;align=center;fontStyle=1;dashed=1;" value="DEMAND_FORECASTER&#xa;1 Analyst tool" vertex="1">
+          <mxGeometry height="40" width="140" x="1080" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="ag_route" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;align=center;fontStyle=1;dashed=1;" value="ROUTE_OPTIMIZER&#xa;1 Analyst tool" vertex="1">
+          <mxGeometry height="40" width="140" x="1230" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="plat_note" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=0;strokeColor=#b85450;fillColor=#fff5f5;fontSize=7;fontStyle=2;fontColor=#b85450;rounded=1;" value="Platform: Cortex Agents CANNOT call other agents.&#xa;Router owns all tools+skills directly. Standalone agents&#xa;are parallel entry points for persona-specific use." vertex="1">
+          <mxGeometry height="35" width="290" x="1080" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="sk_proc" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;" value="procurement_skill" vertex="1">
+          <mxGeometry height="22" width="80" x="1080" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="sk_log" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;align=center;" value="logistics_skill" vertex="1">
+          <mxGeometry height="22" width="75" x="1165" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="sk_dem" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=8;align=center;" value="demand_skill" vertex="1">
+          <mxGeometry height="22" width="75" x="1245" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="sk_sr" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=8;align=center;" value="supplier_review_skill" vertex="1">
+          <mxGeometry height="22" width="95" x="1100" y="242" as="geometry" />
+        </mxCell>
+        <mxCell id="sk_ro" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=8;align=center;" value="route_optimizer_skill" vertex="1">
+          <mxGeometry height="22" width="95" x="1205" y="242" as="geometry" />
+        </mxCell>
+        <mxCell id="routing_desc" parent="1" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=0;strokeColor=#cccccc;fillColor=#fafafa;fontSize=8;fontStyle=0;fontColor=#555555;rounded=1;" value="How it works:&#xa;1. Router loads relevant skill(s) from @AGENT_SKILLS stage&#xa;2. Skill provides domain persona + metric definitions&#xa;3. Router calls tool(s): Cortex Analyst → SV or Cortex Search&#xa;4. SQL executes on COMPUTE_WH, returns governed results&#xa;5. Router applies skill formatting, synthesizes answer&#xa;&#xa;Router does NOT call other agents (platform limitation)&#xa;Standalone agents = direct-access for specific personas" vertex="1">
+          <mxGeometry height="120" width="310" x="1080" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="con_group" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e0f0;strokeColor=#4a86c8;fontStyle=1;fontSize=14;verticalAlign=top;spacingTop=5;arcSize=10;" value="Consumers" vertex="1">
+          <mxGeometry height="520" width="230" x="1460" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="p_proc" parent="1" style="shape=mxgraph.basic.rounded_frame;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=center;" value="Procurement Manager&#xa;Supplier OTD · Landed Cost" vertex="1">
+          <mxGeometry height="50" width="190" x="1480" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="p_plan" parent="1" style="shape=mxgraph.basic.rounded_frame;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;align=center;" value="Planning Analyst&#xa;DOI · Safety Stock · Demand" vertex="1">
+          <mxGeometry height="50" width="190" x="1480" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="p_log" parent="1" style="shape=mxgraph.basic.rounded_frame;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;align=center;" value="Logistics Lead&#xa;Delivery OTD · Routes · Freight" vertex="1">
+          <mxGeometry height="50" width="190" x="1480" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="p_vp" parent="1" style="shape=mxgraph.basic.rounded_frame;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;align=center;fontStyle=1;" value="VP / Executive&#xa;All KPIs · Cross-Domain" vertex="1">
+          <mxGeometry height="50" width="190" x="1480" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="outcome" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fff0;strokeColor=#82b366;fontSize=10;align=center;fontStyle=0;strokeWidth=2;" value="ONE CONSISTENT ANSWER&#xa;&#xa;Procurement asks: &quot;What is OTD?&quot; → 88.24%&#xa;Planning asks: &quot;What is OTD?&quot; → 88.24%&#xa;Logistics asks: &quot;What is OTD?&quot; → 88.24%&#xa;&#xa;Same VQR SQL · Same Semantic View&#xa;Same Governed Result" vertex="1">
+          <mxGeometry height="130" width="190" x="1480" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="kpi_box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffde7;strokeColor=#d6b656;fontSize=9;align=center;fontStyle=1;dashed=1;" value="Canonical KPIs:&#xa;Supplier OTD: 88.24%&#xa;Fill Rate: 91.72%&#xa;DOI: 23.2 days&#xa;Delivery OTD: 83.56%&#xa;Trend Delta: +21.8" vertex="1">
+          <mxGeometry height="80" width="170" x="1490" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="gov_bar" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#999999;fontStyle=1;fontSize=11;align=center;" value="Snowflake Horizon — Data &amp; AI Governance  |  RBAC  |  Data Lineage  |  Audit Logging  |  Metric Governance (1 metric = 1 semantic view)" vertex="1">
+          <mxGeometry height="35" width="1660" x="30" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="arr1" edge="1" parent="1" source="ds_group" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6c8ebf;strokeWidth=2;" target="cdm_group">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr1_lbl" connectable="0" parent="arr1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;" value="Ingest &amp; Load&#xa;(18 CSVs + 15 docs)" vertex="1">
+          <mxGeometry relative="1" x="-0.1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr2" edge="1" parent="1" source="cdm_group" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;" target="sv_group">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr2_lbl" connectable="0" parent="arr2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;" value="Semantic Layer&#xa;(YAML → CREATE SEMANTIC VIEW)" vertex="1">
+          <mxGeometry relative="1" x="-0.1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr3" edge="1" parent="1" source="sv_group" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d6b656;strokeWidth=2;" target="ag_group">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr3_lbl" connectable="0" parent="arr3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;" value="Cortex Analyst&#xa;(text_to_sql tools)" vertex="1">
+          <mxGeometry relative="1" x="-0.1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr4" edge="1" parent="1" source="ag_group" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#9673a6;strokeWidth=2;" target="con_group">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arr4_lbl" connectable="0" parent="arr4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontStyle=1;" value="NL Question → SQL → Answer&#xa;verified_query_used: true" vertex="1">
+          <mxGeometry relative="1" x="-0.1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arr_cs" edge="1" parent="1" source="cs_box" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d79b00;strokeWidth=1;dashed=1;" target="ag_reviewer">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
