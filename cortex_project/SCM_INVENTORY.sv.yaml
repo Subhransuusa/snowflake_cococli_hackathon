@@ -1,0 +1,181 @@
+name: SCM_INVENTORY
+description: Inventory analytics for supply chain planning. Tracks Days of Inventory
+  (DOI), safety stock coverage, and reorder status across plants and parts. Used by
+  planning and operations personas to monitor inventory health, identify stockout
+  risks, and optimize working capital.
+tables:
+  - name: PLANTS
+    base_table:
+      database: __SF_DATABASE__
+      schema: __SF_SCHEMA__
+      table: PLANTS
+    primary_key:
+      columns:
+        - PLANT_ID
+    dimensions:
+      - name: PLANT_ID
+        expr: PLANT_ID
+        data_type: VARCHAR
+      - name: PLANT_NAME
+        expr: PLANT_NAME
+        data_type: VARCHAR
+      - name: CITY
+        expr: CITY
+        data_type: VARCHAR
+      - name: COUNTRY
+        expr: COUNTRY
+        data_type: VARCHAR
+      - name: REGION
+        expr: REGION
+        data_type: VARCHAR
+      - name: PLANT_TYPE
+        expr: PLANT_TYPE
+        data_type: VARCHAR
+      - name: CAPACITY_UNITS
+        expr: CAPACITY_UNITS
+        data_type: NUMBER
+  - name: PARTS
+    base_table:
+      database: __SF_DATABASE__
+      schema: __SF_SCHEMA__
+      table: PARTS
+    primary_key:
+      columns:
+        - PART_ID
+    dimensions:
+      - name: PART_ID
+        expr: PART_ID
+        data_type: VARCHAR
+      - name: PART_NAME
+        expr: PART_NAME
+        data_type: VARCHAR
+      - name: CATEGORY
+        expr: CATEGORY
+        data_type: VARCHAR
+      - name: SUBCATEGORY
+        expr: SUBCATEGORY
+        data_type: VARCHAR
+      - name: UNIT_OF_MEASURE
+        expr: UNIT_OF_MEASURE
+        data_type: VARCHAR
+      - name: CRITICAL_FLAG
+        expr: CRITICAL_FLAG
+        data_type: BOOLEAN
+    facts:
+      - name: STANDARD_COST
+        expr: STANDARD_COST
+        data_type: NUMBER
+      - name: WEIGHT_KG
+        expr: WEIGHT_KG
+        data_type: NUMBER
+  - name: PLANT_INVENTORY
+    base_table:
+      database: __SF_DATABASE__
+      schema: __SF_SCHEMA__
+      table: PLANT_INVENTORY
+    primary_key:
+      columns:
+        - PLANT_ID
+        - PART_ID
+        - SNAPSHOT_DATE
+    foreign_keys:
+      - fkey_columns:
+          - PART_ID
+        pkey_table:
+          database: __SF_DATABASE__
+          schema: __SF_SCHEMA__
+          table: PARTS
+        pkey_columns:
+          - PART_ID
+      - fkey_columns:
+          - PLANT_ID
+        pkey_table:
+          database: __SF_DATABASE__
+          schema: __SF_SCHEMA__
+          table: PLANTS
+        pkey_columns:
+          - PLANT_ID
+    dimensions:
+      - name: PLANT_ID
+        expr: PLANT_ID
+        data_type: VARCHAR
+      - name: PART_ID
+        expr: PART_ID
+        data_type: VARCHAR
+      - name: ON_HAND_QTY
+        expr: ON_HAND_QTY
+        data_type: NUMBER
+      - name: SAFETY_STOCK_QTY
+        expr: SAFETY_STOCK_QTY
+        data_type: NUMBER
+      - name: REORDER_POINT
+        expr: REORDER_POINT
+        data_type: NUMBER
+    time_dimensions:
+      - name: SNAPSHOT_DATE
+        expr: SNAPSHOT_DATE
+        data_type: DATE
+    facts:
+      - name: AVG_DAILY_USAGE
+        expr: AVG_DAILY_USAGE
+        data_type: NUMBER
+relationships:
+  - name: PLANT_INVENTORY_TO_PARTS
+    left_table: PLANT_INVENTORY
+    right_table: PARTS
+    join_type: inner
+    relationship_type: many_to_one
+    relationship_columns:
+      - left_column: PART_ID
+        right_column: PART_ID
+  - name: PLANT_INVENTORY_TO_PLANTS
+    left_table: PLANT_INVENTORY
+    right_table: PLANTS
+    join_type: inner
+    relationship_type: many_to_one
+    relationship_columns:
+      - left_column: PLANT_ID
+        right_column: PLANT_ID
+verified_queries:
+  - name: 0;1
+    question: What are the current days of inventory by plant and part, showing the
+      lowest first?
+    sql: SELECT pl.PLANT_NAME, pt.PART_NAME, pt.CATEGORY, pi.SNAPSHOT_DATE, pi.ON_HAND_QTY,
+      pi.SAFETY_STOCK_QTY, pi.AVG_DAILY_USAGE, ROUND(pi.ON_HAND_QTY / NULLIF(pi.AVG_DAILY_USAGE,
+      0), 1) AS days_of_inventory, CASE WHEN pi.ON_HAND_QTY < pi.SAFETY_STOCK_QTY
+      THEN 'Below Safety Stock' WHEN pi.ON_HAND_QTY < pi.REORDER_POINT THEN 'Reorder
+      Required' ELSE 'Adequate' END AS inventory_status FROM plant_inventory AS pi
+      JOIN plants AS pl ON pi.PLANT_ID = pl.PLANT_ID JOIN parts AS pt ON pi.PART_ID
+      = pt.PART_ID WHERE pi.SNAPSHOT_DATE = CURRENT_DATE ORDER BY days_of_inventory
+      ASC LIMIT 50
+    verified_at: 1789210165
+    verified_by: Semantic Model Generator
+  - name: 1;1
+    question: What is the average days of inventory by plant over the last 7 days?
+    sql: SELECT pl.PLANT_NAME, ROUND(AVG(pi.ON_HAND_QTY / NULLIF(pi.AVG_DAILY_USAGE,
+      0)), 1) AS avg_doi FROM plant_inventory AS pi JOIN plants AS pl ON pi.PLANT_ID
+      = pl.PLANT_ID WHERE pi.SNAPSHOT_DATE >= DATEADD(DAY, -7, CURRENT_DATE) GROUP
+      BY 1 ORDER BY avg_doi
+    verified_at: 1789210165
+    verified_by: Semantic Model Generator
+  - name: 2;1
+    question: What is the current inventory status by part category showing total
+      items, items below safety stock, and items needing reorder?
+    sql: SELECT pt.CATEGORY, COUNT(*) AS total_items, SUM(CASE WHEN pi.ON_HAND_QTY
+      < pi.SAFETY_STOCK_QTY THEN 1 ELSE 0 END) AS below_safety_stock, SUM(CASE WHEN
+      pi.ON_HAND_QTY < pi.REORDER_POINT THEN 1 ELSE 0 END) AS needs_reorder FROM plant_inventory
+      AS pi JOIN parts AS pt ON pi.PART_ID = pt.PART_ID WHERE pi.SNAPSHOT_DATE = (SELECT
+      MAX(SNAPSHOT_DATE) FROM plant_inventory) GROUP BY 1 ORDER BY below_safety_stock
+      DESC
+    verified_at: 1789210165
+    verified_by: Semantic Model Generator
+  - name: 3;1
+    question: Which critical parts are currently below safety stock levels?
+    sql: SELECT pl.PLANT_NAME, pt.PART_NAME, pt.CRITICAL_FLAG, pi.SNAPSHOT_DATE, pi.ON_HAND_QTY,
+      pi.SAFETY_STOCK_QTY, ROUND(pi.ON_HAND_QTY / NULLIF(pi.AVG_DAILY_USAGE, 0), 1)
+      AS days_of_inventory FROM plant_inventory AS pi JOIN plants AS pl ON pi.PLANT_ID
+      = pl.PLANT_ID JOIN parts AS pt ON pi.PART_ID = pt.PART_ID WHERE pt.CRITICAL_FLAG
+      = TRUE AND pi.ON_HAND_QTY < pi.SAFETY_STOCK_QTY AND pi.SNAPSHOT_DATE = (SELECT
+      MAX(SNAPSHOT_DATE) FROM plant_inventory) ORDER BY days_of_inventory ASC
+    verified_at: 1789210165
+    verified_by: Semantic Model Generator

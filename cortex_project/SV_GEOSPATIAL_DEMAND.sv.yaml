@@ -1,0 +1,328 @@
+name: SV_GEOSPATIAL_DEMAND
+description: Geospatial demand analytics for supply chain planning. Covers market
+  demand trends with regional signals, part-level demand forecasting, supplier geolocation
+  intelligence, and shipping route optimization. Used by planning and executive personas
+  to understand demand patterns, geographic supply risks, and trade area coverage.
+tables:
+  - name: MARKET_TRENDS
+    base_table:
+      database: __SF_DATABASE__
+      schema: __SF_SCHEMA__
+      table: MARKET_TRENDS
+    primary_key:
+      columns:
+        - WEEK_DATE
+        - REGION
+        - CATEGORY
+    dimensions:
+      - name: REGION
+        expr: REGION
+        data_type: VARCHAR
+      - name: CATEGORY
+        expr: CATEGORY
+        data_type: VARCHAR
+      - name: DEMAND_UNITS
+        expr: DEMAND_UNITS
+        data_type: NUMBER
+      - name: FORECAST_UNITS
+        expr: FORECAST_UNITS
+        data_type: NUMBER
+      - name: TREND_SIGNAL
+        expr: TREND_SIGNAL
+        data_type: VARCHAR
+      - name: BASELINE_DEMAND
+        expr: BASELINE_DEMAND
+        data_type: NUMBER
+    time_dimensions:
+      - name: WEEK_DATE
+        expr: WEEK_DATE
+        data_type: DATE
+    facts:
+      - name: TREND_SLOPE
+        expr: TREND_SLOPE
+        data_type: FLOAT
+      - name: YOY_GROWTH_PCT
+        expr: YOY_GROWTH_PCT
+        data_type: FLOAT
+      - name: CONFIDENCE_SCORE
+        expr: CONFIDENCE_SCORE
+        data_type: FLOAT
+  - name: DEMAND_FORECAST
+    base_table:
+      database: __SF_DATABASE__
+      schema: __SF_SCHEMA__
+      table: DEMAND_FORECAST
+    primary_key:
+      columns:
+        - FORECAST_DATE
+        - REGION
+        - PART_ID
+    dimensions:
+      - name: REGION
+        expr: REGION
+        data_type: VARCHAR
+      - name: PART_ID
+        expr: PART_ID
+        data_type: VARCHAR
+      - name: FORECAST_QTY
+        expr: FORECAST_QTY
+        data_type: NUMBER
+      - name: LOWER_BOUND
+        expr: LOWER_BOUND
+        data_type: NUMBER
+      - name: UPPER_BOUND
+        expr: UPPER_BOUND
+        data_type: NUMBER
+      - name: MODEL_VERSION
+        expr: MODEL_VERSION
+        data_type: VARCHAR
+    time_dimensions:
+      - name: FORECAST_DATE
+        expr: FORECAST_DATE
+        data_type: DATE
+    facts:
+      - name: CONFIDENCE
+        expr: CONFIDENCE
+        data_type: FLOAT
+  - name: SHIPPING_ROUTES
+    base_table:
+      database: __SF_DATABASE__
+      schema: __SF_SCHEMA__
+      table: SHIPPING_ROUTES
+    primary_key:
+      columns:
+        - ROUTE_ID
+    dimensions:
+      - name: ROUTE_ID
+        expr: ROUTE_ID
+        data_type: VARCHAR
+      - name: SUPPLIER_ID
+        expr: SUPPLIER_ID
+        data_type: VARCHAR
+      - name: PLANT_ID
+        expr: PLANT_ID
+        data_type: VARCHAR
+      - name: SUPPLIER_NAME
+        expr: SUPPLIER_NAME
+        data_type: VARCHAR
+      - name: PLANT_NAME
+        expr: PLANT_NAME
+        data_type: VARCHAR
+      - name: TRANSPORT_MODE
+        expr: TRANSPORT_MODE
+        data_type: VARCHAR
+      - name: ROUTE_TYPE
+        expr: ROUTE_TYPE
+        data_type: VARCHAR
+      - name: RISK_LEVEL
+        expr: RISK_LEVEL
+        data_type: VARCHAR
+      - name: TRADE_LANE
+        expr: TRADE_LANE
+        data_type: VARCHAR
+    facts:
+      - name: ORIGIN_LAT
+        expr: ORIGIN_LAT
+        data_type: FLOAT
+      - name: ORIGIN_LNG
+        expr: ORIGIN_LNG
+        data_type: FLOAT
+      - name: DEST_LAT
+        expr: DEST_LAT
+        data_type: FLOAT
+      - name: DEST_LNG
+        expr: DEST_LNG
+        data_type: FLOAT
+      - name: DISTANCE_KM
+        expr: DISTANCE_KM
+        data_type: FLOAT
+      - name: EST_TRANSIT_DAYS
+        expr: EST_TRANSIT_DAYS
+        data_type: FLOAT
+      - name: EST_COST_USD
+        expr: EST_COST_USD
+        data_type: FLOAT
+  - name: SUPPLIER_GEOLOCATION
+    base_table:
+      database: __SF_DATABASE__
+      schema: __SF_SCHEMA__
+      table: SUPPLIER_GEOLOCATION
+    primary_key:
+      columns:
+        - SUPPLIER_ID
+    dimensions:
+      - name: SUPPLIER_ID
+        expr: SUPPLIER_ID
+        data_type: VARCHAR
+      - name: SUPPLIER_NAME
+        expr: SUPPLIER_NAME
+        data_type: VARCHAR
+      - name: COUNTRY
+        expr: COUNTRY
+        data_type: VARCHAR
+      - name: REGION
+        expr: REGION
+        data_type: VARCHAR
+      - name: INDUSTRIAL_ZONE
+        expr: INDUSTRIAL_ZONE
+        data_type: VARCHAR
+      - name: NEAREST_HUB_TYPE
+        expr: NEAREST_HUB_TYPE
+        data_type: VARCHAR
+    facts:
+      - name: LATITUDE
+        expr: LATITUDE
+        data_type: FLOAT
+      - name: LONGITUDE
+        expr: LONGITUDE
+        data_type: FLOAT
+      - name: WAREHOUSE_LAT
+        expr: WAREHOUSE_LAT
+        data_type: FLOAT
+      - name: WAREHOUSE_LNG
+        expr: WAREHOUSE_LNG
+        data_type: FLOAT
+      - name: DISTANCE_TO_HUB_KM
+        expr: DISTANCE_TO_HUB_KM
+        data_type: FLOAT
+  - name: PLANT_GEOLOCATION
+    base_table:
+      database: __SF_DATABASE__
+      schema: __SF_SCHEMA__
+      table: PLANT_GEOLOCATION
+    primary_key:
+      columns:
+        - PLANT_ID
+    dimensions:
+      - name: PLANT_ID
+        expr: PLANT_ID
+        data_type: VARCHAR
+      - name: PLANT_NAME
+        expr: PLANT_NAME
+        data_type: VARCHAR
+      - name: COUNTRY
+        expr: COUNTRY
+        data_type: VARCHAR
+      - name: REGION
+        expr: REGION
+        data_type: VARCHAR
+      - name: NEAREST_HUB_TYPE
+        expr: NEAREST_HUB_TYPE
+        data_type: VARCHAR
+    facts:
+      - name: LATITUDE
+        expr: LATITUDE
+        data_type: FLOAT
+      - name: LONGITUDE
+        expr: LONGITUDE
+        data_type: FLOAT
+      - name: DISTANCE_TO_HUB_KM
+        expr: DISTANCE_TO_HUB_KM
+        data_type: FLOAT
+  - name: SUPPLIER_RATINGS
+    base_table:
+      database: __SF_DATABASE__
+      schema: __SF_SCHEMA__
+      table: SUPPLIER_RATINGS
+    primary_key:
+      columns:
+        - SUPPLIER_ID
+        - RATING_DATE
+    dimensions:
+      - name: SUPPLIER_ID
+        expr: SUPPLIER_ID
+        data_type: VARCHAR
+      - name: SUPPLIER_NAME
+        expr: SUPPLIER_NAME
+        data_type: VARCHAR
+      - name: COUNTRY
+        expr: COUNTRY
+        data_type: VARCHAR
+      - name: REGION
+        expr: REGION
+        data_type: VARCHAR
+      - name: TIER
+        expr: TIER
+        data_type: NUMBER
+      - name: RISK_LEVEL
+        expr: RISK_LEVEL
+        data_type: VARCHAR
+      - name: CERTIFICATIONS
+        expr: CERTIFICATIONS
+        data_type: VARCHAR
+    time_dimensions:
+      - name: RATING_DATE
+        expr: RATING_DATE
+        data_type: DATE
+    facts:
+      - name: QUALITY_SCORE
+        expr: QUALITY_SCORE
+        data_type: FLOAT
+      - name: DELIVERY_SCORE
+        expr: DELIVERY_SCORE
+        data_type: FLOAT
+      - name: COST_COMPETITIVENESS
+        expr: COST_COMPETITIVENESS
+        data_type: FLOAT
+      - name: RESPONSIVENESS
+        expr: RESPONSIVENESS
+        data_type: FLOAT
+      - name: SUSTAINABILITY_SCORE
+        expr: SUSTAINABILITY_SCORE
+        data_type: FLOAT
+      - name: INNOVATION_SCORE
+        expr: INNOVATION_SCORE
+        data_type: FLOAT
+      - name: OVERALL_RATING
+        expr: OVERALL_RATING
+        data_type: FLOAT
+relationships:
+  - name: SUPPLIER_RATINGS_TO_SUPPLIER_GEOLOCATION
+    left_table: SUPPLIER_RATINGS
+    right_table: SUPPLIER_GEOLOCATION
+    join_type: inner
+    relationship_type: many_to_one
+    relationship_columns:
+      - left_column: SUPPLIER_ID
+        right_column: SUPPLIER_ID
+verified_queries:
+  - name: 0;1
+    question: Which categories and regions have the highest year-over-year growth
+      among those with growing demand trends?
+    sql: SELECT mt.REGION, mt.CATEGORY, mt.WEEK_DATE, mt.DEMAND_UNITS, mt.FORECAST_UNITS,
+      mt.TREND_SLOPE, mt.YOY_GROWTH_PCT, mt.CONFIDENCE_SCORE, mt.TREND_SIGNAL FROM
+      market_trends AS mt WHERE mt.TREND_SIGNAL = 'Growing' ORDER BY mt.YOY_GROWTH_PCT
+      DESC LIMIT 20
+    verified_at: 1789213254
+    verified_by: Semantic Model Generator
+  - name: 1;1
+    question: What are the top 50 demand forecasts starting from today?
+    sql: SELECT df.REGION, df.PART_ID, df.FORECAST_DATE, df.FORECAST_QTY, df.LOWER_BOUND,
+      df.UPPER_BOUND, df.CONFIDENCE FROM demand_forecast AS df WHERE df.FORECAST_DATE
+      >= CURRENT_DATE ORDER BY df.FORECAST_QTY DESC LIMIT 50
+    verified_at: 1789213254
+    verified_by: Semantic Model Generator
+  - name: 2;1
+    question: What are the 20 cheapest shipping routes from suppliers to plants?
+    sql: SELECT sr.SUPPLIER_NAME, sr.PLANT_NAME, sr.DISTANCE_KM, sr.TRANSPORT_MODE,
+      sr.EST_TRANSIT_DAYS, sr.EST_COST_USD, sr.RISK_LEVEL, sr.TRADE_LANE FROM shipping_routes
+      AS sr ORDER BY sr.EST_COST_USD ASC LIMIT 20
+    verified_at: 1789213254
+    verified_by: Semantic Model Generator
+  - name: 3;1
+    question: Show me supplier locations with their ratings on a map
+    sql: SELECT sg.SUPPLIER_NAME, sg.COUNTRY, sg.LATITUDE, sg.LONGITUDE, sg.NEAREST_HUB_TYPE,
+      sg.DISTANCE_TO_HUB_KM, sr_r.OVERALL_RATING, sr_r.RISK_LEVEL FROM supplier_geolocation
+      AS sg JOIN supplier_ratings AS sr_r ON sg.SUPPLIER_ID = sr_r.SUPPLIER_ID ORDER
+      BY sr_r.OVERALL_RATING DESC
+    verified_at: 1789213254
+    verified_by: Semantic Model Generator
+  - name: 4;1
+    question: What is the average demand trend and year-over-year growth by region
+      and category?
+    sql: SELECT mt.REGION, mt.CATEGORY, ROUND(AVG(mt.TREND_SLOPE), 2) AS avg_trend,
+      ROUND(AVG(mt.YOY_GROWTH_PCT), 2) AS avg_yoy_growth, ROUND(AVG(mt.CONFIDENCE_SCORE),
+      2) AS avg_confidence FROM market_trends AS mt GROUP BY 1, 2 ORDER BY avg_yoy_growth
+      DESC
+    verified_at: 1789213254
+    verified_by: Semantic Model Generator

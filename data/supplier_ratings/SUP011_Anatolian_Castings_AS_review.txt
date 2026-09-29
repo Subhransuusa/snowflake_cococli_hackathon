@@ -1,0 +1,45 @@
+SUPPLIER PERFORMANCE REVIEW
+============================================================
+Supplier: Anatolian Castings AS
+Supplier ID: SUP011
+Country: Turkey | Region: Europe
+Tier: 3 | Certifications: ISO 9001
+Review Date: 2026-09-12
+Overall Rating: 74.0/100 | Classification: APPROVED
+Risk Level: Medium
+
+SCORECARD
+------------------------------------------------------------
+Quality Score:           68.2/100
+Delivery Score:          75.5/100
+Cost Competitiveness:    80.7/100
+Responsiveness:          62.8/100
+Sustainability:          89.5/100
+Innovation:              72.1/100
+Overall Weighted Rating: 74.0/100
+
+STRENGTHS
+------------------------------------------------------------
+  - Competitive pricing structure with transparent cost breakdown
+  - Strong sustainability practices with environmental certifications
+
+AREAS FOR IMPROVEMENT
+------------------------------------------------------------
+  - Quality score of 68.2 indicates room for improvement in defect management
+  - Delivery score of 75.5 suggests late shipments are a recurring concern
+
+CAPACITY & OPERATIONS
+------------------------------------------------------------
+Single-site operation presents concentration risk; suggest qualifying backup.
+
+AUDIT HISTORY
+------------------------------------------------------------
+Last audit (2026-Q1): No major findings. Minor observation on traceability documentation.
+
+RECOMMENDATION
+------------------------------------------------------------
+Based on the overall rating of 74.0/100, this supplier is classified as
+APPROVED. This supplier may be used for standard orders but should not be sole-sourced for critical parts.
+
+============================================================
+End of Review - Confidential

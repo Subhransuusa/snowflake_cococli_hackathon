@@ -1,0 +1,9 @@
+PLANT_ID,PLANT_NAME,COUNTRY,REGION,LATITUDE,LONGITUDE,NEAREST_HUB_TYPE,DISTANCE_TO_HUB_KM
+PLT001,Detroit Assembly Hub,United States,North America,42.3314,-83.0458,Highway Interchange,32.9
+PLT002,Stuttgart Manufacturing,Germany,Europe,48.7758,9.1829,Highway Interchange,13.1
+PLT003,Shanghai Mega Plant,China,Asia Pacific,31.2304,121.4737,Airport,21.2
+PLT004,Monterrey Operations,Mexico,North America,25.6866,-100.3161,Rail Hub,60.3
+PLT005,Chennai Production Center,India,Asia Pacific,13.0827,80.2707,Highway Interchange,72.0
+PLT006,Toronto Distribution,Canada,North America,43.6532,-79.3832,Highway Interchange,30.2
+PLT007,Prague Assembly Works,Czech Republic,Europe,50.0755,14.4378,Airport,41.7
+PLT008,Nagoya Precision Plant,Japan,Asia Pacific,35.1815,136.9066,Port,61.0

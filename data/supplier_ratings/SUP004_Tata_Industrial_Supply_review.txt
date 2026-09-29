@@ -1,0 +1,45 @@
+SUPPLIER PERFORMANCE REVIEW
+============================================================
+Supplier: Tata Industrial Supply
+Supplier ID: SUP004
+Country: India | Region: Asia Pacific
+Tier: 2 | Certifications: ISO 9001
+Review Date: 2026-09-12
+Overall Rating: 80.5/100 | Classification: APPROVED
+Risk Level: Medium
+
+SCORECARD
+------------------------------------------------------------
+Quality Score:           91.1/100
+Delivery Score:          90.1/100
+Cost Competitiveness:    75.0/100
+Responsiveness:          64.2/100
+Sustainability:          73.2/100
+Innovation:              64.9/100
+Overall Weighted Rating: 80.5/100
+
+STRENGTHS
+------------------------------------------------------------
+  - Consistently high product quality with minimal defect rates
+  - Excellent delivery reliability and on-time performance
+
+AREAS FOR IMPROVEMENT
+------------------------------------------------------------
+  - Cost competitiveness at 75.0 is below benchmark; consider renegotiation
+  - Sustainability score of 73.2 falls short of corporate ESG targets
+
+CAPACITY & OPERATIONS
+------------------------------------------------------------
+Dual-facility capability provides redundancy for critical part supply.
+
+AUDIT HISTORY
+------------------------------------------------------------
+Last audit (2026-Q1): Two observations noted regarding environmental waste handling procedures.
+
+RECOMMENDATION
+------------------------------------------------------------
+Based on the overall rating of 80.5/100, this supplier is classified as
+APPROVED. This supplier may be used for standard orders but should not be sole-sourced for critical parts.
+
+============================================================
+End of Review - Confidential

@@ -1,0 +1,9 @@
+PLANT_ID,PLANT_NAME,CITY,COUNTRY,REGION,PLANT_TYPE,CAPACITY_UNITS,ACTIVE
+PLT001,Detroit Assembly Hub,Detroit,United States,North America,Assembly,50000,TRUE
+PLT002,Stuttgart Manufacturing,Stuttgart,Germany,Europe,Manufacturing,35000,TRUE
+PLT003,Shanghai Mega Plant,Shanghai,China,Asia Pacific,Manufacturing,80000,TRUE
+PLT004,Monterrey Operations,Monterrey,Mexico,North America,Assembly,40000,TRUE
+PLT005,Chennai Production Center,Chennai,India,Asia Pacific,Manufacturing,45000,TRUE
+PLT006,Toronto Distribution,Toronto,Canada,North America,Distribution,60000,TRUE
+PLT007,Prague Assembly Works,Prague,Czech Republic,Europe,Assembly,30000,TRUE
+PLT008,Nagoya Precision Plant,Nagoya,Japan,Asia Pacific,Manufacturing,25000,TRUE

@@ -1,0 +1,119 @@
+-- ============================================================
+-- Phase 2: Deploy geospatial, market-trend, demand-forecast,
+--          supplier-rating tables + Cortex Search
+-- Target: __SF_DATABASE__.__SF_SCHEMA__
+-- ============================================================
+USE DATABASE __SF_DATABASE__;
+USE SCHEMA __SF_SCHEMA__;
+
+-- ── Geospatial Tables ───────────────────────────────────────
+CREATE OR REPLACE TABLE SUPPLIER_GEOLOCATION (
+    SUPPLIER_ID        VARCHAR(10) NOT NULL PRIMARY KEY,
+    SUPPLIER_NAME      VARCHAR(100),
+    COUNTRY            VARCHAR(50),
+    REGION             VARCHAR(30),
+    LATITUDE           FLOAT NOT NULL,
+    LONGITUDE          FLOAT NOT NULL,
+    WAREHOUSE_LAT      FLOAT,
+    WAREHOUSE_LNG      FLOAT,
+    INDUSTRIAL_ZONE    VARCHAR(50),
+    NEAREST_HUB_TYPE   VARCHAR(30),
+    DISTANCE_TO_HUB_KM FLOAT
+);
+
+CREATE OR REPLACE TABLE PLANT_GEOLOCATION (
+    PLANT_ID           VARCHAR(10) NOT NULL PRIMARY KEY,
+    PLANT_NAME         VARCHAR(100),
+    COUNTRY            VARCHAR(50),
+    REGION             VARCHAR(30),
+    LATITUDE           FLOAT NOT NULL,
+    LONGITUDE          FLOAT NOT NULL,
+    NEAREST_HUB_TYPE   VARCHAR(30),
+    DISTANCE_TO_HUB_KM FLOAT
+);
+
+CREATE OR REPLACE TABLE CUSTOMER_GEOLOCATION (
+    CUSTOMER_ID        VARCHAR(10) NOT NULL PRIMARY KEY,
+    LATITUDE           FLOAT NOT NULL,
+    LONGITUDE          FLOAT NOT NULL,
+    ZONE_TYPE          VARCHAR(20),
+    TRADE_AREA_RADIUS_KM FLOAT
+);
+
+CREATE OR REPLACE TABLE SHIPPING_ROUTES (
+    ROUTE_ID           VARCHAR(12) NOT NULL PRIMARY KEY,
+    SUPPLIER_ID        VARCHAR(10) NOT NULL,
+    PLANT_ID           VARCHAR(10) NOT NULL,
+    SUPPLIER_NAME      VARCHAR(100),
+    PLANT_NAME         VARCHAR(100),
+    ORIGIN_LAT         FLOAT,
+    ORIGIN_LNG         FLOAT,
+    DEST_LAT           FLOAT,
+    DEST_LNG           FLOAT,
+    DISTANCE_KM        FLOAT,
+    TRANSPORT_MODE     VARCHAR(20),
+    EST_TRANSIT_DAYS   FLOAT,
+    EST_COST_USD       FLOAT,
+    ROUTE_TYPE         VARCHAR(20),
+    RISK_LEVEL         VARCHAR(10),
+    TRADE_LANE         VARCHAR(30)
+);
+
+-- ── Market Trend / Demand Tables ────────────────────────────
+CREATE OR REPLACE TABLE MARKET_TRENDS (
+    WEEK_DATE          DATE NOT NULL,
+    REGION             VARCHAR(30) NOT NULL,
+    CATEGORY           VARCHAR(50) NOT NULL,
+    DEMAND_UNITS       NUMBER NOT NULL,
+    FORECAST_UNITS     NUMBER,
+    TREND_SLOPE        FLOAT,
+    YOY_GROWTH_PCT     FLOAT,
+    CONFIDENCE_SCORE   FLOAT,
+    TREND_SIGNAL       VARCHAR(20),
+    BASELINE_DEMAND    NUMBER,
+    PRIMARY KEY (WEEK_DATE, REGION, CATEGORY)
+);
+
+CREATE OR REPLACE TABLE DEMAND_FORECAST (
+    FORECAST_DATE      DATE NOT NULL,
+    REGION             VARCHAR(30) NOT NULL,
+    PART_ID            VARCHAR(10) NOT NULL,
+    FORECAST_QTY       NUMBER NOT NULL,
+    LOWER_BOUND        NUMBER,
+    UPPER_BOUND        NUMBER,
+    CONFIDENCE         FLOAT,
+    MODEL_VERSION      VARCHAR(30),
+    PRIMARY KEY (FORECAST_DATE, REGION, PART_ID)
+);
+
+-- ── Supplier Ratings ────────────────────────────────────────
+CREATE OR REPLACE TABLE SUPPLIER_RATINGS (
+    SUPPLIER_ID           VARCHAR(10) NOT NULL,
+    SUPPLIER_NAME         VARCHAR(100),
+    COUNTRY               VARCHAR(50),
+    REGION                VARCHAR(30),
+    TIER                  INT,
+    QUALITY_SCORE         FLOAT,
+    DELIVERY_SCORE        FLOAT,
+    COST_COMPETITIVENESS  FLOAT,
+    RESPONSIVENESS        FLOAT,
+    SUSTAINABILITY_SCORE  FLOAT,
+    INNOVATION_SCORE      FLOAT,
+    OVERALL_RATING        FLOAT,
+    RISK_LEVEL            VARCHAR(10),
+    CERTIFICATIONS        VARCHAR(200),
+    RATING_DATE           DATE,
+    PRIMARY KEY (SUPPLIER_ID, RATING_DATE)
+);
+
+-- ── Supplier Review Documents (for Cortex Search) ───────────
+CREATE OR REPLACE TABLE SUPPLIER_REVIEW_DOCS (
+    DOC_ID             VARCHAR(20) NOT NULL PRIMARY KEY,
+    SUPPLIER_ID        VARCHAR(10) NOT NULL,
+    SUPPLIER_NAME      VARCHAR(100),
+    REVIEW_TEXT        VARCHAR(16777216),
+    RATING_DATE        DATE,
+    OVERALL_RATING     FLOAT,
+    RISK_LEVEL         VARCHAR(10),
+    RECOMMENDATION     VARCHAR(20)
+);

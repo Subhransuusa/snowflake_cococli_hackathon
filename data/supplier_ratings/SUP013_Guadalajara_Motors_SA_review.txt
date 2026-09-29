@@ -1,0 +1,45 @@
+SUPPLIER PERFORMANCE REVIEW
+============================================================
+Supplier: Guadalajara Motors SA
+Supplier ID: SUP013
+Country: Mexico | Region: North America
+Tier: 2 | Certifications: ISO 9001, IATF 16949
+Review Date: 2026-09-12
+Overall Rating: 75.3/100 | Classification: APPROVED
+Risk Level: Medium
+
+SCORECARD
+------------------------------------------------------------
+Quality Score:           83.2/100
+Delivery Score:          92.3/100
+Cost Competitiveness:    60.9/100
+Responsiveness:          71.0/100
+Sustainability:          52.2/100
+Innovation:              66.7/100
+Overall Weighted Rating: 75.3/100
+
+STRENGTHS
+------------------------------------------------------------
+  - Excellent delivery reliability and on-time performance
+
+AREAS FOR IMPROVEMENT
+------------------------------------------------------------
+  - Quality score of 83.2 indicates room for improvement in defect management
+  - Cost competitiveness at 60.9 is below benchmark; consider renegotiation
+  - Sustainability score of 52.2 falls short of corporate ESG targets
+
+CAPACITY & OPERATIONS
+------------------------------------------------------------
+Capacity constraints observed during Q4 peak season; requires advance planning.
+
+AUDIT HISTORY
+------------------------------------------------------------
+Last audit (2025-Q4): Clean audit. All corrective actions from prior audits verified closed.
+
+RECOMMENDATION
+------------------------------------------------------------
+Based on the overall rating of 75.3/100, this supplier is classified as
+APPROVED. This supplier may be used for standard orders but should not be sole-sourced for critical parts.
+
+============================================================
+End of Review - Confidential

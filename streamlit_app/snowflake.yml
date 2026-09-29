@@ -1,0 +1,28 @@
+definition_version: 2
+entities:
+  scm_command_center:
+    type: streamlit
+    identifier:
+      name: SCM_COMMAND_CENTER
+      database: __SF_DATABASE__
+      schema: __SF_SCHEMA__
+    query_warehouse: __SF_WAREHOUSE__
+    main_file: app.py
+    artifacts:
+      - app.py
+      - pyproject.toml
+      - environment.yml
+      - utils/__init__.py
+      - utils/connection.py
+      - utils/metrics.py
+      - utils/agent_client.py
+      - views/__init__.py
+      - views/exec_view.py
+      - views/procurement_view.py
+      - views/logistics_view.py
+      - views/planning_view.py
+      - views/sales_view.py
+      - views/operations_view.py
+      - views/ask_view.py
+      - views/governance_view.py
+      - .streamlit/config.toml

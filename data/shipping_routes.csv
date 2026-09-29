@@ -1,0 +1,114 @@
+ROUTE_ID,SUPPLIER_ID,PLANT_ID,SUPPLIER_NAME,PLANT_NAME,ORIGIN_LAT,ORIGIN_LNG,DEST_LAT,DEST_LNG,DISTANCE_KM,TRANSPORT_MODE,EST_TRANSIT_DAYS,EST_COST_USD,ROUTE_TYPE,RISK_LEVEL,TRADE_LANE
+RTE-0001,SUP001,PLT001,Apex Materials Corp,Detroit Assembly Hub,39.8284,-98.5795,42.3314,-83.0458,1329.4,Rail,7.7,1.6,Via Hub,Low,Suez Canal
+RTE-0002,SUP001,PLT002,Apex Materials Corp,Stuttgart Manufacturing,39.8284,-98.5795,48.7758,9.1829,7882.9,Ocean,16.3,2.36,Multi-stop,Low,Suez Canal
+RTE-0003,SUP001,PLT003,Apex Materials Corp,Shanghai Mega Plant,39.8284,-98.5795,31.2304,121.4737,11099.6,Ocean,24.2,3.33,Direct,High,Regional
+RTE-0004,SUP001,PLT004,Apex Materials Corp,Monterrey Operations,39.8284,-98.5795,25.6866,-100.3161,1580.8,Air,1.5,7.9,Multi-stop,Medium,Continental
+RTE-0005,SUP001,PLT005,Apex Materials Corp,Chennai Production Center,39.8284,-98.5795,13.0827,80.2707,14130.4,Ocean,26.4,4.24,Multi-stop,High,Trans-Atlantic
+RTE-0006,SUP001,PLT006,Apex Materials Corp,Toronto Distribution,39.8284,-98.5795,43.6532,-79.3832,1644.3,Air,2.8,8.22,Multi-stop,High,Domestic
+RTE-0007,SUP001,PLT007,Apex Materials Corp,Prague Assembly Works,39.8284,-98.5795,50.0755,14.4378,8076.5,Ocean,16.5,2.42,Via Hub,Medium,Domestic
+RTE-0008,SUP001,PLT008,Apex Materials Corp,Nagoya Precision Plant,39.8284,-98.5795,35.1815,136.9066,9922.3,Ocean,21.8,2.98,Via Hub,High,Trans-Atlantic
+RTE-0009,SUP002,PLT001,Yangtze Components Ltd,Detroit Assembly Hub,31.2304,121.4737,42.3314,-83.0458,11459.8,Ocean,21.7,3.44,Direct,Low,Trans-Pacific
+RTE-0010,SUP002,PLT002,Yangtze Components Ltd,Stuttgart Manufacturing,31.2304,121.4737,48.7758,9.1829,8878.9,Ocean,16.9,2.66,Multi-stop,Low,Continental
+RTE-0011,SUP002,PLT003,Yangtze Components Ltd,Shanghai Mega Plant,31.2304,121.4737,31.2304,121.4737,0.0,Truck,1.1,0.0,Direct,High,Domestic
+RTE-0012,SUP002,PLT004,Yangtze Components Ltd,Monterrey Operations,31.2304,121.4737,25.6866,-100.3161,12284.3,Ocean,22.8,3.69,Direct,Low,Regional
+RTE-0013,SUP002,PLT005,Yangtze Components Ltd,Chennai Production Center,31.2304,121.4737,13.0827,80.2707,4661.9,Ocean,11.4,1.4,Multi-stop,Low,Trans-Pacific
+RTE-0014,SUP002,PLT006,Yangtze Components Ltd,Toronto Distribution,31.2304,121.4737,43.6532,-79.3832,11422.3,Ocean,24.4,3.43,Direct,High,Panama Canal
+RTE-0015,SUP002,PLT007,Yangtze Components Ltd,Prague Assembly Works,31.2304,121.4737,50.0755,14.4378,8484.1,Ocean,19.8,2.55,Multi-stop,High,Trans-Atlantic
+RTE-0016,SUP002,PLT008,Yangtze Components Ltd,Nagoya Precision Plant,31.2304,121.4737,35.1815,136.9066,1499.7,Rail,5.7,1.8,Via Hub,Medium,Panama Canal
+RTE-0017,SUP003,PLT001,Rhine Precision GmbH,Detroit Assembly Hub,48.7758,9.1829,42.3314,-83.0458,6762.9,Ocean,13.7,2.03,Multi-stop,Medium,Trans-Pacific
+RTE-0018,SUP003,PLT002,Rhine Precision GmbH,Stuttgart Manufacturing,48.7758,9.1829,48.7758,9.1829,0.0,Truck,1.6,0.0,Via Hub,High,Suez Canal
+RTE-0019,SUP003,PLT003,Rhine Precision GmbH,Shanghai Mega Plant,48.7758,9.1829,31.2304,121.4737,8878.9,Ocean,20.2,2.66,Multi-stop,Low,Suez Canal
+RTE-0020,SUP003,PLT004,Rhine Precision GmbH,Monterrey Operations,48.7758,9.1829,25.6866,-100.3161,9191.2,Ocean,19.3,2.76,Via Hub,Low,Panama Canal
+RTE-0021,SUP003,PLT005,Rhine Precision GmbH,Chennai Production Center,48.7758,9.1829,13.0827,80.2707,7535.8,Ocean,15.5,2.26,Multi-stop,Medium,Panama Canal
+RTE-0022,SUP003,PLT006,Rhine Precision GmbH,Toronto Distribution,48.7758,9.1829,43.6532,-79.3832,6440.2,Ocean,14.8,1.93,Via Hub,Medium,Panama Canal
+RTE-0023,SUP003,PLT007,Rhine Precision GmbH,Prague Assembly Works,48.7758,9.1829,50.0755,14.4378,406.5,Truck,3.2,1.02,Direct,Medium,Regional
+RTE-0024,SUP003,PLT008,Rhine Precision GmbH,Nagoya Precision Plant,48.7758,9.1829,35.1815,136.9066,9345.1,Ocean,21.9,2.8,Multi-stop,Low,Suez Canal
+RTE-0025,SUP004,PLT001,Tata Industrial Supply,Detroit Assembly Hub,19.076,72.8777,42.3314,-83.0458,12753.6,Ocean,26.5,3.83,Multi-stop,Low,Suez Canal
+RTE-0026,SUP004,PLT002,Tata Industrial Supply,Stuttgart Manufacturing,19.076,72.8777,48.7758,9.1829,6510.0,Ocean,17.5,1.95,Direct,Low,Trans-Atlantic
+RTE-0027,SUP004,PLT003,Tata Industrial Supply,Shanghai Mega Plant,19.076,72.8777,31.2304,121.4737,5032.4,Ocean,12.8,1.51,Direct,Medium,Suez Canal
+RTE-0028,SUP004,PLT004,Tata Industrial Supply,Monterrey Operations,19.076,72.8777,25.6866,-100.3161,14983.6,Ocean,27.8,4.5,Direct,Medium,Trans-Pacific
+RTE-0029,SUP004,PLT005,Tata Industrial Supply,Chennai Production Center,19.076,72.8777,13.0827,80.2707,1033.1,Rail,7.3,1.24,Via Hub,Medium,Trans-Atlantic
+RTE-0030,SUP004,PLT006,Tata Industrial Supply,Toronto Distribution,19.076,72.8777,43.6532,-79.3832,12488.3,Ocean,26.3,3.75,Multi-stop,High,Domestic
+RTE-0031,SUP004,PLT007,Tata Industrial Supply,Prague Assembly Works,19.076,72.8777,50.0755,14.4378,6158.3,Ocean,15.9,1.85,Direct,Low,Trans-Pacific
+RTE-0032,SUP004,PLT008,Tata Industrial Supply,Nagoya Precision Plant,19.076,72.8777,35.1815,136.9066,6474.4,Ocean,13.9,1.94,Direct,High,Domestic
+RTE-0033,SUP005,PLT001,Maple Fasteners Inc,Detroit Assembly Hub,43.6532,-79.3832,42.3314,-83.0458,332.1,Truck,2.3,0.83,Multi-stop,Medium,Suez Canal
+RTE-0034,SUP005,PLT002,Maple Fasteners Inc,Stuttgart Manufacturing,43.6532,-79.3832,48.7758,9.1829,6440.2,Ocean,13.0,1.93,Via Hub,High,Regional
+RTE-0035,SUP005,PLT003,Maple Fasteners Inc,Shanghai Mega Plant,43.6532,-79.3832,31.2304,121.4737,11422.3,Ocean,23.7,3.43,Direct,High,Suez Canal
+RTE-0036,SUP005,PLT004,Maple Fasteners Inc,Monterrey Operations,43.6532,-79.3832,25.6866,-100.3161,2751.2,Air,3.2,13.76,Direct,High,Suez Canal
+RTE-0037,SUP005,PLT005,Maple Fasteners Inc,Chennai Production Center,43.6532,-79.3832,13.0827,80.2707,13376.8,Ocean,27.7,4.01,Direct,Medium,Suez Canal
+RTE-0038,SUP005,PLT006,Maple Fasteners Inc,Toronto Distribution,43.6532,-79.3832,43.6532,-79.3832,0.0,Truck,2.9,0.0,Multi-stop,Low,Continental
+RTE-0039,SUP005,PLT007,Maple Fasteners Inc,Prague Assembly Works,43.6532,-79.3832,50.0755,14.4378,6683.2,Ocean,16.1,2.0,Multi-stop,Low,Trans-Atlantic
+RTE-0040,SUP005,PLT008,Maple Fasteners Inc,Nagoya Precision Plant,43.6532,-79.3832,35.1815,136.9066,10511.0,Ocean,22.8,3.15,Multi-stop,High,Trans-Pacific
+RTE-0041,SUP006,PLT001,Sakura Electronics Co,Detroit Assembly Hub,35.6762,139.6503,42.3314,-83.0458,10317.4,Ocean,23.9,3.1,Direct,High,Domestic
+RTE-0042,SUP006,PLT002,Sakura Electronics Co,Stuttgart Manufacturing,35.6762,139.6503,48.7758,9.1829,9425.6,Ocean,19.3,2.83,Via Hub,Medium,Panama Canal
+RTE-0043,SUP006,PLT003,Sakura Electronics Co,Shanghai Mega Plant,35.6762,139.6503,31.2304,121.4737,1754.3,Air,2.4,8.77,Via Hub,Medium,Trans-Pacific
+RTE-0044,SUP006,PLT004,Sakura Electronics Co,Monterrey Operations,35.6762,139.6503,25.6866,-100.3161,10732.9,Ocean,24.5,3.22,Direct,Low,Trans-Atlantic
+RTE-0045,SUP006,PLT005,Sakura Electronics Co,Chennai Production Center,35.6762,139.6503,13.0827,80.2707,6410.8,Ocean,15.8,1.92,Multi-stop,Low,Suez Canal
+RTE-0046,SUP006,PLT006,Sakura Electronics Co,Toronto Distribution,35.6762,139.6503,43.6532,-79.3832,10351.5,Ocean,21.9,3.11,Multi-stop,Medium,Panama Canal
+RTE-0047,SUP006,PLT007,Sakura Electronics Co,Prague Assembly Works,35.6762,139.6503,50.0755,14.4378,9069.9,Ocean,21.8,2.72,Direct,Low,Trans-Pacific
+RTE-0048,SUP006,PLT008,Sakura Electronics Co,Nagoya Precision Plant,35.6762,139.6503,35.1815,136.9066,254.6,Truck,1.5,0.64,Via Hub,High,Domestic
+RTE-0049,SUP007,PLT001,Sao Paulo Metals SA,Detroit Assembly Hub,-23.5505,-46.6333,42.3314,-83.0458,8224.0,Ocean,17.2,2.47,Multi-stop,High,Suez Canal
+RTE-0050,SUP007,PLT002,Sao Paulo Metals SA,Stuttgart Manufacturing,-23.5505,-46.6333,48.7758,9.1829,9759.6,Ocean,21.6,2.93,Multi-stop,Medium,Domestic
+RTE-0051,SUP007,PLT004,Sao Paulo Metals SA,Monterrey Operations,-23.5505,-46.6333,25.6866,-100.3161,7958.6,Ocean,15.8,2.39,Direct,Medium,Suez Canal
+RTE-0052,SUP007,PLT005,Sao Paulo Metals SA,Chennai Production Center,-23.5505,-46.6333,13.0827,80.2707,14322.0,Ocean,30.3,4.3,Multi-stop,High,Panama Canal
+RTE-0053,SUP007,PLT006,Sao Paulo Metals SA,Toronto Distribution,-23.5505,-46.6333,43.6532,-79.3832,8186.1,Ocean,17.0,2.46,Multi-stop,Low,Domestic
+RTE-0054,SUP007,PLT007,Sao Paulo Metals SA,Prague Assembly Works,-23.5505,-46.6333,50.0755,14.4378,10146.6,Ocean,20.6,3.04,Multi-stop,High,Regional
+RTE-0055,SUP008,PLT001,Nordic Alloys AB,Detroit Assembly Hub,59.3293,18.0686,42.3314,-83.0458,6623.6,Ocean,14.4,1.99,Via Hub,Medium,Regional
+RTE-0056,SUP008,PLT002,Nordic Alloys AB,Stuttgart Manufacturing,59.3293,18.0686,48.7758,9.1829,1306.4,Rail,4.5,1.57,Multi-stop,Medium,Regional
+RTE-0057,SUP008,PLT003,Nordic Alloys AB,Shanghai Mega Plant,59.3293,18.0686,31.2304,121.4737,7764.6,Ocean,16.3,2.33,Direct,Medium,Regional
+RTE-0058,SUP008,PLT004,Nordic Alloys AB,Monterrey Operations,59.3293,18.0686,25.6866,-100.3161,9020.7,Ocean,17.7,2.71,Via Hub,Low,Domestic
+RTE-0059,SUP008,PLT005,Nordic Alloys AB,Chennai Production Center,59.3293,18.0686,13.0827,80.2707,7201.0,Ocean,16.2,2.16,Multi-stop,Medium,Continental
+RTE-0060,SUP008,PLT006,Nordic Alloys AB,Toronto Distribution,59.3293,18.0686,43.6532,-79.3832,6328.8,Ocean,12.6,1.9,Direct,High,Panama Canal
+RTE-0061,SUP008,PLT007,Nordic Alloys AB,Prague Assembly Works,59.3293,18.0686,50.0755,14.4378,1054.7,Rail,5.8,1.27,Via Hub,High,Continental
+RTE-0062,SUP008,PLT008,Nordic Alloys AB,Nagoya Precision Plant,59.3293,18.0686,35.1815,136.9066,8103.2,Ocean,16.2,2.43,Direct,Low,Trans-Pacific
+RTE-0063,SUP009,PLT001,Delta Plastics LLC,Detroit Assembly Hub,33.749,-84.388,42.3314,-83.0458,961.5,Rail,4.9,1.15,Direct,Medium,Panama Canal
+RTE-0064,SUP009,PLT002,Delta Plastics LLC,Stuttgart Manufacturing,33.749,-84.388,48.7758,9.1829,7498.5,Ocean,17.9,2.25,Multi-stop,Low,Trans-Pacific
+RTE-0065,SUP009,PLT003,Delta Plastics LLC,Shanghai Mega Plant,33.749,-84.388,31.2304,121.4737,12297.5,Ocean,26.4,3.69,Via Hub,High,Domestic
+RTE-0066,SUP009,PLT004,Delta Plastics LLC,Monterrey Operations,33.749,-84.388,25.6866,-100.3161,1777.1,Air,1.6,8.89,Direct,Low,Regional
+RTE-0067,SUP009,PLT005,Delta Plastics LLC,Chennai Production Center,33.749,-84.388,13.0827,80.2707,14560.0,Ocean,30.3,4.37,Via Hub,Low,Panama Canal
+RTE-0068,SUP009,PLT006,Delta Plastics LLC,Toronto Distribution,33.749,-84.388,43.6532,-79.3832,1183.2,Rail,6.9,1.42,Via Hub,Medium,Regional
+RTE-0069,SUP009,PLT007,Delta Plastics LLC,Prague Assembly Works,33.749,-84.388,50.0755,14.4378,7769.0,Ocean,18.3,2.33,Multi-stop,Low,Trans-Pacific
+RTE-0070,SUP009,PLT008,Delta Plastics LLC,Nagoya Precision Plant,33.749,-84.388,35.1815,136.9066,11228.7,Ocean,21.5,3.37,Multi-stop,Low,Trans-Atlantic
+RTE-0071,SUP010,PLT001,Seoul Semiconductor Inc,Detroit Assembly Hub,37.5665,126.978,42.3314,-83.0458,10625.1,Ocean,24.1,3.19,Via Hub,Low,Panama Canal
+RTE-0072,SUP010,PLT002,Seoul Semiconductor Inc,Stuttgart Manufacturing,37.5665,126.978,48.7758,9.1829,8627.1,Ocean,20.5,2.59,Via Hub,Medium,Trans-Pacific
+RTE-0073,SUP010,PLT003,Seoul Semiconductor Inc,Shanghai Mega Plant,37.5665,126.978,31.2304,121.4737,866.5,Rail,6.4,1.04,Direct,Low,Suez Canal
+RTE-0074,SUP010,PLT004,Seoul Semiconductor Inc,Monterrey Operations,37.5665,126.978,25.6866,-100.3161,11422.1,Ocean,24.3,3.43,Via Hub,Medium,Trans-Pacific
+RTE-0075,SUP010,PLT005,Seoul Semiconductor Inc,Chennai Production Center,37.5665,126.978,13.0827,80.2707,5351.9,Ocean,15.2,1.61,Via Hub,Medium,Domestic
+RTE-0076,SUP010,PLT006,Seoul Semiconductor Inc,Toronto Distribution,37.5665,126.978,43.6532,-79.3832,10601.0,Ocean,22.2,3.18,Multi-stop,High,Trans-Pacific
+RTE-0077,SUP010,PLT007,Seoul Semiconductor Inc,Prague Assembly Works,37.5665,126.978,50.0755,14.4378,8248.8,Ocean,20.4,2.47,Direct,Medium,Panama Canal
+RTE-0078,SUP010,PLT008,Seoul Semiconductor Inc,Nagoya Precision Plant,37.5665,126.978,35.1815,136.9066,927.1,Rail,5.6,1.11,Via Hub,Low,Suez Canal
+RTE-0079,SUP011,PLT001,Anatolian Castings AS,Detroit Assembly Hub,41.0082,28.9784,42.3314,-83.0458,8511.4,Ocean,19.2,2.55,Via Hub,High,Regional
+RTE-0080,SUP011,PLT002,Anatolian Castings AS,Stuttgart Manufacturing,41.0082,28.9784,48.7758,9.1829,1775.0,Air,1.9,8.88,Multi-stop,High,Suez Canal
+RTE-0081,SUP011,PLT003,Anatolian Castings AS,Shanghai Mega Plant,41.0082,28.9784,31.2304,121.4737,7985.3,Ocean,17.2,2.4,Multi-stop,Low,Trans-Pacific
+RTE-0082,SUP011,PLT004,Anatolian Castings AS,Monterrey Operations,41.0082,28.9784,25.6866,-100.3161,10942.7,Ocean,20.5,3.28,Via Hub,Low,Continental
+RTE-0083,SUP011,PLT005,Anatolian Castings AS,Chennai Production Center,41.0082,28.9784,13.0827,80.2707,5842.4,Ocean,16.4,1.75,Multi-stop,High,Domestic
+RTE-0084,SUP011,PLT006,Anatolian Castings AS,Toronto Distribution,41.0082,28.9784,43.6532,-79.3832,8193.2,Ocean,20.4,2.46,Multi-stop,High,Panama Canal
+RTE-0085,SUP011,PLT007,Anatolian Castings AS,Prague Assembly Works,41.0082,28.9784,50.0755,14.4378,1511.4,Air,1.8,7.56,Direct,High,Trans-Pacific
+RTE-0086,SUP011,PLT008,Anatolian Castings AS,Nagoya Precision Plant,41.0082,28.9784,35.1815,136.9066,8801.3,Ocean,19.8,2.64,Multi-stop,Low,Domestic
+RTE-0087,SUP012,PLT003,Melbourne Rubber Pty,Shanghai Mega Plant,-37.8136,144.9631,31.2304,121.4737,8055.2,Ocean,19.9,2.42,Multi-stop,Medium,Domestic
+RTE-0088,SUP012,PLT004,Melbourne Rubber Pty,Monterrey Operations,-37.8136,144.9631,25.6866,-100.3161,13821.1,Ocean,27.1,4.15,Via Hub,High,Trans-Pacific
+RTE-0089,SUP012,PLT005,Melbourne Rubber Pty,Chennai Production Center,-37.8136,144.9631,13.0827,80.2707,8788.6,Ocean,19.4,2.64,Direct,Medium,Domestic
+RTE-0090,SUP012,PLT008,Melbourne Rubber Pty,Nagoya Precision Plant,-37.8136,144.9631,35.1815,136.9066,8159.1,Ocean,20.3,2.45,Multi-stop,High,Panama Canal
+RTE-0091,SUP013,PLT001,Guadalajara Motors SA,Detroit Assembly Hub,20.6597,-103.3496,42.3314,-83.0458,3067.2,Ocean,10.2,0.92,Via Hub,Medium,Continental
+RTE-0092,SUP013,PLT002,Guadalajara Motors SA,Stuttgart Manufacturing,20.6597,-103.3496,48.7758,9.1829,9822.3,Ocean,22.5,2.95,Via Hub,Medium,Panama Canal
+RTE-0093,SUP013,PLT003,Guadalajara Motors SA,Shanghai Mega Plant,20.6597,-103.3496,31.2304,121.4737,12522.4,Ocean,25.0,3.76,Multi-stop,High,Domestic
+RTE-0094,SUP013,PLT004,Guadalajara Motors SA,Monterrey Operations,20.6597,-103.3496,25.6866,-100.3161,639.1,Rail,3.9,0.77,Via Hub,Medium,Domestic
+RTE-0095,SUP013,PLT006,Guadalajara Motors SA,Toronto Distribution,20.6597,-103.3496,43.6532,-79.3832,3384.5,Ocean,8.7,1.02,Via Hub,High,Panama Canal
+RTE-0096,SUP013,PLT007,Guadalajara Motors SA,Prague Assembly Works,20.6597,-103.3496,50.0755,14.4378,10067.3,Ocean,22.1,3.02,Via Hub,High,Domestic
+RTE-0097,SUP013,PLT008,Guadalajara Motors SA,Nagoya Precision Plant,20.6597,-103.3496,35.1815,136.9066,11135.6,Ocean,23.7,3.34,Via Hub,Low,Regional
+RTE-0098,SUP014,PLT001,Thames Bearings Ltd,Detroit Assembly Hub,51.5074,-0.1278,42.3314,-83.0458,6035.8,Ocean,16.8,1.81,Direct,High,Trans-Pacific
+RTE-0099,SUP014,PLT002,Thames Bearings Ltd,Stuttgart Manufacturing,51.5074,-0.1278,48.7758,9.1829,729.0,Rail,3.7,0.87,Direct,Low,Suez Canal
+RTE-0100,SUP014,PLT003,Thames Bearings Ltd,Shanghai Mega Plant,51.5074,-0.1278,31.2304,121.4737,9196.7,Ocean,17.6,2.76,Via Hub,High,Regional
+RTE-0101,SUP014,PLT004,Thames Bearings Ltd,Monterrey Operations,51.5074,-0.1278,25.6866,-100.3161,8463.2,Ocean,19.9,2.54,Via Hub,Medium,Domestic
+RTE-0102,SUP014,PLT005,Thames Bearings Ltd,Chennai Production Center,51.5074,-0.1278,13.0827,80.2707,8210.9,Ocean,18.6,2.46,Multi-stop,High,Trans-Atlantic
+RTE-0103,SUP014,PLT006,Thames Bearings Ltd,Toronto Distribution,51.5074,-0.1278,43.6532,-79.3832,5712.5,Ocean,14.0,1.71,Direct,Low,Domestic
+RTE-0104,SUP014,PLT007,Thames Bearings Ltd,Prague Assembly Works,51.5074,-0.1278,50.0755,14.4378,1034.4,Rail,6.3,1.24,Direct,Medium,Panama Canal
+RTE-0105,SUP014,PLT008,Thames Bearings Ltd,Nagoya Precision Plant,51.5074,-0.1278,35.1815,136.9066,9505.6,Ocean,18.7,2.85,Multi-stop,High,Trans-Atlantic
+RTE-0106,SUP015,PLT001,Shenzhen PCB Tech Co,Detroit Assembly Hub,22.5431,114.0579,42.3314,-83.0458,12590.5,Ocean,23.2,3.78,Direct,Low,Trans-Atlantic
+RTE-0107,SUP015,PLT002,Shenzhen PCB Tech Co,Stuttgart Manufacturing,22.5431,114.0579,48.7758,9.1829,9163.4,Ocean,17.9,2.75,Via Hub,High,Continental
+RTE-0108,SUP015,PLT003,Shenzhen PCB Tech Co,Shanghai Mega Plant,22.5431,114.0579,31.2304,121.4737,1213.3,Rail,8.0,1.46,Multi-stop,Medium,Regional
+RTE-0109,SUP015,PLT004,Shenzhen PCB Tech Co,Monterrey Operations,22.5431,114.0579,25.6866,-100.3161,13497.5,Ocean,29.0,4.05,Multi-stop,High,Continental
+RTE-0110,SUP015,PLT005,Shenzhen PCB Tech Co,Chennai Production Center,22.5431,114.0579,13.0827,80.2707,3718.4,Ocean,10.3,1.12,Multi-stop,Medium,Panama Canal
+RTE-0111,SUP015,PLT006,Shenzhen PCB Tech Co,Toronto Distribution,22.5431,114.0579,43.6532,-79.3832,12527.5,Ocean,26.6,3.76,Via Hub,Medium,Trans-Pacific
+RTE-0112,SUP015,PLT007,Shenzhen PCB Tech Co,Prague Assembly Works,22.5431,114.0579,50.0755,14.4378,8757.5,Ocean,20.4,2.63,Multi-stop,Medium,Regional
+RTE-0113,SUP015,PLT008,Shenzhen PCB Tech Co,Nagoya Precision Plant,22.5431,114.0579,35.1815,136.9066,2621.4,Air,3.0,13.11,Via Hub,High,Panama Canal

@@ -1,0 +1,326 @@
+name: SCM_PROCUREMENT
+description: Procurement analytics for supply chain management. Covers supplier performance
+  metrics including On-Time Delivery (OTD) rate and Landed Cost analysis across suppliers,
+  parts, and plants. Used by procurement and planning personas to evaluate supplier
+  reliability, cost efficiency, and lead time compliance.
+tables:
+  - name: SUPPLIERS
+    base_table:
+      database: __SF_DATABASE__
+      schema: __SF_SCHEMA__
+      table: SUPPLIERS
+    primary_key:
+      columns:
+        - SUPPLIER_ID
+    dimensions:
+      - name: SUPPLIER_ID
+        expr: SUPPLIER_ID
+        data_type: VARCHAR
+      - name: SUPPLIER_NAME
+        expr: SUPPLIER_NAME
+        data_type: VARCHAR
+      - name: COUNTRY
+        expr: COUNTRY
+        data_type: VARCHAR
+      - name: REGION
+        expr: REGION
+        data_type: VARCHAR
+      - name: TIER
+        expr: TIER
+        data_type: NUMBER
+      - name: LEAD_TIME_DAYS
+        expr: LEAD_TIME_DAYS
+        data_type: NUMBER
+      - name: ACTIVE
+        expr: ACTIVE
+        data_type: BOOLEAN
+    facts:
+      - name: RELIABILITY_SCORE
+        expr: RELIABILITY_SCORE
+        data_type: NUMBER
+  - name: PARTS
+    base_table:
+      database: __SF_DATABASE__
+      schema: __SF_SCHEMA__
+      table: PARTS
+    primary_key:
+      columns:
+        - PART_ID
+    dimensions:
+      - name: PART_ID
+        expr: PART_ID
+        data_type: VARCHAR
+      - name: PART_NAME
+        expr: PART_NAME
+        data_type: VARCHAR
+      - name: CATEGORY
+        expr: CATEGORY
+        data_type: VARCHAR
+      - name: SUBCATEGORY
+        expr: SUBCATEGORY
+        data_type: VARCHAR
+      - name: UNIT_OF_MEASURE
+        expr: UNIT_OF_MEASURE
+        data_type: VARCHAR
+      - name: CRITICAL_FLAG
+        expr: CRITICAL_FLAG
+        data_type: BOOLEAN
+    facts:
+      - name: STANDARD_COST
+        expr: STANDARD_COST
+        data_type: NUMBER
+      - name: WEIGHT_KG
+        expr: WEIGHT_KG
+        data_type: NUMBER
+  - name: PLANTS
+    base_table:
+      database: __SF_DATABASE__
+      schema: __SF_SCHEMA__
+      table: PLANTS
+    primary_key:
+      columns:
+        - PLANT_ID
+    dimensions:
+      - name: PLANT_ID
+        expr: PLANT_ID
+        data_type: VARCHAR
+      - name: PLANT_NAME
+        expr: PLANT_NAME
+        data_type: VARCHAR
+      - name: CITY
+        expr: CITY
+        data_type: VARCHAR
+      - name: COUNTRY
+        expr: COUNTRY
+        data_type: VARCHAR
+      - name: REGION
+        expr: REGION
+        data_type: VARCHAR
+      - name: PLANT_TYPE
+        expr: PLANT_TYPE
+        data_type: VARCHAR
+      - name: CAPACITY_UNITS
+        expr: CAPACITY_UNITS
+        data_type: NUMBER
+  - name: SUPPLIER_PARTS
+    base_table:
+      database: __SF_DATABASE__
+      schema: __SF_SCHEMA__
+      table: SUPPLIER_PARTS
+    primary_key:
+      columns:
+        - SUPPLIER_ID
+        - PART_ID
+    foreign_keys:
+      - fkey_columns:
+          - PART_ID
+        pkey_table:
+          database: __SF_DATABASE__
+          schema: __SF_SCHEMA__
+          table: PARTS
+        pkey_columns:
+          - PART_ID
+      - fkey_columns:
+          - SUPPLIER_ID
+        pkey_table:
+          database: __SF_DATABASE__
+          schema: __SF_SCHEMA__
+          table: SUPPLIERS
+        pkey_columns:
+          - SUPPLIER_ID
+    dimensions:
+      - name: SUPPLIER_ID
+        expr: SUPPLIER_ID
+        data_type: VARCHAR
+      - name: PART_ID
+        expr: PART_ID
+        data_type: VARCHAR
+      - name: MIN_ORDER_QTY
+        expr: MIN_ORDER_QTY
+        data_type: NUMBER
+      - name: LEAD_TIME_DAYS
+        expr: LEAD_TIME_DAYS
+        data_type: NUMBER
+    time_dimensions:
+      - name: CONTRACT_START
+        expr: CONTRACT_START
+        data_type: DATE
+      - name: CONTRACT_END
+        expr: CONTRACT_END
+        data_type: DATE
+    facts:
+      - name: UNIT_PRICE
+        expr: UNIT_PRICE
+        data_type: NUMBER
+  - name: PURCHASE_ORDERS
+    base_table:
+      database: __SF_DATABASE__
+      schema: __SF_SCHEMA__
+      table: PURCHASE_ORDERS
+    primary_key:
+      columns:
+        - PO_ID
+    foreign_keys:
+      - fkey_columns:
+          - PART_ID
+        pkey_table:
+          database: __SF_DATABASE__
+          schema: __SF_SCHEMA__
+          table: PARTS
+        pkey_columns:
+          - PART_ID
+      - fkey_columns:
+          - PLANT_ID
+        pkey_table:
+          database: __SF_DATABASE__
+          schema: __SF_SCHEMA__
+          table: PLANTS
+        pkey_columns:
+          - PLANT_ID
+      - fkey_columns:
+          - SUPPLIER_ID
+        pkey_table:
+          database: __SF_DATABASE__
+          schema: __SF_SCHEMA__
+          table: SUPPLIERS
+        pkey_columns:
+          - SUPPLIER_ID
+    dimensions:
+      - name: PO_ID
+        expr: PO_ID
+        data_type: VARCHAR
+      - name: SUPPLIER_ID
+        expr: SUPPLIER_ID
+        data_type: VARCHAR
+      - name: PLANT_ID
+        expr: PLANT_ID
+        data_type: VARCHAR
+      - name: PART_ID
+        expr: PART_ID
+        data_type: VARCHAR
+      - name: ORDERED_QTY
+        expr: ORDERED_QTY
+        data_type: NUMBER
+      - name: RECEIVED_QTY
+        expr: RECEIVED_QTY
+        data_type: NUMBER
+      - name: STATUS
+        expr: STATUS
+        data_type: VARCHAR
+    time_dimensions:
+      - name: ORDER_DATE
+        expr: ORDER_DATE
+        data_type: DATE
+      - name: PROMISED_DATE
+        expr: PROMISED_DATE
+        data_type: DATE
+      - name: RECEIVED_DATE
+        expr: RECEIVED_DATE
+        data_type: DATE
+    facts:
+      - name: UNIT_COST
+        expr: UNIT_COST
+        data_type: NUMBER
+      - name: FREIGHT_COST
+        expr: FREIGHT_COST
+        data_type: NUMBER
+      - name: DUTY_COST
+        expr: DUTY_COST
+        data_type: NUMBER
+      - name: HANDLING_COST
+        expr: HANDLING_COST
+        data_type: NUMBER
+relationships:
+  - name: PURCHASE_ORDERS_TO_PARTS
+    left_table: PURCHASE_ORDERS
+    right_table: PARTS
+    join_type: inner
+    relationship_type: many_to_one
+    relationship_columns:
+      - left_column: PART_ID
+        right_column: PART_ID
+  - name: PURCHASE_ORDERS_TO_PLANTS
+    left_table: PURCHASE_ORDERS
+    right_table: PLANTS
+    join_type: inner
+    relationship_type: many_to_one
+    relationship_columns:
+      - left_column: PLANT_ID
+        right_column: PLANT_ID
+  - name: PURCHASE_ORDERS_TO_SUPPLIERS
+    left_table: PURCHASE_ORDERS
+    right_table: SUPPLIERS
+    join_type: inner
+    relationship_type: many_to_one
+    relationship_columns:
+      - left_column: SUPPLIER_ID
+        right_column: SUPPLIER_ID
+  - name: SUPPLIER_PARTS_TO_PARTS
+    left_table: SUPPLIER_PARTS
+    right_table: PARTS
+    join_type: inner
+    relationship_type: many_to_one
+    relationship_columns:
+      - left_column: PART_ID
+        right_column: PART_ID
+  - name: SUPPLIER_PARTS_TO_SUPPLIERS
+    left_table: SUPPLIER_PARTS
+    right_table: SUPPLIERS
+    join_type: inner
+    relationship_type: many_to_one
+    relationship_columns:
+      - left_column: SUPPLIER_ID
+        right_column: SUPPLIER_ID
+verified_queries:
+  - name: 0;1
+    question: What is the on-time delivery rate by supplier and month?
+    sql: SELECT s.SUPPLIER_NAME, s.REGION, DATE_TRUNC('MONTH', po.ORDER_DATE) AS order_month,
+      COUNT(*) AS total_pos, SUM(CASE WHEN po.STATUS = 'Received' AND po.RECEIVED_DATE
+      <= po.PROMISED_DATE THEN 1 ELSE 0 END) AS on_time_pos, ROUND(on_time_pos * 100.0
+      / NULLIF(total_pos, 0), 2) AS otd_pct FROM purchase_orders AS po JOIN suppliers
+      AS s ON po.SUPPLIER_ID = s.SUPPLIER_ID WHERE NOT po.STATUS IN ('Open', 'Cancelled')
+      GROUP BY 1, 2, 3 ORDER BY 3 DESC, 6
+    verified_at: 1789210169
+    verified_by: Semantic Model Generator
+  - name: 1;1
+    question: What are the top 20 purchase orders by total landed cost?
+    sql: SELECT s.SUPPLIER_NAME, pt.PART_NAME, pl.PLANT_NAME, po.ORDER_DATE, po.ORDERED_QTY,
+      po.UNIT_COST, (po.ORDERED_QTY * po.UNIT_COST) AS material_cost, po.FREIGHT_COST,
+      po.DUTY_COST, po.HANDLING_COST, (po.ORDERED_QTY * po.UNIT_COST) + po.FREIGHT_COST
+      + po.DUTY_COST + po.HANDLING_COST AS total_landed_cost, ROUND(((po.ORDERED_QTY
+      * po.UNIT_COST) + po.FREIGHT_COST + po.DUTY_COST + po.HANDLING_COST) / NULLIF(po.ORDERED_QTY,
+      0), 2) AS landed_cost_per_unit FROM purchase_orders AS po JOIN suppliers AS
+      s ON po.SUPPLIER_ID = s.SUPPLIER_ID JOIN parts AS pt ON po.PART_ID = pt.PART_ID
+      JOIN plants AS pl ON po.PLANT_ID = pl.PLANT_ID WHERE po.STATUS <> 'Cancelled'
+      ORDER BY total_landed_cost DESC LIMIT 20
+    verified_at: 1789210169
+    verified_by: Semantic Model Generator
+  - name: 2;1
+    question: What is the average actual lead time vs contracted lead time by supplier?
+    sql: SELECT s.SUPPLIER_NAME, s.TIER, ROUND(AVG(DATEDIFF(DAY, po.ORDER_DATE, po.RECEIVED_DATE)),
+      1) AS avg_actual_lead_time, s.LEAD_TIME_DAYS AS contracted_lead_time, COUNT(*)
+      AS total_orders FROM purchase_orders AS po JOIN suppliers AS s ON po.SUPPLIER_ID
+      = s.SUPPLIER_ID WHERE po.STATUS = 'Received' GROUP BY 1, 2, 4 ORDER BY 3 DESC
+    verified_at: 1789210169
+    verified_by: Semantic Model Generator
+  - name: 3;1
+    question: What is the average landed cost per unit by supplier region and month?
+    sql: SELECT s.REGION AS supplier_region, DATE_TRUNC('MONTH', po.ORDER_DATE) AS
+      order_month, ROUND(AVG(((po.ORDERED_QTY * po.UNIT_COST) + po.FREIGHT_COST +
+      po.DUTY_COST + po.HANDLING_COST) / NULLIF(po.ORDERED_QTY, 0)), 2) AS avg_landed_cost_per_unit
+      FROM purchase_orders AS po JOIN suppliers AS s ON po.SUPPLIER_ID = s.SUPPLIER_ID
+      WHERE po.STATUS <> 'Cancelled' GROUP BY 1, 2 ORDER BY 2, 1
+    verified_at: 1789210169
+    verified_by: Semantic Model Generator
+  - name: 4;1
+    question: Which suppliers have the best on-time delivery performance and what
+      is their average landed cost per unit?
+    sql: SELECT s.SUPPLIER_NAME, s.TIER, COUNT(*) AS total_pos, SUM(CASE WHEN po.STATUS
+      = 'Received' AND po.RECEIVED_DATE <= po.PROMISED_DATE THEN 1 ELSE 0 END) AS
+      on_time, ROUND(on_time * 100.0 / total_pos, 2) AS otd_pct, ROUND(AVG(((po.ORDERED_QTY
+      * po.UNIT_COST) + po.FREIGHT_COST + po.DUTY_COST + po.HANDLING_COST) / NULLIF(po.ORDERED_QTY,
+      0)), 2) AS avg_landed_cost FROM purchase_orders AS po JOIN suppliers AS s ON
+      po.SUPPLIER_ID = s.SUPPLIER_ID WHERE NOT po.STATUS IN ('Open', 'Cancelled')
+      GROUP BY 1, 2 ORDER BY otd_pct DESC
+    verified_at: 1789210169
+    verified_by: Semantic Model Generator

@@ -1,0 +1,46 @@
+SUPPLIER PERFORMANCE REVIEW
+============================================================
+Supplier: Delta Plastics LLC
+Supplier ID: SUP009
+Country: United States | Region: North America
+Tier: 3 | Certifications: None
+Review Date: 2026-09-12
+Overall Rating: 81.3/100 | Classification: APPROVED
+Risk Level: Medium
+
+SCORECARD
+------------------------------------------------------------
+Quality Score:           84.5/100
+Delivery Score:          81.8/100
+Cost Competitiveness:    86.5/100
+Responsiveness:          63.9/100
+Sustainability:          86.6/100
+Innovation:              84.1/100
+Overall Weighted Rating: 81.3/100
+
+STRENGTHS
+------------------------------------------------------------
+  - Competitive pricing structure with transparent cost breakdown
+  - Strong sustainability practices with environmental certifications
+  - Proactive in proposing design improvements and new materials
+
+AREAS FOR IMPROVEMENT
+------------------------------------------------------------
+  - Quality score of 84.5 indicates room for improvement in defect management
+  - Delivery score of 81.8 suggests late shipments are a recurring concern
+
+CAPACITY & OPERATIONS
+------------------------------------------------------------
+Capacity constraints observed during Q4 peak season; requires advance planning.
+
+AUDIT HISTORY
+------------------------------------------------------------
+Last audit (2026-Q1): Two observations noted regarding environmental waste handling procedures.
+
+RECOMMENDATION
+------------------------------------------------------------
+Based on the overall rating of 81.3/100, this supplier is classified as
+APPROVED. This supplier may be used for standard orders but should not be sole-sourced for critical parts.
+
+============================================================
+End of Review - Confidential

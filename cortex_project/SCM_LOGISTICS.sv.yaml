@@ -1,0 +1,277 @@
+name: SCM_LOGISTICS
+description: Logistics and shipment analytics for supply chain management. Tracks
+  customer-facing Delivery On-Time Delivery (OTD) rate, freight costs, transit times,
+  and carrier performance. Used by logistics, operations, and customer service personas
+  to monitor delivery reliability and optimize transportation costs.
+tables:
+  - name: SHIPMENTS
+    base_table:
+      database: __SF_DATABASE__
+      schema: __SF_SCHEMA__
+      table: SHIPMENTS
+    primary_key:
+      columns:
+        - SHIPMENT_ID
+    foreign_keys:
+      - fkey_columns:
+          - CUSTOMER_ID
+        pkey_table:
+          database: __SF_DATABASE__
+          schema: __SF_SCHEMA__
+          table: CUSTOMERS
+        pkey_columns:
+          - CUSTOMER_ID
+      - fkey_columns:
+          - PLANT_ID
+        pkey_table:
+          database: __SF_DATABASE__
+          schema: __SF_SCHEMA__
+          table: PLANTS
+        pkey_columns:
+          - PLANT_ID
+      - fkey_columns:
+          - ORDER_ID
+        pkey_table:
+          database: __SF_DATABASE__
+          schema: __SF_SCHEMA__
+          table: SALES_ORDERS
+        pkey_columns:
+          - ORDER_ID
+    dimensions:
+      - name: SHIPMENT_ID
+        expr: SHIPMENT_ID
+        data_type: VARCHAR
+      - name: ORDER_ID
+        expr: ORDER_ID
+        data_type: VARCHAR
+      - name: PLANT_ID
+        expr: PLANT_ID
+        data_type: VARCHAR
+      - name: CUSTOMER_ID
+        expr: CUSTOMER_ID
+        data_type: VARCHAR
+      - name: CARRIER
+        expr: CARRIER
+        data_type: VARCHAR
+      - name: TRANSPORT_MODE
+        expr: TRANSPORT_MODE
+        data_type: VARCHAR
+      - name: STATUS
+        expr: STATUS
+        data_type: VARCHAR
+    time_dimensions:
+      - name: SHIP_DATE
+        expr: SHIP_DATE
+        data_type: DATE
+      - name: PROMISED_DELIVERY
+        expr: PROMISED_DELIVERY
+        data_type: DATE
+      - name: ACTUAL_DELIVERY
+        expr: ACTUAL_DELIVERY
+        data_type: DATE
+    facts:
+      - name: FREIGHT_COST
+        expr: FREIGHT_COST
+        data_type: NUMBER
+  - name: SHIPMENT_LINES
+    base_table:
+      database: __SF_DATABASE__
+      schema: __SF_SCHEMA__
+      table: SHIPMENT_LINES
+    primary_key:
+      columns:
+        - SHIPMENT_ID
+        - LINE_NUM
+    foreign_keys:
+      - fkey_columns:
+          - PART_ID
+        pkey_table:
+          database: __SF_DATABASE__
+          schema: __SF_SCHEMA__
+          table: PARTS
+        pkey_columns:
+          - PART_ID
+      - fkey_columns:
+          - SHIPMENT_ID
+        pkey_table:
+          database: __SF_DATABASE__
+          schema: __SF_SCHEMA__
+          table: SHIPMENTS
+        pkey_columns:
+          - SHIPMENT_ID
+    dimensions:
+      - name: SHIPMENT_ID
+        expr: SHIPMENT_ID
+        data_type: VARCHAR
+      - name: LINE_NUM
+        expr: LINE_NUM
+        data_type: NUMBER
+      - name: PART_ID
+        expr: PART_ID
+        data_type: VARCHAR
+      - name: SHIPPED_QTY
+        expr: SHIPPED_QTY
+        data_type: NUMBER
+  - name: CUSTOMERS
+    base_table:
+      database: __SF_DATABASE__
+      schema: __SF_SCHEMA__
+      table: CUSTOMERS
+    primary_key:
+      columns:
+        - CUSTOMER_ID
+    dimensions:
+      - name: CUSTOMER_ID
+        expr: CUSTOMER_ID
+        data_type: VARCHAR
+      - name: CUSTOMER_NAME
+        expr: CUSTOMER_NAME
+        data_type: VARCHAR
+      - name: SEGMENT
+        expr: SEGMENT
+        data_type: VARCHAR
+      - name: INDUSTRY
+        expr: INDUSTRY
+        data_type: VARCHAR
+      - name: COUNTRY
+        expr: COUNTRY
+        data_type: VARCHAR
+      - name: REGION
+        expr: REGION
+        data_type: VARCHAR
+      - name: PRIORITY
+        expr: PRIORITY
+        data_type: VARCHAR
+  - name: PLANTS
+    base_table:
+      database: __SF_DATABASE__
+      schema: __SF_SCHEMA__
+      table: PLANTS
+    primary_key:
+      columns:
+        - PLANT_ID
+    dimensions:
+      - name: PLANT_ID
+        expr: PLANT_ID
+        data_type: VARCHAR
+      - name: PLANT_NAME
+        expr: PLANT_NAME
+        data_type: VARCHAR
+      - name: CITY
+        expr: CITY
+        data_type: VARCHAR
+      - name: COUNTRY
+        expr: COUNTRY
+        data_type: VARCHAR
+      - name: REGION
+        expr: REGION
+        data_type: VARCHAR
+      - name: PLANT_TYPE
+        expr: PLANT_TYPE
+        data_type: VARCHAR
+  - name: PARTS
+    base_table:
+      database: __SF_DATABASE__
+      schema: __SF_SCHEMA__
+      table: PARTS
+    primary_key:
+      columns:
+        - PART_ID
+    dimensions:
+      - name: PART_ID
+        expr: PART_ID
+        data_type: VARCHAR
+      - name: PART_NAME
+        expr: PART_NAME
+        data_type: VARCHAR
+      - name: CATEGORY
+        expr: CATEGORY
+        data_type: VARCHAR
+      - name: CRITICAL_FLAG
+        expr: CRITICAL_FLAG
+        data_type: BOOLEAN
+relationships:
+  - name: SHIPMENTS_TO_CUSTOMERS
+    left_table: SHIPMENTS
+    right_table: CUSTOMERS
+    join_type: inner
+    relationship_type: many_to_one
+    relationship_columns:
+      - left_column: CUSTOMER_ID
+        right_column: CUSTOMER_ID
+  - name: SHIPMENTS_TO_PLANTS
+    left_table: SHIPMENTS
+    right_table: PLANTS
+    join_type: inner
+    relationship_type: many_to_one
+    relationship_columns:
+      - left_column: PLANT_ID
+        right_column: PLANT_ID
+  - name: SHIPMENT_LINES_TO_PARTS
+    left_table: SHIPMENT_LINES
+    right_table: PARTS
+    join_type: inner
+    relationship_type: many_to_one
+    relationship_columns:
+      - left_column: PART_ID
+        right_column: PART_ID
+  - name: SHIPMENT_LINES_TO_SHIPMENTS
+    left_table: SHIPMENT_LINES
+    right_table: SHIPMENTS
+    join_type: inner
+    relationship_type: many_to_one
+    relationship_columns:
+      - left_column: SHIPMENT_ID
+        right_column: SHIPMENT_ID
+verified_queries:
+  - name: 0;1
+    question: What is the delivery on-time rate by carrier and transport mode per
+      month?
+    sql: SELECT sh.CARRIER, sh.TRANSPORT_MODE, DATE_TRUNC('MONTH', sh.SHIP_DATE) AS
+      ship_month, COUNT(*) AS total_shipments, SUM(CASE WHEN sh.STATUS = 'Delivered'
+      AND sh.ACTUAL_DELIVERY <= sh.PROMISED_DELIVERY THEN 1 ELSE 0 END) AS on_time_deliveries,
+      ROUND(on_time_deliveries * 100.0 / NULLIF(total_shipments, 0), 2) AS delivery_otd_pct
+      FROM shipments AS sh WHERE sh.STATUS <> 'In Transit' GROUP BY 1, 2, 3 ORDER
+      BY 3 DESC, 6
+    verified_at: 1789210167
+    verified_by: Semantic Model Generator
+  - name: 1;1
+    question: What is the delivery on-time rate and average freight cost by customer?
+    sql: SELECT c.CUSTOMER_NAME, c.SEGMENT, c.PRIORITY, COUNT(*) AS total_shipments,
+      SUM(CASE WHEN sh.STATUS = 'Delivered' AND sh.ACTUAL_DELIVERY <= sh.PROMISED_DELIVERY
+      THEN 1 ELSE 0 END) AS on_time, ROUND(on_time * 100.0 / NULLIF(total_shipments,
+      0), 2) AS delivery_otd_pct, ROUND(AVG(sh.FREIGHT_COST), 2) AS avg_freight_cost
+      FROM shipments AS sh JOIN customers AS c ON sh.CUSTOMER_ID = c.CUSTOMER_ID WHERE
+      sh.STATUS <> 'In Transit' GROUP BY 1, 2, 3 ORDER BY delivery_otd_pct
+    verified_at: 1789210167
+    verified_by: Semantic Model Generator
+  - name: 2;1
+    question: Which plants have the worst on-time delivery performance?
+    sql: SELECT pl.PLANT_NAME, pl.REGION, COUNT(*) AS total_shipments, SUM(CASE WHEN
+      sh.STATUS = 'Delivered' AND sh.ACTUAL_DELIVERY <= sh.PROMISED_DELIVERY THEN
+      1 ELSE 0 END) AS on_time, SUM(CASE WHEN sh.STATUS = 'Delayed' THEN 1 ELSE 0
+      END) AS delayed, ROUND(on_time * 100.0 / NULLIF(total_shipments, 0), 2) AS otd_pct
+      FROM shipments AS sh JOIN plants AS pl ON sh.PLANT_ID = pl.PLANT_ID WHERE sh.STATUS
+      <> 'In Transit' GROUP BY 1, 2 ORDER BY otd_pct
+    verified_at: 1789210167
+    verified_by: Semantic Model Generator
+  - name: 3;1
+    question: What is the monthly trend for delivery on-time performance and freight
+      costs?
+    sql: SELECT DATE_TRUNC('MONTH', sh.SHIP_DATE) AS ship_month, COUNT(*) AS total_shipments,
+      SUM(CASE WHEN sh.STATUS = 'Delivered' AND sh.ACTUAL_DELIVERY <= sh.PROMISED_DELIVERY
+      THEN 1 ELSE 0 END) AS on_time_deliveries, ROUND(on_time_deliveries * 100.0 /
+      NULLIF(total_shipments, 0), 2) AS delivery_otd_pct, ROUND(AVG(sh.FREIGHT_COST),
+      2) AS avg_freight_cost, SUM(sh.FREIGHT_COST) AS total_freight_cost FROM shipments
+      AS sh WHERE sh.STATUS <> 'In Transit' GROUP BY 1 ORDER BY 1
+    verified_at: 1789210167
+    verified_by: Semantic Model Generator
+  - name: 4;1
+    question: What is the average transit time and freight cost by transport mode
+      for delivered shipments?
+    sql: SELECT sh.TRANSPORT_MODE, ROUND(AVG(DATEDIFF(DAY, sh.SHIP_DATE, sh.ACTUAL_DELIVERY)),
+      1) AS avg_transit_days, ROUND(AVG(sh.FREIGHT_COST), 2) AS avg_freight_cost,
+      COUNT(*) AS shipment_count FROM shipments AS sh WHERE sh.STATUS = 'Delivered'
+      GROUP BY 1 ORDER BY avg_transit_days
+    verified_at: 1789210167
+    verified_by: Semantic Model Generator

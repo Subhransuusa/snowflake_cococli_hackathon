@@ -1,0 +1,1457 @@
+WEEK_DATE,REGION,CATEGORY,DEMAND_UNITS,FORECAST_UNITS,TREND_SLOPE,YOY_GROWTH_PCT,CONFIDENCE_SCORE,TREND_SIGNAL,BASELINE_DEMAND
+2025-09-01,North America,Structural,1719.0,1581.0,-3.45,11.61,0.65,Declining,1736.0
+2025-09-08,North America,Structural,1875.0,1630.0,-3.45,17.76,0.87,Declining,1732.0
+2025-09-15,North America,Structural,1628.0,1589.0,-3.45,6.63,0.68,Declining,1729.0
+2025-09-22,North America,Structural,1887.0,1997.0,-3.45,26.19,0.82,Declining,1725.0
+2025-09-29,North America,Structural,1955.0,1868.0,-3.45,5.22,0.6,Declining,1722.0
+2025-10-06,North America,Structural,1639.0,1862.0,-3.45,20.14,0.92,Declining,1718.0
+2025-10-13,North America,Structural,1637.0,1500.0,-3.45,11.85,0.83,Declining,1715.0
+2025-10-20,North America,Structural,1963.0,1686.0,-3.45,-1.22,0.77,Declining,1712.0
+2025-10-27,North America,Structural,1753.0,1736.0,-3.45,6.17,0.66,Declining,1708.0
+2025-11-03,North America,Structural,2049.0,1758.0,-3.45,-4.89,0.84,Declining,1705.0
+2025-11-10,North America,Structural,1734.0,1545.0,-3.45,-8.92,0.84,Declining,1701.0
+2025-11-17,North America,Structural,1989.0,1917.0,-3.45,8.47,0.62,Declining,1698.0
+2025-11-24,North America,Structural,1908.0,2053.0,-3.45,20.45,0.74,Declining,1694.0
+2025-12-01,North America,Structural,1997.0,1746.0,-3.45,23.28,0.7,Declining,1691.0
+2025-12-08,North America,Structural,2044.0,2136.0,-3.45,30.0,0.73,Declining,1687.0
+2025-12-15,North America,Structural,1886.0,2029.0,-3.45,21.25,0.85,Declining,1684.0
+2025-12-22,North America,Structural,1942.0,1725.0,-3.45,-9.18,0.66,Declining,1680.0
+2025-12-29,North America,Structural,1813.0,1659.0,-3.45,16.78,0.81,Declining,1677.0
+2026-01-05,North America,Structural,1753.0,1883.0,-3.45,-3.29,0.83,Declining,1674.0
+2026-01-12,North America,Structural,1584.0,1805.0,-3.45,-5.42,0.91,Declining,1670.0
+2026-01-19,North America,Structural,1815.0,2064.0,-3.45,2.48,0.86,Declining,1667.0
+2026-01-26,North America,Structural,1789.0,1561.0,-3.45,5.87,0.87,Declining,1663.0
+2026-02-02,North America,Structural,1675.0,1851.0,-3.45,-5.92,0.89,Declining,1660.0
+2026-02-09,North America,Structural,1541.0,1764.0,-3.45,14.02,0.65,Declining,1656.0
+2026-02-16,North America,Structural,1723.0,1727.0,-3.45,7.14,0.74,Declining,1653.0
+2026-02-23,North America,Structural,1546.0,1696.0,-3.45,3.65,0.92,Declining,1649.0
+2026-03-02,North America,Structural,1924.0,2044.0,-3.45,15.42,0.91,Declining,1646.0
+2026-03-09,North America,Structural,1838.0,2094.0,-3.45,7.42,0.88,Declining,1643.0
+2026-03-16,North America,Structural,1563.0,1533.0,-3.45,11.53,0.78,Declining,1639.0
+2026-03-23,North America,Structural,1820.0,2012.0,-3.45,19.24,0.7,Declining,1636.0
+2026-03-30,North America,Structural,1574.0,1558.0,-3.45,25.27,0.69,Declining,1632.0
+2026-04-06,North America,Structural,1471.0,1263.0,-3.45,14.41,0.74,Declining,1629.0
+2026-04-13,North America,Structural,1554.0,1480.0,-3.45,-1.52,0.9,Declining,1625.0
+2026-04-20,North America,Structural,1412.0,1317.0,-3.45,25.21,0.87,Declining,1622.0
+2026-04-27,North America,Structural,1802.0,1796.0,-3.45,-6.58,0.87,Declining,1618.0
+2026-05-04,North America,Structural,1472.0,1536.0,-3.45,20.33,0.86,Declining,1615.0
+2026-05-11,North America,Structural,1192.0,1260.0,-3.45,-6.28,0.68,Declining,1611.0
+2026-05-18,North America,Structural,1442.0,1430.0,-3.45,2.25,0.82,Declining,1608.0
+2026-05-25,North America,Structural,1277.0,1354.0,-3.45,19.84,0.73,Declining,1605.0
+2026-06-01,North America,Structural,1387.0,1229.0,-3.45,0.84,0.7,Declining,1601.0
+2026-06-08,North America,Structural,1438.0,1302.0,-3.45,11.43,0.89,Declining,1598.0
+2026-06-15,North America,Structural,1479.0,1579.0,-3.45,-1.34,0.78,Declining,1594.0
+2026-06-22,North America,Structural,1584.0,1439.0,-3.45,1.32,0.64,Declining,1591.0
+2026-06-29,North America,Structural,1398.0,1194.0,-3.45,-0.9,0.67,Declining,1587.0
+2026-07-06,North America,Structural,1322.0,1400.0,-3.45,28.97,0.81,Declining,1584.0
+2026-07-13,North America,Structural,1418.0,1414.0,-3.45,-4.95,0.93,Declining,1580.0
+2026-07-20,North America,Structural,1580.0,1430.0,-3.45,8.78,0.77,Declining,1577.0
+2026-07-27,North America,Structural,1338.0,1329.0,-3.45,-7.94,0.96,Declining,1574.0
+2026-08-03,North America,Structural,1545.0,1338.0,-3.45,-7.04,0.84,Declining,1570.0
+2026-08-10,North America,Structural,1374.0,1293.0,-3.45,-4.03,0.81,Declining,1567.0
+2026-08-17,North America,Structural,1588.0,1727.0,-3.45,20.58,0.83,Declining,1563.0
+2026-08-24,North America,Structural,1535.0,1512.0,-3.45,-0.97,0.8,Declining,1560.0
+2025-09-01,North America,Electrical,2398.0,2719.0,12.2,14.39,0.88,Growing,2492.0
+2025-09-08,North America,Electrical,2840.0,2977.0,12.2,-1.69,0.68,Growing,2504.0
+2025-09-15,North America,Electrical,2733.0,2692.0,12.2,-7.0,0.6,Growing,2517.0
+2025-09-22,North America,Electrical,2851.0,2621.0,12.2,13.75,0.71,Growing,2529.0
+2025-09-29,North America,Electrical,2745.0,3094.0,12.2,8.16,0.86,Growing,2541.0
+2025-10-06,North America,Electrical,2605.0,2731.0,12.2,21.51,0.84,Growing,2553.0
+2025-10-13,North America,Electrical,3167.0,3555.0,12.2,11.78,0.85,Growing,2565.0
+2025-10-20,North America,Electrical,2955.0,2659.0,12.2,23.07,0.63,Growing,2578.0
+2025-10-27,North America,Electrical,2981.0,2645.0,12.2,12.77,0.71,Growing,2590.0
+2025-11-03,North America,Electrical,3459.0,3919.0,12.2,17.55,0.87,Growing,2602.0
+2025-11-10,North America,Electrical,2960.0,2899.0,12.2,-6.78,0.62,Growing,2614.0
+2025-11-17,North America,Electrical,3226.0,2830.0,12.2,2.89,0.7,Growing,2626.0
+2025-11-24,North America,Electrical,3621.0,4163.0,12.2,13.01,0.96,Growing,2639.0
+2025-12-01,North America,Electrical,3179.0,2741.0,12.2,16.89,0.7,Growing,2651.0
+2025-12-08,North America,Electrical,3286.0,2972.0,12.2,16.06,0.95,Growing,2663.0
+2025-12-15,North America,Electrical,3051.0,3043.0,12.2,13.41,0.84,Growing,2675.0
+2025-12-22,North America,Electrical,3420.0,3787.0,12.2,3.33,0.85,Growing,2687.0
+2025-12-29,North America,Electrical,3347.0,3134.0,12.2,3.19,0.86,Growing,2700.0
+2026-01-05,North America,Electrical,3565.0,3366.0,12.2,12.0,0.77,Growing,2712.0
+2026-01-12,North America,Electrical,3063.0,2975.0,12.2,2.93,0.97,Growing,2724.0
+2026-01-19,North America,Electrical,2555.0,2489.0,12.2,16.31,0.81,Growing,2736.0
+2026-01-26,North America,Electrical,3045.0,3280.0,12.2,-2.5,0.74,Growing,2749.0
+2026-02-02,North America,Electrical,2810.0,3171.0,12.2,-1.86,0.81,Growing,2761.0
+2026-02-09,North America,Electrical,2753.0,2441.0,12.2,7.52,0.87,Growing,2773.0
+2026-02-16,North America,Electrical,3202.0,3251.0,12.2,-0.43,0.66,Growing,2785.0
+2026-02-23,North America,Electrical,2826.0,3243.0,12.2,12.09,0.64,Growing,2797.0
+2026-03-02,North America,Electrical,2999.0,2998.0,12.2,-5.3,0.92,Growing,2810.0
+2026-03-09,North America,Electrical,2632.0,2453.0,12.2,18.66,0.79,Growing,2822.0
+2026-03-16,North America,Electrical,2970.0,2866.0,12.2,-0.25,0.81,Growing,2834.0
+2026-03-23,North America,Electrical,2146.0,2390.0,12.2,26.87,0.79,Growing,2846.0
+2026-03-30,North America,Electrical,2676.0,3025.0,12.2,21.6,0.76,Growing,2858.0
+2026-04-06,North America,Electrical,2399.0,2242.0,12.2,10.31,0.91,Growing,2871.0
+2026-04-13,North America,Electrical,2393.0,2141.0,12.2,29.96,0.79,Growing,2883.0
+2026-04-20,North America,Electrical,2685.0,2727.0,12.2,11.54,0.73,Growing,2895.0
+2026-04-27,North America,Electrical,2187.0,2316.0,12.2,2.87,0.67,Growing,2907.0
+2026-05-04,North America,Electrical,2313.0,2504.0,12.2,12.87,0.69,Growing,2919.0
+2026-05-11,North America,Electrical,2671.0,2580.0,12.2,18.21,0.91,Growing,2932.0
+2026-05-18,North America,Electrical,2433.0,2784.0,12.2,16.55,0.91,Growing,2944.0
+2026-05-25,North America,Electrical,2288.0,2541.0,12.2,10.09,0.82,Growing,2956.0
+2026-06-01,North America,Electrical,2352.0,2370.0,12.2,24.97,0.77,Growing,2968.0
+2026-06-08,North America,Electrical,2059.0,1846.0,12.2,6.4,0.85,Growing,2980.0
+2026-06-15,North America,Electrical,2478.0,2358.0,12.2,8.78,0.97,Growing,2993.0
+2026-06-22,North America,Electrical,2325.0,2576.0,12.2,24.07,0.92,Growing,3005.0
+2026-06-29,North America,Electrical,2199.0,2344.0,12.2,5.2,0.72,Growing,3017.0
+2026-07-06,North America,Electrical,2544.0,2645.0,12.2,-8.56,0.63,Growing,3029.0
+2026-07-13,North America,Electrical,2175.0,2336.0,12.2,26.84,0.98,Growing,3041.0
+2026-07-20,North America,Electrical,2561.0,2517.0,12.2,15.35,0.93,Growing,3054.0
+2026-07-27,North America,Electrical,2751.0,2377.0,12.2,17.76,0.94,Growing,3066.0
+2026-08-03,North America,Electrical,2838.0,2865.0,12.2,4.99,0.66,Growing,3078.0
+2026-08-10,North America,Electrical,2712.0,2443.0,12.2,12.64,0.9,Growing,3090.0
+2026-08-17,North America,Electrical,3309.0,3719.0,12.2,14.79,0.69,Growing,3102.0
+2026-08-24,North America,Electrical,3232.0,2994.0,12.2,-4.28,0.78,Growing,3115.0
+2025-09-01,North America,Hydraulics,1810.0,1727.0,-4.81,-3.68,0.77,Declining,1649.0
+2025-09-08,North America,Hydraulics,1571.0,1535.0,-4.81,13.5,0.84,Declining,1644.0
+2025-09-15,North America,Hydraulics,1722.0,1714.0,-4.81,-2.03,0.75,Declining,1639.0
+2025-09-22,North America,Hydraulics,2013.0,2058.0,-4.81,-0.51,0.82,Declining,1635.0
+2025-09-29,North America,Hydraulics,1902.0,1773.0,-4.81,29.12,0.85,Declining,1630.0
+2025-10-06,North America,Hydraulics,1817.0,1951.0,-4.81,12.64,0.86,Declining,1625.0
+2025-10-13,North America,Hydraulics,2022.0,1893.0,-4.81,9.87,0.94,Declining,1620.0
+2025-10-20,North America,Hydraulics,1930.0,1845.0,-4.81,21.95,0.83,Declining,1615.0
+2025-10-27,North America,Hydraulics,1777.0,1861.0,-4.81,17.11,0.87,Declining,1610.0
+2025-11-03,North America,Hydraulics,1775.0,1989.0,-4.81,23.53,0.84,Declining,1606.0
+2025-11-10,North America,Hydraulics,1857.0,1987.0,-4.81,7.63,0.82,Declining,1601.0
+2025-11-17,North America,Hydraulics,1844.0,1980.0,-4.81,-6.39,0.71,Declining,1596.0
+2025-11-24,North America,Hydraulics,1968.0,1986.0,-4.81,11.58,0.97,Declining,1591.0
+2025-12-01,North America,Hydraulics,1997.0,1851.0,-4.81,26.54,0.92,Declining,1586.0
+2025-12-08,North America,Hydraulics,1995.0,1899.0,-4.81,22.26,0.88,Declining,1582.0
+2025-12-15,North America,Hydraulics,1780.0,1588.0,-4.81,-5.39,0.97,Declining,1577.0
+2025-12-22,North America,Hydraulics,2153.0,2455.0,-4.81,18.97,0.97,Declining,1572.0
+2025-12-29,North America,Hydraulics,1820.0,1979.0,-4.81,22.18,0.74,Declining,1567.0
+2026-01-05,North America,Hydraulics,2012.0,2116.0,-4.81,8.19,0.86,Declining,1562.0
+2026-01-12,North America,Hydraulics,1832.0,2074.0,-4.81,13.38,0.91,Declining,1558.0
+2026-01-19,North America,Hydraulics,1858.0,1892.0,-4.81,-9.0,0.94,Declining,1553.0
+2026-01-26,North America,Hydraulics,1806.0,1569.0,-4.81,26.61,0.68,Declining,1548.0
+2026-02-02,North America,Hydraulics,1834.0,1636.0,-4.81,2.09,0.76,Declining,1543.0
+2026-02-09,North America,Hydraulics,1403.0,1400.0,-4.81,27.85,0.72,Declining,1538.0
+2026-02-16,North America,Hydraulics,1843.0,1937.0,-4.81,-4.57,0.77,Declining,1533.0
+2026-02-23,North America,Hydraulics,1729.0,1687.0,-4.81,19.73,0.96,Declining,1529.0
+2026-03-02,North America,Hydraulics,1520.0,1515.0,-4.81,6.6,0.64,Declining,1524.0
+2026-03-09,North America,Hydraulics,1401.0,1204.0,-4.81,6.32,0.96,Declining,1519.0
+2026-03-16,North America,Hydraulics,1333.0,1173.0,-4.81,28.02,0.93,Declining,1514.0
+2026-03-23,North America,Hydraulics,1490.0,1703.0,-4.81,17.43,0.81,Declining,1509.0
+2026-03-30,North America,Hydraulics,1259.0,1391.0,-4.81,-2.41,0.65,Declining,1505.0
+2026-04-06,North America,Hydraulics,1405.0,1465.0,-4.81,8.19,0.85,Declining,1500.0
+2026-04-13,North America,Hydraulics,1242.0,1103.0,-4.81,21.47,0.69,Declining,1495.0
+2026-04-20,North America,Hydraulics,1214.0,1311.0,-4.81,12.58,0.63,Declining,1490.0
+2026-04-27,North America,Hydraulics,1224.0,1094.0,-4.81,24.79,0.72,Declining,1485.0
+2026-05-04,North America,Hydraulics,1261.0,1397.0,-4.81,26.02,0.6,Declining,1481.0
+2026-05-11,North America,Hydraulics,1193.0,1251.0,-4.81,0.03,0.67,Declining,1476.0
+2026-05-18,North America,Hydraulics,1188.0,1292.0,-4.81,-8.97,0.61,Declining,1471.0
+2026-05-25,North America,Hydraulics,1130.0,1212.0,-4.81,-3.03,0.62,Declining,1466.0
+2026-06-01,North America,Hydraulics,1230.0,1221.0,-4.81,11.04,0.88,Declining,1461.0
+2026-06-08,North America,Hydraulics,1139.0,1291.0,-4.81,-5.64,0.79,Declining,1456.0
+2026-06-15,North America,Hydraulics,958.0,1064.0,-4.81,-8.27,0.9,Declining,1452.0
+2026-06-22,North America,Hydraulics,977.0,971.0,-4.81,28.56,0.62,Declining,1447.0
+2026-06-29,North America,Hydraulics,1114.0,1111.0,-4.81,6.06,0.86,Declining,1442.0
+2026-07-06,North America,Hydraulics,1194.0,1039.0,-4.81,-6.77,0.83,Declining,1437.0
+2026-07-13,North America,Hydraulics,1144.0,1161.0,-4.81,1.0,0.84,Declining,1432.0
+2026-07-20,North America,Hydraulics,1003.0,1035.0,-4.81,11.22,0.77,Declining,1428.0
+2026-07-27,North America,Hydraulics,1605.0,1775.0,-4.81,-6.03,0.87,Declining,1423.0
+2026-08-03,North America,Hydraulics,1125.0,1108.0,-4.81,18.83,0.68,Declining,1418.0
+2026-08-10,North America,Hydraulics,1106.0,1091.0,-4.81,-0.86,0.73,Declining,1413.0
+2026-08-17,North America,Hydraulics,1274.0,1226.0,-4.81,7.07,0.85,Declining,1408.0
+2026-08-24,North America,Hydraulics,1391.0,1211.0,-4.81,-3.89,0.95,Declining,1404.0
+2025-09-01,North America,Consumables,4199.0,4277.0,-3.14,12.25,0.82,Declining,4243.0
+2025-09-08,North America,Consumables,3656.0,3496.0,-3.14,3.19,0.65,Declining,4240.0
+2025-09-15,North America,Consumables,4020.0,4585.0,-3.14,24.72,0.87,Declining,4237.0
+2025-09-22,North America,Consumables,3851.0,3941.0,-3.14,14.02,0.73,Declining,4234.0
+2025-09-29,North America,Consumables,4482.0,4947.0,-3.14,-1.03,0.64,Declining,4230.0
+2025-10-06,North America,Consumables,4877.0,4986.0,-3.14,4.7,0.89,Declining,4227.0
+2025-10-13,North America,Consumables,4650.0,4808.0,-3.14,28.98,0.91,Declining,4224.0
+2025-10-20,North America,Consumables,3827.0,4320.0,-3.14,15.71,0.61,Declining,4221.0
+2025-10-27,North America,Consumables,4588.0,4325.0,-3.14,-2.78,0.87,Declining,4218.0
+2025-11-03,North America,Consumables,4240.0,4711.0,-3.14,3.59,0.6,Declining,4215.0
+2025-11-10,North America,Consumables,4172.0,3585.0,-3.14,-4.33,0.84,Declining,4212.0
+2025-11-17,North America,Consumables,4355.0,4250.0,-3.14,19.84,0.68,Declining,4208.0
+2025-11-24,North America,Consumables,4321.0,4409.0,-3.14,18.86,0.9,Declining,4205.0
+2025-12-01,North America,Consumables,4771.0,4281.0,-3.14,-6.6,0.62,Declining,4202.0
+2025-12-08,North America,Consumables,4116.0,4098.0,-3.14,0.88,0.85,Declining,4199.0
+2025-12-15,North America,Consumables,4139.0,4455.0,-3.14,7.68,0.7,Declining,4196.0
+2025-12-22,North America,Consumables,4739.0,4720.0,-3.14,1.33,0.86,Declining,4193.0
+2025-12-29,North America,Consumables,4686.0,4539.0,-3.14,16.69,0.62,Declining,4190.0
+2026-01-05,North America,Consumables,4394.0,3916.0,-3.14,2.06,0.68,Declining,4187.0
+2026-01-12,North America,Consumables,4379.0,3732.0,-3.14,0.22,0.72,Declining,4183.0
+2026-01-19,North America,Consumables,4371.0,4372.0,-3.14,5.21,0.87,Declining,4180.0
+2026-01-26,North America,Consumables,4133.0,3603.0,-3.14,23.33,0.91,Declining,4177.0
+2026-02-02,North America,Consumables,4375.0,4850.0,-3.14,-9.25,0.95,Declining,4174.0
+2026-02-09,North America,Consumables,4199.0,4463.0,-3.14,13.03,0.82,Declining,4171.0
+2026-02-16,North America,Consumables,4092.0,4462.0,-3.14,-9.17,0.72,Declining,4168.0
+2026-02-23,North America,Consumables,4283.0,4822.0,-3.14,14.73,0.92,Declining,4165.0
+2026-03-02,North America,Consumables,4718.0,4752.0,-3.14,-0.27,0.82,Declining,4161.0
+2026-03-09,North America,Consumables,4467.0,4252.0,-3.14,5.83,0.72,Declining,4158.0
+2026-03-16,North America,Consumables,3982.0,3994.0,-3.14,10.42,0.64,Declining,4155.0
+2026-03-23,North America,Consumables,4226.0,4515.0,-3.14,26.24,0.73,Declining,4152.0
+2026-03-30,North America,Consumables,4274.0,3886.0,-3.14,-0.55,0.66,Declining,4149.0
+2026-04-06,North America,Consumables,3413.0,3572.0,-3.14,14.1,0.89,Declining,4146.0
+2026-04-13,North America,Consumables,4206.0,4534.0,-3.14,9.76,0.89,Declining,4143.0
+2026-04-20,North America,Consumables,4444.0,4530.0,-3.14,7.96,0.95,Declining,4140.0
+2026-04-27,North America,Consumables,3581.0,3206.0,-3.14,24.57,0.84,Declining,4136.0
+2026-05-04,North America,Consumables,3516.0,3308.0,-3.14,-7.27,0.77,Declining,4133.0
+2026-05-11,North America,Consumables,3837.0,3782.0,-3.14,10.29,0.72,Declining,4130.0
+2026-05-18,North America,Consumables,3955.0,3453.0,-3.14,-7.72,0.92,Declining,4127.0
+2026-05-25,North America,Consumables,4271.0,4223.0,-3.14,14.6,0.79,Declining,4124.0
+2026-06-01,North America,Consumables,3324.0,3719.0,-3.14,12.17,0.9,Declining,4121.0
+2026-06-08,North America,Consumables,3238.0,3214.0,-3.14,16.07,0.72,Declining,4118.0
+2026-06-15,North America,Consumables,4021.0,3543.0,-3.14,-3.97,0.62,Declining,4114.0
+2026-06-22,North America,Consumables,4087.0,3686.0,-3.14,18.57,0.79,Declining,4111.0
+2026-06-29,North America,Consumables,3663.0,3597.0,-3.14,-0.09,0.77,Declining,4108.0
+2026-07-06,North America,Consumables,3665.0,3565.0,-3.14,4.91,0.71,Declining,4105.0
+2026-07-13,North America,Consumables,3853.0,4188.0,-3.14,3.53,0.83,Declining,4102.0
+2026-07-20,North America,Consumables,3828.0,3580.0,-3.14,-6.22,0.86,Declining,4099.0
+2026-07-27,North America,Consumables,3828.0,4295.0,-3.14,18.95,0.85,Declining,4096.0
+2026-08-03,North America,Consumables,4170.0,3982.0,-3.14,13.31,0.65,Declining,4092.0
+2026-08-10,North America,Consumables,3767.0,3644.0,-3.14,28.71,0.87,Declining,4089.0
+2026-08-17,North America,Consumables,3354.0,3647.0,-3.14,2.38,0.74,Declining,4086.0
+2026-08-24,North America,Consumables,3598.0,3953.0,-3.14,22.53,0.85,Declining,4083.0
+2025-09-01,North America,Electronics,3629.0,3281.0,8.71,4.47,0.74,Growing,3824.0
+2025-09-08,North America,Electronics,3650.0,3635.0,8.71,-1.43,0.96,Growing,3833.0
+2025-09-15,North America,Electronics,4008.0,3529.0,8.71,-6.91,0.92,Growing,3842.0
+2025-09-22,North America,Electronics,4226.0,4712.0,8.71,20.83,0.92,Growing,3851.0
+2025-09-29,North America,Electronics,4405.0,4242.0,8.71,20.65,0.65,Growing,3859.0
+2025-10-06,North America,Electronics,4271.0,4618.0,8.71,-3.51,0.92,Growing,3868.0
+2025-10-13,North America,Electronics,4337.0,4567.0,8.71,7.51,0.76,Growing,3877.0
+2025-10-20,North America,Electronics,4158.0,3890.0,8.71,-0.5,0.77,Growing,3885.0
+2025-10-27,North America,Electronics,4380.0,4785.0,8.71,11.36,0.72,Growing,3894.0
+2025-11-03,North America,Electronics,4095.0,3932.0,8.71,8.76,0.92,Growing,3903.0
+2025-11-10,North America,Electronics,5301.0,5114.0,8.71,8.47,0.71,Growing,3912.0
+2025-11-17,North America,Electronics,4209.0,4609.0,8.71,11.1,0.97,Growing,3920.0
+2025-11-24,North America,Electronics,4571.0,5084.0,8.71,0.0,0.84,Growing,3929.0
+2025-12-01,North America,Electronics,4373.0,4827.0,8.71,12.18,0.64,Growing,3938.0
+2025-12-08,North America,Electronics,4685.0,5254.0,8.71,20.52,0.7,Growing,3946.0
+2025-12-15,North America,Electronics,4330.0,4910.0,8.71,-4.11,0.77,Growing,3955.0
+2025-12-22,North America,Electronics,4578.0,3964.0,8.71,3.98,0.61,Growing,3964.0
+2025-12-29,North America,Electronics,4828.0,5545.0,8.71,10.08,0.69,Growing,3973.0
+2026-01-05,North America,Electronics,4418.0,4617.0,8.71,27.23,0.92,Growing,3981.0
+2026-01-12,North America,Electronics,4486.0,4199.0,8.71,21.66,0.65,Growing,3990.0
+2026-01-19,North America,Electronics,4619.0,4548.0,8.71,-4.45,0.87,Growing,3999.0
+2026-01-26,North America,Electronics,3931.0,3643.0,8.71,-9.79,0.63,Growing,4007.0
+2026-02-02,North America,Electronics,4488.0,3965.0,8.71,19.09,0.8,Growing,4016.0
+2026-02-09,North America,Electronics,3903.0,3374.0,8.71,1.52,0.71,Growing,4025.0
+2026-02-16,North America,Electronics,3699.0,4149.0,8.71,8.28,0.64,Growing,4033.0
+2026-02-23,North America,Electronics,4376.0,4396.0,8.71,13.87,0.61,Growing,4042.0
+2026-03-02,North America,Electronics,4060.0,3744.0,8.71,7.17,0.83,Growing,4051.0
+2026-03-09,North America,Electronics,4158.0,3641.0,8.71,6.66,0.85,Growing,4060.0
+2026-03-16,North America,Electronics,4039.0,4631.0,8.71,11.04,0.79,Growing,4068.0
+2026-03-23,North America,Electronics,3848.0,3814.0,8.71,12.17,0.75,Growing,4077.0
+2026-03-30,North America,Electronics,3243.0,3523.0,8.71,0.15,0.61,Growing,4086.0
+2026-04-06,North America,Electronics,3108.0,3228.0,8.71,3.79,0.88,Growing,4094.0
+2026-04-13,North America,Electronics,3777.0,3829.0,8.71,3.3,0.62,Growing,4103.0
+2026-04-20,North America,Electronics,3173.0,3439.0,8.71,22.54,0.67,Growing,4112.0
+2026-04-27,North America,Electronics,3172.0,2756.0,8.71,15.27,0.91,Growing,4121.0
+2026-05-04,North America,Electronics,3707.0,3478.0,8.71,21.05,0.77,Growing,4129.0
+2026-05-11,North America,Electronics,3779.0,3797.0,8.71,-8.32,0.95,Growing,4138.0
+2026-05-18,North America,Electronics,3626.0,3357.0,8.71,29.56,0.81,Growing,4147.0
+2026-05-25,North America,Electronics,3570.0,3962.0,8.71,4.28,0.9,Growing,4155.0
+2026-06-01,North America,Electronics,3371.0,3238.0,8.71,3.28,0.65,Growing,4164.0
+2026-06-08,North America,Electronics,3971.0,4535.0,8.71,25.79,0.75,Growing,4173.0
+2026-06-15,North America,Electronics,3282.0,3700.0,8.71,9.85,0.79,Growing,4182.0
+2026-06-22,North America,Electronics,3089.0,3184.0,8.71,19.08,0.63,Growing,4190.0
+2026-06-29,North America,Electronics,3607.0,3413.0,8.71,22.89,0.81,Growing,4199.0
+2026-07-06,North America,Electronics,4113.0,4022.0,8.71,2.26,0.83,Growing,4208.0
+2026-07-13,North America,Electronics,3989.0,3441.0,8.71,17.59,0.73,Growing,4216.0
+2026-07-20,North America,Electronics,4027.0,4606.0,8.71,29.93,0.7,Growing,4225.0
+2026-07-27,North America,Electronics,3689.0,3841.0,8.71,27.92,0.63,Growing,4234.0
+2026-08-03,North America,Electronics,3607.0,3221.0,8.71,17.18,0.96,Growing,4242.0
+2026-08-10,North America,Electronics,4457.0,3835.0,8.71,14.3,0.9,Growing,4251.0
+2026-08-17,North America,Electronics,4602.0,4695.0,8.71,4.65,0.75,Growing,4260.0
+2026-08-24,North America,Electronics,4415.0,5009.0,8.71,14.2,0.86,Growing,4269.0
+2025-09-01,North America,Mechanical,2002.0,1770.0,10.26,15.98,0.69,Growing,2174.0
+2025-09-08,North America,Mechanical,2195.0,2121.0,10.26,19.43,0.79,Growing,2184.0
+2025-09-15,North America,Mechanical,2155.0,2476.0,10.26,0.41,0.77,Growing,2195.0
+2025-09-22,North America,Mechanical,2281.0,2275.0,10.26,1.42,0.95,Growing,2205.0
+2025-09-29,North America,Mechanical,2626.0,2583.0,10.26,8.08,0.94,Growing,2215.0
+2025-10-06,North America,Mechanical,2666.0,2942.0,10.26,-6.49,0.86,Growing,2225.0
+2025-10-13,North America,Mechanical,2405.0,2688.0,10.26,-7.4,0.81,Growing,2236.0
+2025-10-20,North America,Mechanical,2660.0,3001.0,10.26,24.05,0.87,Growing,2246.0
+2025-10-27,North America,Mechanical,2351.0,2140.0,10.26,10.35,0.65,Growing,2256.0
+2025-11-03,North America,Mechanical,2348.0,2015.0,10.26,-4.44,0.9,Growing,2266.0
+2025-11-10,North America,Mechanical,2454.0,2537.0,10.26,22.15,0.81,Growing,2277.0
+2025-11-17,North America,Mechanical,2579.0,2966.0,10.26,-6.55,0.72,Growing,2287.0
+2025-11-24,North America,Mechanical,2612.0,2278.0,10.26,20.77,0.91,Growing,2297.0
+2025-12-01,North America,Mechanical,2457.0,2420.0,10.26,28.9,0.84,Growing,2307.0
+2025-12-08,North America,Mechanical,2605.0,2715.0,10.26,25.12,0.9,Growing,2318.0
+2025-12-15,North America,Mechanical,2531.0,2480.0,10.26,-2.72,0.97,Growing,2328.0
+2025-12-22,North America,Mechanical,2723.0,2449.0,10.26,-5.03,0.66,Growing,2338.0
+2025-12-29,North America,Mechanical,2634.0,2513.0,10.26,2.91,0.87,Growing,2349.0
+2026-01-05,North America,Mechanical,2998.0,3119.0,10.26,23.84,0.7,Growing,2359.0
+2026-01-12,North America,Mechanical,2503.0,2355.0,10.26,12.03,0.65,Growing,2369.0
+2026-01-19,North America,Mechanical,2416.0,2165.0,10.26,-3.25,0.96,Growing,2379.0
+2026-01-26,North America,Mechanical,2550.0,2631.0,10.26,16.35,0.87,Growing,2390.0
+2026-02-02,North America,Mechanical,2689.0,2323.0,10.26,23.01,0.61,Growing,2400.0
+2026-02-09,North America,Mechanical,2350.0,2456.0,10.26,15.66,0.82,Growing,2410.0
+2026-02-16,North America,Mechanical,2525.0,2622.0,10.26,15.56,0.79,Growing,2420.0
+2026-02-23,North America,Mechanical,2294.0,2283.0,10.26,1.59,0.96,Growing,2431.0
+2026-03-02,North America,Mechanical,2530.0,2196.0,10.26,1.9,0.63,Growing,2441.0
+2026-03-09,North America,Mechanical,2159.0,1967.0,10.26,7.58,0.78,Growing,2451.0
+2026-03-16,North America,Mechanical,2258.0,2502.0,10.26,18.73,0.88,Growing,2461.0
+2026-03-23,North America,Mechanical,2251.0,2164.0,10.26,29.01,0.65,Growing,2472.0
+2026-03-30,North America,Mechanical,2174.0,2010.0,10.26,8.66,0.7,Growing,2482.0
+2026-04-06,North America,Mechanical,2231.0,2154.0,10.26,-6.13,0.71,Growing,2492.0
+2026-04-13,North America,Mechanical,2167.0,2054.0,10.26,24.61,0.66,Growing,2502.0
+2026-04-20,North America,Mechanical,2157.0,2328.0,10.26,13.11,0.72,Growing,2513.0
+2026-04-27,North America,Mechanical,2019.0,1730.0,10.26,9.95,0.72,Growing,2523.0
+2026-05-04,North America,Mechanical,2218.0,2529.0,10.26,27.81,0.79,Growing,2533.0
+2026-05-11,North America,Mechanical,2244.0,2501.0,10.26,-7.98,0.79,Growing,2543.0
+2026-05-18,North America,Mechanical,2364.0,2390.0,10.26,16.17,0.78,Growing,2554.0
+2026-05-25,North America,Mechanical,2314.0,2497.0,10.26,25.3,0.88,Growing,2564.0
+2026-06-01,North America,Mechanical,2065.0,2108.0,10.26,4.64,0.75,Growing,2574.0
+2026-06-08,North America,Mechanical,2304.0,2487.0,10.26,-7.06,0.79,Growing,2585.0
+2026-06-15,North America,Mechanical,2455.0,2587.0,10.26,1.19,0.98,Growing,2595.0
+2026-06-22,North America,Mechanical,2617.0,2491.0,10.26,5.76,0.9,Growing,2605.0
+2026-06-29,North America,Mechanical,2619.0,2383.0,10.26,27.56,0.89,Growing,2615.0
+2026-07-06,North America,Mechanical,2126.0,2020.0,10.26,-8.19,0.65,Growing,2626.0
+2026-07-13,North America,Mechanical,2356.0,2431.0,10.26,8.95,0.77,Growing,2636.0
+2026-07-20,North America,Mechanical,2254.0,2586.0,10.26,14.52,0.66,Growing,2646.0
+2026-07-27,North America,Mechanical,2438.0,2318.0,10.26,19.57,0.71,Growing,2656.0
+2026-08-03,North America,Mechanical,2601.0,2848.0,10.26,18.35,0.71,Growing,2667.0
+2026-08-10,North America,Mechanical,2361.0,2701.0,10.26,4.73,0.86,Growing,2677.0
+2026-08-17,North America,Mechanical,2333.0,2002.0,10.26,19.01,0.86,Growing,2687.0
+2026-08-24,North America,Mechanical,2498.0,2710.0,10.26,8.98,0.97,Growing,2697.0
+2025-09-01,North America,Pneumatics,3824.0,4215.0,6.55,15.16,0.84,Growing,3993.0
+2025-09-08,North America,Pneumatics,3995.0,3434.0,6.55,-4.09,0.86,Growing,3999.0
+2025-09-15,North America,Pneumatics,4338.0,3884.0,6.55,-9.24,0.72,Growing,4006.0
+2025-09-22,North America,Pneumatics,4238.0,4588.0,6.55,17.62,0.76,Growing,4012.0
+2025-09-29,North America,Pneumatics,4949.0,4412.0,6.55,19.43,0.62,Growing,4019.0
+2025-10-06,North America,Pneumatics,4156.0,4358.0,6.55,-1.71,0.72,Growing,4025.0
+2025-10-13,North America,Pneumatics,4273.0,4071.0,6.55,-3.07,0.95,Growing,4032.0
+2025-10-20,North America,Pneumatics,4575.0,4878.0,6.55,4.17,0.89,Growing,4039.0
+2025-10-27,North America,Pneumatics,4378.0,4045.0,6.55,14.4,0.67,Growing,4045.0
+2025-11-03,North America,Pneumatics,4354.0,4971.0,6.55,12.32,0.69,Growing,4052.0
+2025-11-10,North America,Pneumatics,4706.0,4448.0,6.55,-1.71,0.87,Growing,4058.0
+2025-11-17,North America,Pneumatics,5070.0,5519.0,6.55,3.95,0.95,Growing,4065.0
+2025-11-24,North America,Pneumatics,4817.0,5511.0,6.55,17.06,0.74,Growing,4071.0
+2025-12-01,North America,Pneumatics,5015.0,5473.0,6.55,22.74,0.96,Growing,4078.0
+2025-12-08,North America,Pneumatics,4788.0,4706.0,6.55,18.57,0.73,Growing,4084.0
+2025-12-15,North America,Pneumatics,5099.0,4643.0,6.55,0.26,0.78,Growing,4091.0
+2025-12-22,North America,Pneumatics,4102.0,4244.0,6.55,17.85,0.65,Growing,4098.0
+2025-12-29,North America,Pneumatics,4613.0,4848.0,6.55,13.47,0.69,Growing,4104.0
+2026-01-05,North America,Pneumatics,4302.0,4583.0,6.55,-7.9,0.76,Growing,4111.0
+2026-01-12,North America,Pneumatics,4610.0,3925.0,6.55,-5.98,0.89,Growing,4117.0
+2026-01-19,North America,Pneumatics,3940.0,4387.0,6.55,6.28,0.96,Growing,4124.0
+2026-01-26,North America,Pneumatics,4342.0,4947.0,6.55,9.1,0.68,Growing,4130.0
+2026-02-02,North America,Pneumatics,4298.0,4394.0,6.55,26.32,0.63,Growing,4137.0
+2026-02-09,North America,Pneumatics,4834.0,5467.0,6.55,11.41,0.87,Growing,4143.0
+2026-02-16,North America,Pneumatics,4505.0,5072.0,6.55,25.29,0.67,Growing,4150.0
+2026-02-23,North America,Pneumatics,4147.0,4142.0,6.55,29.89,0.75,Growing,4157.0
+2026-03-02,North America,Pneumatics,4916.0,4193.0,6.55,27.04,0.93,Growing,4163.0
+2026-03-09,North America,Pneumatics,3759.0,4304.0,6.55,12.72,0.64,Growing,4170.0
+2026-03-16,North America,Pneumatics,3784.0,4281.0,6.55,11.73,0.79,Growing,4176.0
+2026-03-23,North America,Pneumatics,4845.0,4399.0,6.55,24.04,0.78,Growing,4183.0
+2026-03-30,North America,Pneumatics,3973.0,3599.0,6.55,8.36,0.7,Growing,4189.0
+2026-04-06,North America,Pneumatics,3879.0,3958.0,6.55,19.46,0.9,Growing,4196.0
+2026-04-13,North America,Pneumatics,3697.0,4060.0,6.55,24.25,0.94,Growing,4202.0
+2026-04-20,North America,Pneumatics,3430.0,3604.0,6.55,10.61,0.63,Growing,4209.0
+2026-04-27,North America,Pneumatics,3647.0,3385.0,6.55,2.94,0.69,Growing,4216.0
+2026-05-04,North America,Pneumatics,3697.0,4200.0,6.55,-0.58,0.89,Growing,4222.0
+2026-05-11,North America,Pneumatics,3339.0,3532.0,6.55,-9.54,0.85,Growing,4229.0
+2026-05-18,North America,Pneumatics,3967.0,3737.0,6.55,-7.52,0.64,Growing,4235.0
+2026-05-25,North America,Pneumatics,3159.0,2980.0,6.55,25.8,0.87,Growing,4242.0
+2026-06-01,North America,Pneumatics,3684.0,3457.0,6.55,-5.3,0.95,Growing,4248.0
+2026-06-08,North America,Pneumatics,3316.0,3562.0,6.55,-4.66,0.66,Growing,4255.0
+2026-06-15,North America,Pneumatics,3360.0,3410.0,6.55,14.23,0.76,Growing,4261.0
+2026-06-22,North America,Pneumatics,3153.0,2914.0,6.55,16.56,0.68,Growing,4268.0
+2026-06-29,North America,Pneumatics,3660.0,3201.0,6.55,20.19,0.93,Growing,4274.0
+2026-07-06,North America,Pneumatics,3172.0,2755.0,6.55,-6.88,0.81,Growing,4281.0
+2026-07-13,North America,Pneumatics,3871.0,3955.0,6.55,11.91,0.79,Growing,4288.0
+2026-07-20,North America,Pneumatics,3947.0,3599.0,6.55,10.81,0.64,Growing,4294.0
+2026-07-27,North America,Pneumatics,4090.0,4103.0,6.55,13.33,0.63,Growing,4301.0
+2026-08-03,North America,Pneumatics,4073.0,3533.0,6.55,10.53,0.77,Growing,4307.0
+2026-08-10,North America,Pneumatics,3711.0,3960.0,6.55,8.5,0.91,Growing,4314.0
+2026-08-17,North America,Pneumatics,3668.0,3168.0,6.55,19.83,0.82,Growing,4320.0
+2026-08-24,North America,Pneumatics,4591.0,5272.0,6.55,3.78,0.62,Growing,4327.0
+2025-09-01,Europe,Structural,5084.0,5814.0,-3.62,20.76,0.89,Declining,4706.0
+2025-09-08,Europe,Structural,4913.0,5639.0,-3.62,15.84,0.76,Declining,4702.0
+2025-09-15,Europe,Structural,4403.0,4644.0,-3.62,26.27,0.74,Declining,4698.0
+2025-09-22,Europe,Structural,5601.0,5859.0,-3.62,16.47,0.8,Declining,4695.0
+2025-09-29,Europe,Structural,5073.0,5420.0,-3.62,11.49,0.8,Declining,4691.0
+2025-10-06,Europe,Structural,5513.0,4724.0,-3.62,-1.09,0.6,Declining,4688.0
+2025-10-13,Europe,Structural,5254.0,5764.0,-3.62,11.78,0.8,Declining,4684.0
+2025-10-20,Europe,Structural,6052.0,5644.0,-3.62,-0.1,0.73,Declining,4680.0
+2025-10-27,Europe,Structural,6152.0,6003.0,-3.62,-5.49,0.91,Declining,4677.0
+2025-11-03,Europe,Structural,5428.0,4639.0,-3.62,20.64,0.94,Declining,4673.0
+2025-11-10,Europe,Structural,5758.0,6110.0,-3.62,-8.66,0.83,Declining,4669.0
+2025-11-17,Europe,Structural,5915.0,5741.0,-3.62,-8.05,0.88,Declining,4666.0
+2025-11-24,Europe,Structural,5794.0,5801.0,-3.62,24.55,0.62,Declining,4662.0
+2025-12-01,Europe,Structural,6035.0,6454.0,-3.62,1.57,0.91,Declining,4659.0
+2025-12-08,Europe,Structural,5548.0,5218.0,-3.62,16.9,0.72,Declining,4655.0
+2025-12-15,Europe,Structural,6194.0,5676.0,-3.62,-4.27,0.85,Declining,4651.0
+2025-12-22,Europe,Structural,5648.0,6345.0,-3.62,27.94,0.93,Declining,4648.0
+2025-12-29,Europe,Structural,5757.0,5750.0,-3.62,15.04,0.76,Declining,4644.0
+2026-01-05,Europe,Structural,6441.0,6091.0,-3.62,16.85,0.9,Declining,4640.0
+2026-01-12,Europe,Structural,5315.0,5118.0,-3.62,6.65,0.66,Declining,4637.0
+2026-01-19,Europe,Structural,5384.0,5719.0,-3.62,23.97,0.71,Declining,4633.0
+2026-01-26,Europe,Structural,4836.0,4927.0,-3.62,22.23,0.95,Declining,4630.0
+2026-02-02,Europe,Structural,5614.0,5115.0,-3.62,-4.64,0.69,Declining,4626.0
+2026-02-09,Europe,Structural,4921.0,5433.0,-3.62,15.87,0.95,Declining,4622.0
+2026-02-16,Europe,Structural,5391.0,5672.0,-3.62,-2.38,0.7,Declining,4619.0
+2026-02-23,Europe,Structural,5081.0,4606.0,-3.62,14.12,0.93,Declining,4615.0
+2026-03-02,Europe,Structural,4656.0,5172.0,-3.62,12.35,0.78,Declining,4612.0
+2026-03-09,Europe,Structural,3871.0,3308.0,-3.62,3.32,0.96,Declining,4608.0
+2026-03-16,Europe,Structural,5227.0,5194.0,-3.62,-5.31,0.98,Declining,4604.0
+2026-03-23,Europe,Structural,3835.0,3495.0,-3.62,-0.3,0.83,Declining,4601.0
+2026-03-30,Europe,Structural,4490.0,4535.0,-3.62,21.02,0.74,Declining,4597.0
+2026-04-06,Europe,Structural,3718.0,3732.0,-3.62,4.37,0.7,Declining,4593.0
+2026-04-13,Europe,Structural,3680.0,4055.0,-3.62,29.25,0.78,Declining,4590.0
+2026-04-20,Europe,Structural,3755.0,3658.0,-3.62,26.57,0.74,Declining,4586.0
+2026-04-27,Europe,Structural,3420.0,3866.0,-3.62,-4.16,0.7,Declining,4583.0
+2026-05-04,Europe,Structural,3491.0,3127.0,-3.62,13.17,0.76,Declining,4579.0
+2026-05-11,Europe,Structural,3357.0,3512.0,-3.62,23.33,0.79,Declining,4575.0
+2026-05-18,Europe,Structural,3813.0,4180.0,-3.62,17.39,0.7,Declining,4572.0
+2026-05-25,Europe,Structural,3990.0,4343.0,-3.62,9.62,0.66,Declining,4568.0
+2026-06-01,Europe,Structural,3338.0,3326.0,-3.62,-3.23,0.87,Declining,4564.0
+2026-06-08,Europe,Structural,3863.0,3323.0,-3.62,15.67,0.62,Declining,4561.0
+2026-06-15,Europe,Structural,3241.0,3404.0,-3.62,23.87,0.96,Declining,4557.0
+2026-06-22,Europe,Structural,3547.0,3767.0,-3.62,23.7,0.69,Declining,4554.0
+2026-06-29,Europe,Structural,3177.0,3056.0,-3.62,-9.63,0.79,Declining,4550.0
+2026-07-06,Europe,Structural,3218.0,3206.0,-3.62,14.66,0.78,Declining,4546.0
+2026-07-13,Europe,Structural,3332.0,2844.0,-3.62,-9.74,0.81,Declining,4543.0
+2026-07-20,Europe,Structural,3504.0,3833.0,-3.62,29.1,0.61,Declining,4539.0
+2026-07-27,Europe,Structural,3847.0,4320.0,-3.62,16.96,0.91,Declining,4536.0
+2026-08-03,Europe,Structural,4147.0,4180.0,-3.62,-4.04,0.67,Declining,4532.0
+2026-08-10,Europe,Structural,4239.0,4108.0,-3.62,22.61,0.7,Declining,4528.0
+2026-08-17,Europe,Structural,3990.0,3662.0,-3.62,12.6,0.98,Declining,4525.0
+2026-08-24,Europe,Structural,4662.0,4877.0,-3.62,17.36,0.92,Declining,4521.0
+2025-09-01,Europe,Electrical,4041.0,3642.0,10.19,-7.76,0.6,Growing,4362.0
+2025-09-08,Europe,Electrical,4713.0,5115.0,10.19,9.99,0.76,Growing,4372.0
+2025-09-15,Europe,Electrical,3823.0,3298.0,10.19,-6.19,0.8,Growing,4382.0
+2025-09-22,Europe,Electrical,4222.0,4712.0,10.19,-1.54,0.93,Growing,4393.0
+2025-09-29,Europe,Electrical,4436.0,4967.0,10.19,-7.03,0.95,Growing,4403.0
+2025-10-06,Europe,Electrical,4600.0,5191.0,10.19,12.54,0.61,Growing,4413.0
+2025-10-13,Europe,Electrical,4271.0,4543.0,10.19,13.48,0.89,Growing,4423.0
+2025-10-20,Europe,Electrical,5476.0,4922.0,10.19,5.93,0.63,Growing,4433.0
+2025-10-27,Europe,Electrical,4730.0,4491.0,10.19,5.57,0.94,Growing,4444.0
+2025-11-03,Europe,Electrical,5380.0,6168.0,10.19,20.22,0.65,Growing,4454.0
+2025-11-10,Europe,Electrical,4678.0,4589.0,10.19,28.97,0.62,Growing,4464.0
+2025-11-17,Europe,Electrical,4359.0,4711.0,10.19,23.55,0.73,Growing,4474.0
+2025-11-24,Europe,Electrical,5119.0,4771.0,10.19,20.94,0.61,Growing,4484.0
+2025-12-01,Europe,Electrical,4696.0,4493.0,10.19,29.7,0.79,Growing,4494.0
+2025-12-08,Europe,Electrical,5148.0,4508.0,10.19,17.19,0.85,Growing,4505.0
+2025-12-15,Europe,Electrical,4672.0,4970.0,10.19,14.74,0.9,Growing,4515.0
+2025-12-22,Europe,Electrical,4981.0,5339.0,10.19,18.47,0.84,Growing,4525.0
+2025-12-29,Europe,Electrical,4900.0,4173.0,10.19,2.67,0.64,Growing,4535.0
+2026-01-05,Europe,Electrical,4674.0,4236.0,10.19,0.79,0.65,Growing,4545.0
+2026-01-12,Europe,Electrical,5088.0,4947.0,10.19,7.95,0.81,Growing,4556.0
+2026-01-19,Europe,Electrical,5086.0,4818.0,10.19,-6.28,0.83,Growing,4566.0
+2026-01-26,Europe,Electrical,4800.0,4638.0,10.19,5.41,0.71,Growing,4576.0
+2026-02-02,Europe,Electrical,5372.0,5488.0,10.19,26.21,0.97,Growing,4586.0
+2026-02-09,Europe,Electrical,5084.0,4533.0,10.19,-3.22,0.74,Growing,4596.0
+2026-02-16,Europe,Electrical,4550.0,4442.0,10.19,-7.47,0.77,Growing,4607.0
+2026-02-23,Europe,Electrical,5039.0,4664.0,10.19,9.37,0.63,Growing,4617.0
+2026-03-02,Europe,Electrical,4637.0,4091.0,10.19,13.75,0.67,Growing,4627.0
+2026-03-09,Europe,Electrical,5090.0,4834.0,10.19,2.19,0.96,Growing,4637.0
+2026-03-16,Europe,Electrical,4117.0,4506.0,10.19,3.18,0.73,Growing,4647.0
+2026-03-23,Europe,Electrical,4119.0,3670.0,10.19,24.38,0.97,Growing,4658.0
+2026-03-30,Europe,Electrical,4165.0,4745.0,10.19,-1.97,0.72,Growing,4668.0
+2026-04-06,Europe,Electrical,5272.0,5581.0,10.19,28.75,0.71,Growing,4678.0
+2026-04-13,Europe,Electrical,4033.0,4416.0,10.19,-0.3,0.74,Growing,4688.0
+2026-04-20,Europe,Electrical,4500.0,4586.0,10.19,5.72,0.64,Growing,4698.0
+2026-04-27,Europe,Electrical,4095.0,4652.0,10.19,17.27,0.81,Growing,4709.0
+2026-05-04,Europe,Electrical,4213.0,4136.0,10.19,8.46,0.87,Growing,4719.0
+2026-05-11,Europe,Electrical,4311.0,4194.0,10.19,22.76,0.9,Growing,4729.0
+2026-05-18,Europe,Electrical,4966.0,4582.0,10.19,9.97,0.84,Growing,4739.0
+2026-05-25,Europe,Electrical,4152.0,4763.0,10.19,21.56,0.63,Growing,4749.0
+2026-06-01,Europe,Electrical,3995.0,4003.0,10.19,9.17,0.75,Growing,4759.0
+2026-06-08,Europe,Electrical,4942.0,4734.0,10.19,11.75,0.9,Growing,4770.0
+2026-06-15,Europe,Electrical,4232.0,4408.0,10.19,25.82,0.8,Growing,4780.0
+2026-06-22,Europe,Electrical,5024.0,5246.0,10.19,16.3,0.73,Growing,4790.0
+2026-06-29,Europe,Electrical,4839.0,5097.0,10.19,-8.23,0.97,Growing,4800.0
+2026-07-06,Europe,Electrical,4093.0,3492.0,10.19,28.63,0.76,Growing,4810.0
+2026-07-13,Europe,Electrical,4940.0,4968.0,10.19,0.35,0.79,Growing,4821.0
+2026-07-20,Europe,Electrical,4233.0,4578.0,10.19,7.83,0.75,Growing,4831.0
+2026-07-27,Europe,Electrical,4449.0,4243.0,10.19,13.54,0.79,Growing,4841.0
+2026-08-03,Europe,Electrical,4874.0,4313.0,10.19,6.64,0.97,Growing,4851.0
+2026-08-10,Europe,Electrical,4780.0,4511.0,10.19,27.63,0.65,Growing,4861.0
+2026-08-17,Europe,Electrical,4572.0,4487.0,10.19,9.32,0.78,Growing,4872.0
+2026-08-24,Europe,Electrical,4911.0,4617.0,10.19,17.87,0.72,Growing,4882.0
+2025-09-01,Europe,Hydraulics,3848.0,3552.0,-2.7,-3.43,0.97,Declining,4146.0
+2025-09-08,Europe,Hydraulics,3853.0,3922.0,-2.7,-3.02,0.66,Declining,4143.0
+2025-09-15,Europe,Hydraulics,4591.0,4785.0,-2.7,6.2,0.67,Declining,4140.0
+2025-09-22,Europe,Hydraulics,4399.0,4549.0,-2.7,7.29,0.61,Declining,4138.0
+2025-09-29,Europe,Hydraulics,4703.0,4288.0,-2.7,5.55,0.87,Declining,4135.0
+2025-10-06,Europe,Hydraulics,5070.0,4405.0,-2.7,20.09,0.91,Declining,4132.0
+2025-10-13,Europe,Hydraulics,5274.0,5207.0,-2.7,-2.52,0.72,Declining,4130.0
+2025-10-20,Europe,Hydraulics,5210.0,5254.0,-2.7,0.49,0.93,Declining,4127.0
+2025-10-27,Europe,Hydraulics,4587.0,4378.0,-2.7,14.45,0.82,Declining,4124.0
+2025-11-03,Europe,Hydraulics,4586.0,5017.0,-2.7,23.82,0.83,Declining,4122.0
+2025-11-10,Europe,Hydraulics,4895.0,4357.0,-2.7,14.58,0.63,Declining,4119.0
+2025-11-17,Europe,Hydraulics,4733.0,4283.0,-2.7,-5.29,0.72,Declining,4116.0
+2025-11-24,Europe,Hydraulics,4880.0,4710.0,-2.7,6.73,0.65,Declining,4113.0
+2025-12-01,Europe,Hydraulics,4650.0,4920.0,-2.7,-2.57,0.84,Declining,4111.0
+2025-12-08,Europe,Hydraulics,4142.0,3695.0,-2.7,12.2,0.79,Declining,4108.0
+2025-12-15,Europe,Hydraulics,3864.0,3347.0,-2.7,2.58,0.77,Declining,4105.0
+2025-12-22,Europe,Hydraulics,4926.0,5611.0,-2.7,-4.54,0.91,Declining,4103.0
+2025-12-29,Europe,Hydraulics,4943.0,5216.0,-2.7,10.22,0.79,Declining,4100.0
+2026-01-05,Europe,Hydraulics,4300.0,3694.0,-2.7,9.55,0.63,Declining,4097.0
+2026-01-12,Europe,Hydraulics,5098.0,4753.0,-2.7,20.44,0.71,Declining,4095.0
+2026-01-19,Europe,Hydraulics,4501.0,4860.0,-2.7,8.29,0.88,Declining,4092.0
+2026-01-26,Europe,Hydraulics,4560.0,4032.0,-2.7,11.99,0.64,Declining,4089.0
+2026-02-02,Europe,Hydraulics,4607.0,3974.0,-2.7,4.67,0.91,Declining,4086.0
+2026-02-09,Europe,Hydraulics,3797.0,4355.0,-2.7,18.76,0.81,Declining,4084.0
+2026-02-16,Europe,Hydraulics,4799.0,5518.0,-2.7,20.05,0.71,Declining,4081.0
+2026-02-23,Europe,Hydraulics,4563.0,4996.0,-2.7,7.99,0.73,Declining,4078.0
+2026-03-02,Europe,Hydraulics,3092.0,3380.0,-2.7,21.03,0.69,Declining,4076.0
+2026-03-09,Europe,Hydraulics,4359.0,4635.0,-2.7,13.52,0.73,Declining,4073.0
+2026-03-16,Europe,Hydraulics,3718.0,3391.0,-2.7,-4.43,0.68,Declining,4070.0
+2026-03-23,Europe,Hydraulics,3596.0,3360.0,-2.7,-7.63,0.73,Declining,4068.0
+2026-03-30,Europe,Hydraulics,3357.0,3122.0,-2.7,18.16,0.71,Declining,4065.0
+2026-04-06,Europe,Hydraulics,3474.0,3661.0,-2.7,24.32,0.97,Declining,4062.0
+2026-04-13,Europe,Hydraulics,4158.0,4773.0,-2.7,21.43,0.95,Declining,4059.0
+2026-04-20,Europe,Hydraulics,3854.0,4277.0,-2.7,24.68,0.65,Declining,4057.0
+2026-04-27,Europe,Hydraulics,3305.0,3480.0,-2.7,23.14,0.89,Declining,4054.0
+2026-05-04,Europe,Hydraulics,3767.0,3506.0,-2.7,9.58,0.82,Declining,4051.0
+2026-05-11,Europe,Hydraulics,2884.0,2532.0,-2.7,15.35,0.93,Declining,4049.0
+2026-05-18,Europe,Hydraulics,3348.0,3786.0,-2.7,10.62,0.71,Declining,4046.0
+2026-05-25,Europe,Hydraulics,2586.0,2798.0,-2.7,3.09,0.6,Declining,4043.0
+2026-06-01,Europe,Hydraulics,3725.0,3678.0,-2.7,19.31,0.88,Declining,4041.0
+2026-06-08,Europe,Hydraulics,2973.0,2721.0,-2.7,-7.47,0.8,Declining,4038.0
+2026-06-15,Europe,Hydraulics,2882.0,2682.0,-2.7,7.19,0.68,Declining,4035.0
+2026-06-22,Europe,Hydraulics,3323.0,3308.0,-2.7,13.12,0.82,Declining,4033.0
+2026-06-29,Europe,Hydraulics,2957.0,2557.0,-2.7,3.75,0.86,Declining,4030.0
+2026-07-06,Europe,Hydraulics,3748.0,4150.0,-2.7,8.38,0.65,Declining,4027.0
+2026-07-13,Europe,Hydraulics,3682.0,4188.0,-2.7,7.65,0.6,Declining,4024.0
+2026-07-20,Europe,Hydraulics,3567.0,3202.0,-2.7,-4.72,0.85,Declining,4022.0
+2026-07-27,Europe,Hydraulics,3985.0,4170.0,-2.7,27.31,0.7,Declining,4019.0
+2026-08-03,Europe,Hydraulics,3592.0,3480.0,-2.7,26.15,0.66,Declining,4016.0
+2026-08-10,Europe,Hydraulics,4010.0,3690.0,-2.7,2.22,0.87,Declining,4014.0
+2026-08-17,Europe,Hydraulics,3503.0,3117.0,-2.7,-9.96,0.78,Declining,4011.0
+2026-08-24,Europe,Hydraulics,3470.0,2959.0,-2.7,-0.95,0.86,Declining,4008.0
+2025-09-01,Europe,Consumables,3494.0,3735.0,11.34,-7.17,0.75,Growing,3630.0
+2025-09-08,Europe,Consumables,3822.0,4259.0,11.34,-5.9,0.72,Growing,3642.0
+2025-09-15,Europe,Consumables,4194.0,4814.0,11.34,20.13,0.65,Growing,3653.0
+2025-09-22,Europe,Consumables,4363.0,3719.0,11.34,-4.29,0.8,Growing,3664.0
+2025-09-29,Europe,Consumables,3909.0,3501.0,11.34,18.9,0.84,Growing,3676.0
+2025-10-06,Europe,Consumables,3944.0,4370.0,11.34,6.47,0.86,Growing,3687.0
+2025-10-13,Europe,Consumables,4409.0,4255.0,11.34,20.1,0.82,Growing,3698.0
+2025-10-20,Europe,Consumables,4452.0,3971.0,11.34,28.53,0.72,Growing,3710.0
+2025-10-27,Europe,Consumables,4440.0,4584.0,11.34,12.14,0.83,Growing,3721.0
+2025-11-03,Europe,Consumables,4648.0,5133.0,11.34,21.16,0.86,Growing,3732.0
+2025-11-10,Europe,Consumables,4450.0,4781.0,11.34,10.71,0.79,Growing,3744.0
+2025-11-17,Europe,Consumables,4421.0,4949.0,11.34,1.82,0.62,Growing,3755.0
+2025-11-24,Europe,Consumables,4984.0,5125.0,11.34,-5.49,0.79,Growing,3766.0
+2025-12-01,Europe,Consumables,4581.0,5250.0,11.34,11.13,0.97,Growing,3778.0
+2025-12-08,Europe,Consumables,4823.0,4628.0,11.34,24.43,0.82,Growing,3789.0
+2025-12-15,Europe,Consumables,4611.0,5239.0,11.34,17.32,0.89,Growing,3800.0
+2025-12-22,Europe,Consumables,4659.0,4016.0,11.34,-7.3,0.7,Growing,3812.0
+2025-12-29,Europe,Consumables,4566.0,4575.0,11.34,-7.58,0.9,Growing,3823.0
+2026-01-05,Europe,Consumables,4338.0,3794.0,11.34,6.62,0.87,Growing,3834.0
+2026-01-12,Europe,Consumables,4271.0,3986.0,11.34,11.46,0.83,Growing,3846.0
+2026-01-19,Europe,Consumables,4325.0,4373.0,11.34,-1.87,0.91,Growing,3857.0
+2026-01-26,Europe,Consumables,4702.0,5174.0,11.34,5.63,0.84,Growing,3868.0
+2026-02-02,Europe,Consumables,4252.0,4694.0,11.34,17.95,0.88,Growing,3880.0
+2026-02-09,Europe,Consumables,4112.0,4032.0,11.34,-7.68,0.63,Growing,3891.0
+2026-02-16,Europe,Consumables,3737.0,4006.0,11.34,2.37,0.88,Growing,3902.0
+2026-02-23,Europe,Consumables,4137.0,4387.0,11.34,-5.22,0.87,Growing,3914.0
+2026-03-02,Europe,Consumables,4295.0,4580.0,11.34,10.92,0.9,Growing,3925.0
+2026-03-09,Europe,Consumables,4444.0,4818.0,11.34,-3.32,0.65,Growing,3936.0
+2026-03-16,Europe,Consumables,3661.0,3999.0,11.34,20.86,0.61,Growing,3948.0
+2026-03-23,Europe,Consumables,4242.0,4512.0,11.34,0.88,0.62,Growing,3959.0
+2026-03-30,Europe,Consumables,3450.0,3449.0,11.34,8.21,0.74,Growing,3970.0
+2026-04-06,Europe,Consumables,3417.0,3166.0,11.34,12.68,0.74,Growing,3982.0
+2026-04-13,Europe,Consumables,3700.0,3710.0,11.34,18.91,0.69,Growing,3993.0
+2026-04-20,Europe,Consumables,3560.0,3287.0,11.34,-8.24,0.93,Growing,4004.0
+2026-04-27,Europe,Consumables,2995.0,3316.0,11.34,-4.0,0.95,Growing,4016.0
+2026-05-04,Europe,Consumables,3282.0,3518.0,11.34,12.11,0.95,Growing,4027.0
+2026-05-11,Europe,Consumables,2974.0,2770.0,11.34,6.65,0.87,Growing,4039.0
+2026-05-18,Europe,Consumables,3301.0,3303.0,11.34,-6.88,0.74,Growing,4050.0
+2026-05-25,Europe,Consumables,3318.0,3770.0,11.34,22.17,0.97,Growing,4061.0
+2026-06-01,Europe,Consumables,3068.0,2868.0,11.34,-7.24,0.78,Growing,4073.0
+2026-06-08,Europe,Consumables,3337.0,3037.0,11.34,12.12,0.6,Growing,4084.0
+2026-06-15,Europe,Consumables,3008.0,3119.0,11.34,12.55,0.72,Growing,4095.0
+2026-06-22,Europe,Consumables,2887.0,2623.0,11.34,9.73,0.89,Growing,4107.0
+2026-06-29,Europe,Consumables,3409.0,3149.0,11.34,26.02,0.89,Growing,4118.0
+2026-07-06,Europe,Consumables,3688.0,4063.0,11.34,-0.68,0.73,Growing,4129.0
+2026-07-13,Europe,Consumables,3480.0,2959.0,11.34,25.09,0.96,Growing,4141.0
+2026-07-20,Europe,Consumables,3245.0,3274.0,11.34,19.09,0.64,Growing,4152.0
+2026-07-27,Europe,Consumables,3181.0,2761.0,11.34,-0.47,0.79,Growing,4163.0
+2026-08-03,Europe,Consumables,4215.0,4717.0,11.34,-6.28,0.95,Growing,4175.0
+2026-08-10,Europe,Consumables,3858.0,3711.0,11.34,10.79,0.87,Growing,4186.0
+2026-08-17,Europe,Consumables,4103.0,4497.0,11.34,-6.18,0.65,Growing,4197.0
+2026-08-24,Europe,Consumables,4081.0,4001.0,11.34,-7.01,0.82,Growing,4209.0
+2025-09-01,Europe,Electronics,4563.0,4314.0,-0.26,18.03,0.88,Stable,4839.0
+2025-09-08,Europe,Electronics,5537.0,5043.0,-0.26,0.88,0.63,Stable,4839.0
+2025-09-15,Europe,Electronics,5053.0,5001.0,-0.26,-3.78,0.66,Stable,4838.0
+2025-09-22,Europe,Electronics,4509.0,5138.0,-0.26,6.26,0.8,Stable,4838.0
+2025-09-29,Europe,Electronics,5155.0,4626.0,-0.26,0.6,0.65,Stable,4838.0
+2025-10-06,Europe,Electronics,5439.0,5761.0,-0.26,17.44,0.91,Stable,4838.0
+2025-10-13,Europe,Electronics,5878.0,5434.0,-0.26,3.11,0.63,Stable,4837.0
+2025-10-20,Europe,Electronics,5392.0,5678.0,-0.26,4.23,0.8,Stable,4837.0
+2025-10-27,Europe,Electronics,5168.0,5094.0,-0.26,-8.76,0.75,Stable,4837.0
+2025-11-03,Europe,Electronics,6456.0,6382.0,-0.26,19.92,0.69,Stable,4837.0
+2025-11-10,Europe,Electronics,5369.0,6147.0,-0.26,-9.52,0.92,Stable,4836.0
+2025-11-17,Europe,Electronics,5116.0,4920.0,-0.26,-4.77,0.91,Stable,4836.0
+2025-11-24,Europe,Electronics,4946.0,5410.0,-0.26,13.29,0.7,Stable,4836.0
+2025-12-01,Europe,Electronics,4923.0,5518.0,-0.26,-9.13,0.62,Stable,4836.0
+2025-12-08,Europe,Electronics,5136.0,4876.0,-0.26,26.2,0.92,Stable,4835.0
+2025-12-15,Europe,Electronics,5386.0,4849.0,-0.26,-8.29,0.78,Stable,4835.0
+2025-12-22,Europe,Electronics,4654.0,4910.0,-0.26,5.8,0.61,Stable,4835.0
+2025-12-29,Europe,Electronics,4951.0,4486.0,-0.26,-3.09,0.68,Stable,4834.0
+2026-01-05,Europe,Electronics,5092.0,4703.0,-0.26,-8.61,0.84,Stable,4834.0
+2026-01-12,Europe,Electronics,5993.0,6084.0,-0.26,1.8,0.76,Stable,4834.0
+2026-01-19,Europe,Electronics,5453.0,6082.0,-0.26,-4.51,0.68,Stable,4834.0
+2026-01-26,Europe,Electronics,5232.0,5706.0,-0.26,11.03,0.84,Stable,4833.0
+2026-02-02,Europe,Electronics,5388.0,5460.0,-0.26,21.28,0.74,Stable,4833.0
+2026-02-09,Europe,Electronics,3887.0,3890.0,-0.26,9.39,0.95,Stable,4833.0
+2026-02-16,Europe,Electronics,4765.0,5330.0,-0.26,2.76,0.68,Stable,4833.0
+2026-02-23,Europe,Electronics,5049.0,5794.0,-0.26,21.14,0.62,Stable,4832.0
+2026-03-02,Europe,Electronics,4183.0,3681.0,-0.26,29.98,0.97,Stable,4832.0
+2026-03-09,Europe,Electronics,4651.0,5092.0,-0.26,16.27,0.7,Stable,4832.0
+2026-03-16,Europe,Electronics,4827.0,5329.0,-0.26,29.86,0.68,Stable,4832.0
+2026-03-23,Europe,Electronics,4591.0,5058.0,-0.26,21.9,0.73,Stable,4831.0
+2026-03-30,Europe,Electronics,4737.0,5018.0,-0.26,13.7,0.91,Stable,4831.0
+2026-04-06,Europe,Electronics,4351.0,4613.0,-0.26,26.56,0.61,Stable,4831.0
+2026-04-13,Europe,Electronics,4974.0,5703.0,-0.26,12.52,0.67,Stable,4831.0
+2026-04-20,Europe,Electronics,4299.0,4053.0,-0.26,25.27,0.79,Stable,4830.0
+2026-04-27,Europe,Electronics,4255.0,4289.0,-0.26,-0.7,0.68,Stable,4830.0
+2026-05-04,Europe,Electronics,4402.0,4008.0,-0.26,-9.97,0.95,Stable,4830.0
+2026-05-11,Europe,Electronics,4787.0,4533.0,-0.26,26.75,0.92,Stable,4829.0
+2026-05-18,Europe,Electronics,4799.0,5399.0,-0.26,-9.12,0.82,Stable,4829.0
+2026-05-25,Europe,Electronics,4452.0,4283.0,-0.26,24.43,0.97,Stable,4829.0
+2026-06-01,Europe,Electronics,3593.0,3163.0,-0.26,27.68,0.75,Stable,4829.0
+2026-06-08,Europe,Electronics,4270.0,4644.0,-0.26,-3.7,0.96,Stable,4828.0
+2026-06-15,Europe,Electronics,4547.0,4102.0,-0.26,28.43,0.85,Stable,4828.0
+2026-06-22,Europe,Electronics,4949.0,4538.0,-0.26,27.15,0.9,Stable,4828.0
+2026-06-29,Europe,Electronics,4274.0,4026.0,-0.26,13.56,0.67,Stable,4828.0
+2026-07-06,Europe,Electronics,4344.0,4929.0,-0.26,19.15,0.96,Stable,4827.0
+2026-07-13,Europe,Electronics,4270.0,4866.0,-0.26,5.66,0.98,Stable,4827.0
+2026-07-20,Europe,Electronics,5014.0,4594.0,-0.26,26.84,0.97,Stable,4827.0
+2026-07-27,Europe,Electronics,4652.0,4150.0,-0.26,12.62,0.96,Stable,4827.0
+2026-08-03,Europe,Electronics,4588.0,5118.0,-0.26,29.3,0.66,Stable,4826.0
+2026-08-10,Europe,Electronics,4365.0,4548.0,-0.26,-6.45,0.87,Stable,4826.0
+2026-08-17,Europe,Electronics,5026.0,4374.0,-0.26,0.61,0.69,Stable,4826.0
+2026-08-24,Europe,Electronics,4491.0,3819.0,-0.26,0.27,0.64,Stable,4825.0
+2025-09-01,Europe,Mechanical,2393.0,2107.0,9.65,5.15,0.81,Growing,2237.0
+2025-09-08,Europe,Mechanical,2174.0,2272.0,9.65,9.18,0.93,Growing,2246.0
+2025-09-15,Europe,Mechanical,2346.0,2201.0,9.65,-7.05,0.92,Growing,2256.0
+2025-09-22,Europe,Mechanical,2361.0,2059.0,9.65,2.75,0.96,Growing,2266.0
+2025-09-29,Europe,Mechanical,2612.0,2924.0,9.65,19.28,0.81,Growing,2275.0
+2025-10-06,Europe,Mechanical,2747.0,2841.0,9.65,-6.28,0.83,Growing,2285.0
+2025-10-13,Europe,Mechanical,2612.0,2917.0,9.65,27.7,0.66,Growing,2295.0
+2025-10-20,Europe,Mechanical,2717.0,2477.0,9.65,-3.72,0.64,Growing,2304.0
+2025-10-27,Europe,Mechanical,2865.0,2663.0,9.65,18.88,0.88,Growing,2314.0
+2025-11-03,Europe,Mechanical,3064.0,2650.0,9.65,1.26,0.69,Growing,2324.0
+2025-11-10,Europe,Mechanical,2535.0,2480.0,9.65,-3.86,0.74,Growing,2333.0
+2025-11-17,Europe,Mechanical,2723.0,2805.0,9.65,1.78,0.85,Growing,2343.0
+2025-11-24,Europe,Mechanical,2907.0,2542.0,9.65,-3.17,0.71,Growing,2353.0
+2025-12-01,Europe,Mechanical,2946.0,2856.0,9.65,23.75,0.72,Growing,2362.0
+2025-12-08,Europe,Mechanical,2651.0,2400.0,9.65,-6.35,0.81,Growing,2372.0
+2025-12-15,Europe,Mechanical,2929.0,2881.0,9.65,25.42,0.74,Growing,2381.0
+2025-12-22,Europe,Mechanical,2884.0,2505.0,9.65,-0.95,0.7,Growing,2391.0
+2025-12-29,Europe,Mechanical,3083.0,2700.0,9.65,20.09,0.85,Growing,2401.0
+2026-01-05,Europe,Mechanical,2735.0,2779.0,9.65,28.83,0.82,Growing,2410.0
+2026-01-12,Europe,Mechanical,3014.0,2940.0,9.65,23.63,0.91,Growing,2420.0
+2026-01-19,Europe,Mechanical,2441.0,2424.0,9.65,8.99,0.94,Growing,2430.0
+2026-01-26,Europe,Mechanical,2670.0,2841.0,9.65,-6.84,0.94,Growing,2439.0
+2026-02-02,Europe,Mechanical,2318.0,2402.0,9.65,22.02,0.86,Growing,2449.0
+2026-02-09,Europe,Mechanical,2647.0,2387.0,9.65,-5.19,0.89,Growing,2459.0
+2026-02-16,Europe,Mechanical,3075.0,3005.0,9.65,22.34,0.65,Growing,2468.0
+2026-02-23,Europe,Mechanical,2497.0,2869.0,9.65,29.53,0.77,Growing,2478.0
+2026-03-02,Europe,Mechanical,2251.0,2531.0,9.65,0.32,0.95,Growing,2488.0
+2026-03-09,Europe,Mechanical,2188.0,2121.0,9.65,-7.32,0.75,Growing,2497.0
+2026-03-16,Europe,Mechanical,2310.0,2509.0,9.65,8.33,0.93,Growing,2507.0
+2026-03-23,Europe,Mechanical,2451.0,2392.0,9.65,14.92,0.8,Growing,2517.0
+2026-03-30,Europe,Mechanical,2186.0,2474.0,9.65,13.52,0.89,Growing,2526.0
+2026-04-06,Europe,Mechanical,2278.0,2005.0,9.65,27.0,0.81,Growing,2536.0
+2026-04-13,Europe,Mechanical,2134.0,2059.0,9.65,3.75,0.76,Growing,2546.0
+2026-04-20,Europe,Mechanical,2363.0,2035.0,9.65,9.42,0.83,Growing,2555.0
+2026-04-27,Europe,Mechanical,2100.0,1810.0,9.65,14.35,0.86,Growing,2565.0
+2026-05-04,Europe,Mechanical,2190.0,2018.0,9.65,25.58,0.73,Growing,2575.0
+2026-05-11,Europe,Mechanical,2063.0,2260.0,9.65,25.88,0.61,Growing,2584.0
+2026-05-18,Europe,Mechanical,1661.0,1657.0,9.65,2.12,0.71,Growing,2594.0
+2026-05-25,Europe,Mechanical,2035.0,2325.0,9.65,24.76,0.65,Growing,2603.0
+2026-06-01,Europe,Mechanical,1991.0,1853.0,9.65,7.72,0.91,Growing,2613.0
+2026-06-08,Europe,Mechanical,1858.0,2039.0,9.65,-2.48,0.68,Growing,2623.0
+2026-06-15,Europe,Mechanical,2232.0,2477.0,9.65,19.64,0.89,Growing,2632.0
+2026-06-22,Europe,Mechanical,2225.0,2230.0,9.65,-3.64,0.72,Growing,2642.0
+2026-06-29,Europe,Mechanical,1975.0,2199.0,9.65,-4.57,0.92,Growing,2652.0
+2026-07-06,Europe,Mechanical,2328.0,2153.0,9.65,23.32,0.92,Growing,2661.0
+2026-07-13,Europe,Mechanical,2284.0,2424.0,9.65,8.26,0.95,Growing,2671.0
+2026-07-20,Europe,Mechanical,2269.0,2013.0,9.65,10.21,0.84,Growing,2681.0
+2026-07-27,Europe,Mechanical,2710.0,2787.0,9.65,-8.78,0.74,Growing,2690.0
+2026-08-03,Europe,Mechanical,2606.0,2343.0,9.65,13.48,0.73,Growing,2700.0
+2026-08-10,Europe,Mechanical,2841.0,3002.0,9.65,25.78,0.88,Growing,2710.0
+2026-08-17,Europe,Mechanical,2550.0,2906.0,9.65,-3.48,0.82,Growing,2719.0
+2026-08-24,Europe,Mechanical,2836.0,2987.0,9.65,24.28,0.85,Growing,2729.0
+2025-09-01,Europe,Pneumatics,1755.0,1833.0,3.19,-9.64,0.95,Growing,1711.0
+2025-09-08,Europe,Pneumatics,1496.0,1385.0,3.19,14.05,0.6,Growing,1714.0
+2025-09-15,Europe,Pneumatics,1779.0,1738.0,3.19,28.68,0.84,Growing,1717.0
+2025-09-22,Europe,Pneumatics,1643.0,1521.0,3.19,5.06,0.73,Growing,1720.0
+2025-09-29,Europe,Pneumatics,1565.0,1378.0,3.19,22.97,0.75,Growing,1724.0
+2025-10-06,Europe,Pneumatics,1822.0,2010.0,3.19,10.46,0.85,Growing,1727.0
+2025-10-13,Europe,Pneumatics,1652.0,1458.0,3.19,14.36,0.71,Growing,1730.0
+2025-10-20,Europe,Pneumatics,1943.0,2025.0,3.19,-7.45,0.98,Growing,1733.0
+2025-10-27,Europe,Pneumatics,1881.0,1768.0,3.19,18.44,0.94,Growing,1736.0
+2025-11-03,Europe,Pneumatics,1740.0,1949.0,3.19,-4.0,0.89,Growing,1740.0
+2025-11-10,Europe,Pneumatics,1913.0,2017.0,3.19,14.0,0.85,Growing,1743.0
+2025-11-17,Europe,Pneumatics,1604.0,1843.0,3.19,18.85,0.85,Growing,1746.0
+2025-11-24,Europe,Pneumatics,1832.0,1947.0,3.19,5.53,0.61,Growing,1749.0
+2025-12-01,Europe,Pneumatics,1987.0,2122.0,3.19,12.88,0.67,Growing,1752.0
+2025-12-08,Europe,Pneumatics,1877.0,1973.0,3.19,21.4,0.94,Growing,1756.0
+2025-12-15,Europe,Pneumatics,2015.0,2221.0,3.19,10.29,0.92,Growing,1759.0
+2025-12-22,Europe,Pneumatics,1910.0,1772.0,3.19,-6.1,0.65,Growing,1762.0
+2025-12-29,Europe,Pneumatics,1786.0,1616.0,3.19,22.33,0.89,Growing,1765.0
+2026-01-05,Europe,Pneumatics,1791.0,1923.0,3.19,-6.43,0.74,Growing,1768.0
+2026-01-12,Europe,Pneumatics,1729.0,1641.0,3.19,2.28,0.9,Growing,1771.0
+2026-01-19,Europe,Pneumatics,1828.0,2029.0,3.19,24.05,0.78,Growing,1775.0
+2026-01-26,Europe,Pneumatics,1944.0,1694.0,3.19,13.34,0.96,Growing,1778.0
+2026-02-02,Europe,Pneumatics,1948.0,1830.0,3.19,24.7,0.75,Growing,1781.0
+2026-02-09,Europe,Pneumatics,1714.0,1527.0,3.19,-7.84,0.92,Growing,1784.0
+2026-02-16,Europe,Pneumatics,1853.0,1829.0,3.19,12.78,0.94,Growing,1787.0
+2026-02-23,Europe,Pneumatics,1935.0,2097.0,3.19,2.66,0.87,Growing,1791.0
+2026-03-02,Europe,Pneumatics,1601.0,1363.0,3.19,-2.93,0.84,Growing,1794.0
+2026-03-09,Europe,Pneumatics,1801.0,1622.0,3.19,0.94,0.89,Growing,1797.0
+2026-03-16,Europe,Pneumatics,1793.0,1854.0,3.19,20.54,0.63,Growing,1800.0
+2026-03-23,Europe,Pneumatics,1613.0,1838.0,3.19,15.34,0.75,Growing,1803.0
+2026-03-30,Europe,Pneumatics,1735.0,1482.0,3.19,-2.02,0.74,Growing,1807.0
+2026-04-06,Europe,Pneumatics,1783.0,1617.0,3.19,2.89,0.92,Growing,1810.0
+2026-04-13,Europe,Pneumatics,1666.0,1589.0,3.19,-0.05,0.86,Growing,1813.0
+2026-04-20,Europe,Pneumatics,1575.0,1617.0,3.19,-4.84,0.75,Growing,1816.0
+2026-04-27,Europe,Pneumatics,1870.0,1998.0,3.19,1.93,0.71,Growing,1819.0
+2026-05-04,Europe,Pneumatics,1962.0,2190.0,3.19,13.85,0.73,Growing,1823.0
+2026-05-11,Europe,Pneumatics,1865.0,1690.0,3.19,26.06,0.74,Growing,1826.0
+2026-05-18,Europe,Pneumatics,1736.0,1685.0,3.19,27.92,0.95,Growing,1829.0
+2026-05-25,Europe,Pneumatics,1770.0,1818.0,3.19,-4.75,0.88,Growing,1832.0
+2026-06-01,Europe,Pneumatics,1961.0,2050.0,3.19,-3.24,0.74,Growing,1835.0
+2026-06-08,Europe,Pneumatics,2019.0,1746.0,3.19,0.23,0.8,Growing,1838.0
+2026-06-15,Europe,Pneumatics,1817.0,1901.0,3.19,29.79,0.85,Growing,1842.0
+2026-06-22,Europe,Pneumatics,1966.0,1994.0,3.19,6.67,0.74,Growing,1845.0
+2026-06-29,Europe,Pneumatics,1792.0,1897.0,3.19,8.98,0.66,Growing,1848.0
+2026-07-06,Europe,Pneumatics,1696.0,1579.0,3.19,16.47,0.85,Growing,1851.0
+2026-07-13,Europe,Pneumatics,1701.0,1869.0,3.19,14.23,0.65,Growing,1854.0
+2026-07-20,Europe,Pneumatics,1969.0,1736.0,3.19,-5.29,0.64,Growing,1858.0
+2026-07-27,Europe,Pneumatics,1942.0,1804.0,3.19,-2.05,0.68,Growing,1861.0
+2026-08-03,Europe,Pneumatics,1730.0,1491.0,3.19,18.14,0.71,Growing,1864.0
+2026-08-10,Europe,Pneumatics,1821.0,2058.0,3.19,9.85,0.68,Growing,1867.0
+2026-08-17,Europe,Pneumatics,1843.0,2029.0,3.19,16.87,0.94,Growing,1870.0
+2026-08-24,Europe,Pneumatics,1871.0,1641.0,3.19,16.76,0.66,Growing,1874.0
+2025-09-01,Asia Pacific,Structural,2797.0,2767.0,9.47,29.55,0.71,Growing,2803.0
+2025-09-08,Asia Pacific,Structural,2998.0,2584.0,9.47,-6.01,0.67,Growing,2812.0
+2025-09-15,Asia Pacific,Structural,2767.0,2431.0,9.47,2.51,0.88,Growing,2822.0
+2025-09-22,Asia Pacific,Structural,3291.0,3639.0,9.47,20.33,0.62,Growing,2831.0
+2025-09-29,Asia Pacific,Structural,2861.0,2966.0,9.47,4.3,0.77,Growing,2841.0
+2025-10-06,Asia Pacific,Structural,2845.0,3113.0,9.47,25.14,0.64,Growing,2850.0
+2025-10-13,Asia Pacific,Structural,3083.0,2977.0,9.47,28.49,0.7,Growing,2860.0
+2025-10-20,Asia Pacific,Structural,3223.0,3367.0,9.47,24.03,0.9,Growing,2869.0
+2025-10-27,Asia Pacific,Structural,3072.0,3480.0,9.47,17.85,0.62,Growing,2878.0
+2025-11-03,Asia Pacific,Structural,2957.0,3038.0,9.47,-3.62,0.76,Growing,2888.0
+2025-11-10,Asia Pacific,Structural,3190.0,3055.0,9.47,-2.75,0.74,Growing,2897.0
+2025-11-17,Asia Pacific,Structural,2778.0,3061.0,9.47,-8.85,0.86,Growing,2907.0
+2025-11-24,Asia Pacific,Structural,3229.0,3143.0,9.47,26.82,0.64,Growing,2916.0
+2025-12-01,Asia Pacific,Structural,3103.0,2930.0,9.47,-8.16,0.7,Growing,2926.0
+2025-12-08,Asia Pacific,Structural,3036.0,3095.0,9.47,20.7,0.82,Growing,2935.0
+2025-12-15,Asia Pacific,Structural,2812.0,2676.0,9.47,29.12,0.85,Growing,2945.0
+2025-12-22,Asia Pacific,Structural,2794.0,2583.0,9.47,-6.19,0.85,Growing,2954.0
+2025-12-29,Asia Pacific,Structural,3088.0,2981.0,9.47,3.83,0.86,Growing,2964.0
+2026-01-05,Asia Pacific,Structural,3287.0,3429.0,9.47,29.51,0.62,Growing,2973.0
+2026-01-12,Asia Pacific,Structural,2887.0,3192.0,9.47,-3.72,0.92,Growing,2983.0
+2026-01-19,Asia Pacific,Structural,3183.0,3632.0,9.47,9.67,0.69,Growing,2992.0
+2026-01-26,Asia Pacific,Structural,3049.0,3180.0,9.47,-7.99,0.68,Growing,3002.0
+2026-02-02,Asia Pacific,Structural,2968.0,2922.0,9.47,8.36,0.9,Growing,3011.0
+2026-02-09,Asia Pacific,Structural,3184.0,2820.0,9.47,24.26,0.77,Growing,3021.0
+2026-02-16,Asia Pacific,Structural,2751.0,2798.0,9.47,-5.89,0.76,Growing,3030.0
+2026-02-23,Asia Pacific,Structural,3069.0,3165.0,9.47,-9.99,0.63,Growing,3039.0
+2026-03-02,Asia Pacific,Structural,2909.0,3058.0,9.47,10.33,0.68,Growing,3049.0
+2026-03-09,Asia Pacific,Structural,2905.0,2516.0,9.47,28.01,0.74,Growing,3058.0
+2026-03-16,Asia Pacific,Structural,3063.0,3038.0,9.47,12.41,0.84,Growing,3068.0
+2026-03-23,Asia Pacific,Structural,3251.0,2874.0,9.47,16.29,0.87,Growing,3077.0
+2026-03-30,Asia Pacific,Structural,3005.0,3423.0,9.47,3.65,0.92,Growing,3087.0
+2026-04-06,Asia Pacific,Structural,2826.0,2997.0,9.47,1.68,0.8,Growing,3096.0
+2026-04-13,Asia Pacific,Structural,3104.0,3310.0,9.47,-4.38,0.87,Growing,3106.0
+2026-04-20,Asia Pacific,Structural,3006.0,2724.0,9.47,-5.72,0.83,Growing,3115.0
+2026-04-27,Asia Pacific,Structural,3165.0,3371.0,9.47,8.28,0.9,Growing,3125.0
+2026-05-04,Asia Pacific,Structural,2865.0,3231.0,9.47,-5.69,0.76,Growing,3134.0
+2026-05-11,Asia Pacific,Structural,3116.0,3264.0,9.47,20.89,0.77,Growing,3144.0
+2026-05-18,Asia Pacific,Structural,2707.0,2706.0,9.47,28.25,0.65,Growing,3153.0
+2026-05-25,Asia Pacific,Structural,2898.0,2883.0,9.47,27.41,0.92,Growing,3163.0
+2026-06-01,Asia Pacific,Structural,2962.0,2675.0,9.47,10.33,0.95,Growing,3172.0
+2026-06-08,Asia Pacific,Structural,2666.0,2747.0,9.47,-4.86,0.75,Growing,3182.0
+2026-06-15,Asia Pacific,Structural,2828.0,2730.0,9.47,25.31,0.79,Growing,3191.0
+2026-06-22,Asia Pacific,Structural,3511.0,3999.0,9.47,20.49,0.7,Growing,3200.0
+2026-06-29,Asia Pacific,Structural,2971.0,2645.0,9.47,28.82,0.77,Growing,3210.0
+2026-07-06,Asia Pacific,Structural,2760.0,2927.0,9.47,19.94,0.71,Growing,3219.0
+2026-07-13,Asia Pacific,Structural,3263.0,3689.0,9.47,24.43,0.87,Growing,3229.0
+2026-07-20,Asia Pacific,Structural,3007.0,2867.0,9.47,14.97,0.71,Growing,3238.0
+2026-07-27,Asia Pacific,Structural,3025.0,3161.0,9.47,16.89,0.97,Growing,3248.0
+2026-08-03,Asia Pacific,Structural,3422.0,3027.0,9.47,17.77,0.72,Growing,3257.0
+2026-08-10,Asia Pacific,Structural,3128.0,3195.0,9.47,4.09,0.78,Growing,3267.0
+2026-08-17,Asia Pacific,Structural,3113.0,2913.0,9.47,19.91,0.92,Growing,3276.0
+2026-08-24,Asia Pacific,Structural,3060.0,3081.0,9.47,23.89,0.91,Growing,3286.0
+2025-09-01,Asia Pacific,Electrical,639.0,591.0,-2.09,-3.56,0.71,Declining,614.0
+2025-09-08,Asia Pacific,Electrical,703.0,660.0,-2.09,23.58,0.86,Declining,612.0
+2025-09-15,Asia Pacific,Electrical,637.0,707.0,-2.09,22.56,0.64,Declining,610.0
+2025-09-22,Asia Pacific,Electrical,635.0,681.0,-2.09,19.58,0.93,Declining,607.0
+2025-09-29,Asia Pacific,Electrical,624.0,585.0,-2.09,21.37,0.9,Declining,605.0
+2025-10-06,Asia Pacific,Electrical,654.0,632.0,-2.09,16.58,0.95,Declining,603.0
+2025-10-13,Asia Pacific,Electrical,805.0,687.0,-2.09,2.51,0.81,Declining,601.0
+2025-10-20,Asia Pacific,Electrical,648.0,702.0,-2.09,0.05,0.84,Declining,599.0
+2025-10-27,Asia Pacific,Electrical,753.0,787.0,-2.09,26.46,0.87,Declining,597.0
+2025-11-03,Asia Pacific,Electrical,628.0,647.0,-2.09,20.2,0.81,Declining,595.0
+2025-11-10,Asia Pacific,Electrical,719.0,759.0,-2.09,1.77,0.67,Declining,593.0
+2025-11-17,Asia Pacific,Electrical,575.0,578.0,-2.09,-2.52,0.67,Declining,591.0
+2025-11-24,Asia Pacific,Electrical,664.0,680.0,-2.09,12.26,0.65,Declining,589.0
+2025-12-01,Asia Pacific,Electrical,736.0,782.0,-2.09,0.2,0.73,Declining,587.0
+2025-12-08,Asia Pacific,Electrical,713.0,805.0,-2.09,2.91,0.62,Declining,584.0
+2025-12-15,Asia Pacific,Electrical,715.0,713.0,-2.09,14.62,0.85,Declining,582.0
+2025-12-22,Asia Pacific,Electrical,644.0,590.0,-2.09,21.36,0.72,Declining,580.0
+2025-12-29,Asia Pacific,Electrical,658.0,659.0,-2.09,-2.65,0.63,Declining,578.0
+2026-01-05,Asia Pacific,Electrical,616.0,563.0,-2.09,-6.32,0.68,Declining,576.0
+2026-01-12,Asia Pacific,Electrical,689.0,631.0,-2.09,3.28,0.74,Declining,574.0
+2026-01-19,Asia Pacific,Electrical,648.0,741.0,-2.09,29.87,0.91,Declining,572.0
+2026-01-26,Asia Pacific,Electrical,574.0,564.0,-2.09,-9.65,0.85,Declining,570.0
+2026-02-02,Asia Pacific,Electrical,676.0,713.0,-2.09,14.85,0.96,Declining,568.0
+2026-02-09,Asia Pacific,Electrical,567.0,643.0,-2.09,2.84,0.95,Declining,566.0
+2026-02-16,Asia Pacific,Electrical,544.0,597.0,-2.09,1.31,0.95,Declining,563.0
+2026-02-23,Asia Pacific,Electrical,615.0,605.0,-2.09,5.0,0.91,Declining,561.0
+2026-03-02,Asia Pacific,Electrical,660.0,749.0,-2.09,-2.3,0.8,Declining,559.0
+2026-03-09,Asia Pacific,Electrical,572.0,579.0,-2.09,-3.3,0.96,Declining,557.0
+2026-03-16,Asia Pacific,Electrical,546.0,606.0,-2.09,16.81,0.89,Declining,555.0
+2026-03-23,Asia Pacific,Electrical,514.0,520.0,-2.09,6.97,0.64,Declining,553.0
+2026-03-30,Asia Pacific,Electrical,459.0,520.0,-2.09,21.01,0.85,Declining,551.0
+2026-04-06,Asia Pacific,Electrical,356.0,352.0,-2.09,19.88,0.66,Declining,549.0
+2026-04-13,Asia Pacific,Electrical,462.0,470.0,-2.09,-7.83,0.9,Declining,547.0
+2026-04-20,Asia Pacific,Electrical,478.0,444.0,-2.09,13.0,0.69,Declining,545.0
+2026-04-27,Asia Pacific,Electrical,397.0,417.0,-2.09,7.32,0.61,Declining,543.0
+2026-05-04,Asia Pacific,Electrical,485.0,502.0,-2.09,11.39,0.84,Declining,540.0
+2026-05-11,Asia Pacific,Electrical,435.0,491.0,-2.09,18.04,0.63,Declining,538.0
+2026-05-18,Asia Pacific,Electrical,361.0,340.0,-2.09,-5.75,0.9,Declining,536.0
+2026-05-25,Asia Pacific,Electrical,494.0,517.0,-2.09,7.51,0.75,Declining,534.0
+2026-06-01,Asia Pacific,Electrical,462.0,412.0,-2.09,8.96,0.8,Declining,532.0
+2026-06-08,Asia Pacific,Electrical,350.0,313.0,-2.09,11.83,0.96,Declining,530.0
+2026-06-15,Asia Pacific,Electrical,474.0,516.0,-2.09,17.09,0.95,Declining,528.0
+2026-06-22,Asia Pacific,Electrical,414.0,421.0,-2.09,27.98,0.81,Declining,526.0
+2026-06-29,Asia Pacific,Electrical,377.0,388.0,-2.09,-5.07,0.6,Declining,524.0
+2026-07-06,Asia Pacific,Electrical,313.0,351.0,-2.09,2.19,0.88,Declining,522.0
+2026-07-13,Asia Pacific,Electrical,407.0,425.0,-2.09,3.75,0.76,Declining,520.0
+2026-07-20,Asia Pacific,Electrical,414.0,376.0,-2.09,-1.17,0.92,Declining,517.0
+2026-07-27,Asia Pacific,Electrical,449.0,496.0,-2.09,-2.75,0.9,Declining,515.0
+2026-08-03,Asia Pacific,Electrical,529.0,536.0,-2.09,29.77,0.78,Declining,513.0
+2026-08-10,Asia Pacific,Electrical,379.0,334.0,-2.09,1.63,0.63,Declining,511.0
+2026-08-17,Asia Pacific,Electrical,473.0,495.0,-2.09,3.23,0.65,Declining,509.0
+2026-08-24,Asia Pacific,Electrical,437.0,490.0,-2.09,-6.0,0.84,Declining,507.0
+2025-09-01,Asia Pacific,Hydraulics,1860.0,1757.0,4.01,12.62,0.74,Growing,1930.0
+2025-09-08,Asia Pacific,Hydraulics,2167.0,2002.0,4.01,7.13,0.6,Growing,1934.0
+2025-09-15,Asia Pacific,Hydraulics,2063.0,1837.0,4.01,7.44,0.92,Growing,1938.0
+2025-09-22,Asia Pacific,Hydraulics,2310.0,2284.0,4.01,19.32,0.93,Growing,1942.0
+2025-09-29,Asia Pacific,Hydraulics,2018.0,2083.0,4.01,12.07,0.67,Growing,1946.0
+2025-10-06,Asia Pacific,Hydraulics,2242.0,2000.0,4.01,23.67,0.93,Growing,1950.0
+2025-10-13,Asia Pacific,Hydraulics,2059.0,1796.0,4.01,25.45,0.63,Growing,1954.0
+2025-10-20,Asia Pacific,Hydraulics,2179.0,1873.0,4.01,-9.25,0.79,Growing,1958.0
+2025-10-27,Asia Pacific,Hydraulics,2100.0,2133.0,4.01,13.6,0.94,Growing,1962.0
+2025-11-03,Asia Pacific,Hydraulics,2185.0,2167.0,4.01,11.74,0.98,Growing,1966.0
+2025-11-10,Asia Pacific,Hydraulics,2306.0,2467.0,4.01,-1.07,0.89,Growing,1970.0
+2025-11-17,Asia Pacific,Hydraulics,2153.0,2160.0,4.01,1.64,0.78,Growing,1974.0
+2025-11-24,Asia Pacific,Hydraulics,2165.0,2364.0,4.01,16.51,0.92,Growing,1978.0
+2025-12-01,Asia Pacific,Hydraulics,2427.0,2437.0,4.01,14.56,0.66,Growing,1982.0
+2025-12-08,Asia Pacific,Hydraulics,2227.0,2539.0,4.01,27.95,0.85,Growing,1986.0
+2025-12-15,Asia Pacific,Hydraulics,2347.0,2248.0,4.01,19.44,0.78,Growing,1990.0
+2025-12-22,Asia Pacific,Hydraulics,2342.0,2021.0,4.01,-7.49,0.74,Growing,1994.0
+2025-12-29,Asia Pacific,Hydraulics,2470.0,2367.0,4.01,-1.73,0.94,Growing,1998.0
+2026-01-05,Asia Pacific,Hydraulics,2111.0,1999.0,4.01,-8.14,0.97,Growing,2002.0
+2026-01-12,Asia Pacific,Hydraulics,2289.0,2515.0,4.01,18.15,0.8,Growing,2006.0
+2026-01-19,Asia Pacific,Hydraulics,2293.0,2399.0,4.01,11.77,0.67,Growing,2010.0
+2026-01-26,Asia Pacific,Hydraulics,2100.0,2312.0,4.01,4.61,0.85,Growing,2014.0
+2026-02-02,Asia Pacific,Hydraulics,2025.0,1935.0,4.01,26.29,0.8,Growing,2018.0
+2026-02-09,Asia Pacific,Hydraulics,2125.0,2114.0,4.01,24.71,0.79,Growing,2022.0
+2026-02-16,Asia Pacific,Hydraulics,1962.0,1713.0,4.01,-4.44,0.66,Growing,2026.0
+2026-02-23,Asia Pacific,Hydraulics,1960.0,1776.0,4.01,15.74,0.68,Growing,2030.0
+2026-03-02,Asia Pacific,Hydraulics,1875.0,2050.0,4.01,-5.27,0.69,Growing,2034.0
+2026-03-09,Asia Pacific,Hydraulics,2185.0,2171.0,4.01,18.81,0.78,Growing,2038.0
+2026-03-16,Asia Pacific,Hydraulics,1985.0,1713.0,4.01,23.33,0.61,Growing,2042.0
+2026-03-23,Asia Pacific,Hydraulics,2017.0,2095.0,4.01,12.94,0.66,Growing,2046.0
+2026-03-30,Asia Pacific,Hydraulics,2090.0,1890.0,4.01,-7.76,0.7,Growing,2050.0
+2026-04-06,Asia Pacific,Hydraulics,1914.0,1950.0,4.01,28.33,0.83,Growing,2054.0
+2026-04-13,Asia Pacific,Hydraulics,2081.0,1823.0,4.01,16.47,0.71,Growing,2058.0
+2026-04-20,Asia Pacific,Hydraulics,1841.0,2044.0,4.01,7.97,0.98,Growing,2062.0
+2026-04-27,Asia Pacific,Hydraulics,1930.0,2116.0,4.01,14.03,0.9,Growing,2066.0
+2026-05-04,Asia Pacific,Hydraulics,2030.0,1886.0,4.01,-2.72,0.85,Growing,2070.0
+2026-05-11,Asia Pacific,Hydraulics,1739.0,1598.0,4.01,8.14,0.82,Growing,2075.0
+2026-05-18,Asia Pacific,Hydraulics,1614.0,1470.0,4.01,5.42,0.64,Growing,2079.0
+2026-05-25,Asia Pacific,Hydraulics,1867.0,1641.0,4.01,6.79,0.66,Growing,2083.0
+2026-06-01,Asia Pacific,Hydraulics,1611.0,1388.0,4.01,9.03,0.83,Growing,2087.0
+2026-06-08,Asia Pacific,Hydraulics,1797.0,1598.0,4.01,-5.3,0.78,Growing,2091.0
+2026-06-15,Asia Pacific,Hydraulics,1591.0,1781.0,4.01,14.14,0.91,Growing,2095.0
+2026-06-22,Asia Pacific,Hydraulics,1821.0,1571.0,4.01,10.88,0.74,Growing,2099.0
+2026-06-29,Asia Pacific,Hydraulics,1586.0,1730.0,4.01,11.19,0.69,Growing,2103.0
+2026-07-06,Asia Pacific,Hydraulics,1869.0,2015.0,4.01,13.56,0.88,Growing,2107.0
+2026-07-13,Asia Pacific,Hydraulics,1714.0,1525.0,4.01,17.87,0.64,Growing,2111.0
+2026-07-20,Asia Pacific,Hydraulics,1782.0,1983.0,4.01,24.36,0.71,Growing,2115.0
+2026-07-27,Asia Pacific,Hydraulics,1945.0,2067.0,4.01,6.35,0.67,Growing,2119.0
+2026-08-03,Asia Pacific,Hydraulics,2017.0,2110.0,4.01,-5.29,0.6,Growing,2123.0
+2026-08-10,Asia Pacific,Hydraulics,1811.0,1737.0,4.01,17.51,0.72,Growing,2127.0
+2026-08-17,Asia Pacific,Hydraulics,2177.0,2127.0,4.01,0.15,0.92,Growing,2131.0
+2026-08-24,Asia Pacific,Hydraulics,2280.0,2403.0,4.01,4.63,0.7,Growing,2135.0
+2025-09-01,Asia Pacific,Consumables,3599.0,3391.0,3.26,12.2,0.7,Growing,3897.0
+2025-09-08,Asia Pacific,Consumables,4031.0,4316.0,3.26,3.77,0.87,Growing,3901.0
+2025-09-15,Asia Pacific,Consumables,4377.0,4639.0,3.26,19.91,0.77,Growing,3904.0
+2025-09-22,Asia Pacific,Consumables,3831.0,3717.0,3.26,-3.53,0.68,Growing,3907.0
+2025-09-29,Asia Pacific,Consumables,4077.0,3662.0,3.26,17.88,0.87,Growing,3910.0
+2025-10-06,Asia Pacific,Consumables,4706.0,4129.0,3.26,28.58,0.6,Growing,3914.0
+2025-10-13,Asia Pacific,Consumables,4886.0,4478.0,3.26,7.42,0.62,Growing,3917.0
+2025-10-20,Asia Pacific,Consumables,5086.0,4910.0,3.26,-6.8,0.61,Growing,3920.0
+2025-10-27,Asia Pacific,Consumables,5015.0,5161.0,3.26,10.84,0.87,Growing,3923.0
+2025-11-03,Asia Pacific,Consumables,4598.0,4792.0,3.26,27.83,0.91,Growing,3927.0
+2025-11-10,Asia Pacific,Consumables,4489.0,4201.0,3.26,16.28,0.91,Growing,3930.0
+2025-11-17,Asia Pacific,Consumables,4794.0,4817.0,3.26,-8.66,0.83,Growing,3933.0
+2025-11-24,Asia Pacific,Consumables,4758.0,4045.0,3.26,-8.56,0.69,Growing,3937.0
+2025-12-01,Asia Pacific,Consumables,4934.0,5348.0,3.26,-3.7,0.98,Growing,3940.0
+2025-12-08,Asia Pacific,Consumables,4554.0,4878.0,3.26,13.44,0.8,Growing,3943.0
+2025-12-15,Asia Pacific,Consumables,4978.0,4656.0,3.26,-7.26,0.63,Growing,3946.0
+2025-12-22,Asia Pacific,Consumables,5036.0,4698.0,3.26,3.92,0.97,Growing,3950.0
+2025-12-29,Asia Pacific,Consumables,4059.0,4582.0,3.26,14.25,0.67,Growing,3953.0
+2026-01-05,Asia Pacific,Consumables,4403.0,3838.0,3.26,6.29,0.64,Growing,3956.0
+2026-01-12,Asia Pacific,Consumables,4453.0,4857.0,3.26,1.77,0.96,Growing,3959.0
+2026-01-19,Asia Pacific,Consumables,5111.0,5409.0,3.26,22.53,0.82,Growing,3963.0
+2026-01-26,Asia Pacific,Consumables,4252.0,4597.0,3.26,28.64,0.81,Growing,3966.0
+2026-02-02,Asia Pacific,Consumables,4381.0,4495.0,3.26,8.35,0.78,Growing,3969.0
+2026-02-09,Asia Pacific,Consumables,3464.0,3015.0,3.26,-8.91,0.64,Growing,3972.0
+2026-02-16,Asia Pacific,Consumables,3501.0,3307.0,3.26,17.08,0.69,Growing,3976.0
+2026-02-23,Asia Pacific,Consumables,3331.0,2841.0,3.26,28.22,0.8,Growing,3979.0
+2026-03-02,Asia Pacific,Consumables,4099.0,4493.0,3.26,-6.28,0.86,Growing,3982.0
+2026-03-09,Asia Pacific,Consumables,3684.0,3658.0,3.26,-6.96,0.95,Growing,3986.0
+2026-03-16,Asia Pacific,Consumables,3396.0,3582.0,3.26,0.76,0.96,Growing,3989.0
+2026-03-23,Asia Pacific,Consumables,4232.0,3851.0,3.26,26.4,0.79,Growing,3992.0
+2026-03-30,Asia Pacific,Consumables,3563.0,3295.0,3.26,-1.73,0.68,Growing,3995.0
+2026-04-06,Asia Pacific,Consumables,2910.0,2567.0,3.26,14.74,0.66,Growing,3999.0
+2026-04-13,Asia Pacific,Consumables,3878.0,4185.0,3.26,16.54,0.83,Growing,4002.0
+2026-04-20,Asia Pacific,Consumables,3177.0,3160.0,3.26,11.66,0.62,Growing,4005.0
+2026-04-27,Asia Pacific,Consumables,3082.0,3423.0,3.26,29.41,0.94,Growing,4008.0
+2026-05-04,Asia Pacific,Consumables,3048.0,3429.0,3.26,9.63,0.97,Growing,4012.0
+2026-05-11,Asia Pacific,Consumables,3220.0,3509.0,3.26,13.07,0.62,Growing,4015.0
+2026-05-18,Asia Pacific,Consumables,3453.0,3455.0,3.26,9.13,0.81,Growing,4018.0
+2026-05-25,Asia Pacific,Consumables,2849.0,3018.0,3.26,-3.01,0.97,Growing,4021.0
+2026-06-01,Asia Pacific,Consumables,3513.0,2998.0,3.26,8.4,0.86,Growing,4025.0
+2026-06-08,Asia Pacific,Consumables,3328.0,3088.0,3.26,3.02,0.83,Growing,4028.0
+2026-06-15,Asia Pacific,Consumables,3648.0,3616.0,3.26,11.94,0.69,Growing,4031.0
+2026-06-22,Asia Pacific,Consumables,3055.0,3239.0,3.26,9.95,0.68,Growing,4034.0
+2026-06-29,Asia Pacific,Consumables,3130.0,2923.0,3.26,4.89,0.92,Growing,4038.0
+2026-07-06,Asia Pacific,Consumables,3448.0,3034.0,3.26,13.04,0.69,Growing,4041.0
+2026-07-13,Asia Pacific,Consumables,3591.0,3518.0,3.26,0.8,0.69,Growing,4044.0
+2026-07-20,Asia Pacific,Consumables,3385.0,3695.0,3.26,28.37,0.66,Growing,4048.0
+2026-07-27,Asia Pacific,Consumables,3712.0,4264.0,3.26,-2.94,0.79,Growing,4051.0
+2026-08-03,Asia Pacific,Consumables,3900.0,3666.0,3.26,18.82,0.9,Growing,4054.0
+2026-08-10,Asia Pacific,Consumables,3466.0,3361.0,3.26,12.49,0.82,Growing,4057.0
+2026-08-17,Asia Pacific,Consumables,3828.0,3977.0,3.26,22.55,0.78,Growing,4061.0
+2026-08-24,Asia Pacific,Consumables,3865.0,3703.0,3.26,7.99,0.73,Growing,4064.0
+2025-09-01,Asia Pacific,Electronics,3144.0,2860.0,13.64,24.69,0.97,Growing,3022.0
+2025-09-08,Asia Pacific,Electronics,3087.0,2786.0,13.64,13.04,0.85,Growing,3035.0
+2025-09-15,Asia Pacific,Electronics,3165.0,3390.0,13.64,16.93,0.79,Growing,3049.0
+2025-09-22,Asia Pacific,Electronics,2949.0,2760.0,13.64,25.59,0.74,Growing,3062.0
+2025-09-29,Asia Pacific,Electronics,3127.0,2975.0,13.64,-3.3,0.91,Growing,3076.0
+2025-10-06,Asia Pacific,Electronics,3164.0,3496.0,13.64,15.25,0.82,Growing,3090.0
+2025-10-13,Asia Pacific,Electronics,3436.0,3221.0,13.64,-0.87,0.72,Growing,3103.0
+2025-10-20,Asia Pacific,Electronics,3409.0,3175.0,13.64,0.7,0.84,Growing,3117.0
+2025-10-27,Asia Pacific,Electronics,2930.0,3339.0,13.64,4.53,0.82,Growing,3131.0
+2025-11-03,Asia Pacific,Electronics,3579.0,3067.0,13.64,6.56,0.67,Growing,3144.0
+2025-11-10,Asia Pacific,Electronics,3395.0,2968.0,13.64,27.62,0.87,Growing,3158.0
+2025-11-17,Asia Pacific,Electronics,3117.0,2709.0,13.64,-3.32,0.64,Growing,3172.0
+2025-11-24,Asia Pacific,Electronics,3710.0,4005.0,13.64,-8.95,0.75,Growing,3185.0
+2025-12-01,Asia Pacific,Electronics,3295.0,2954.0,13.64,-6.67,0.7,Growing,3199.0
+2025-12-08,Asia Pacific,Electronics,3234.0,3024.0,13.64,2.37,0.69,Growing,3212.0
+2025-12-15,Asia Pacific,Electronics,3108.0,3424.0,13.64,15.06,0.65,Growing,3226.0
+2025-12-22,Asia Pacific,Electronics,3878.0,3850.0,13.64,24.41,0.72,Growing,3240.0
+2025-12-29,Asia Pacific,Electronics,3589.0,3344.0,13.64,29.0,0.81,Growing,3253.0
+2026-01-05,Asia Pacific,Electronics,2919.0,3004.0,13.64,17.9,0.67,Growing,3267.0
+2026-01-12,Asia Pacific,Electronics,3727.0,3799.0,13.64,15.24,0.84,Growing,3281.0
+2026-01-19,Asia Pacific,Electronics,3156.0,3194.0,13.64,2.39,0.73,Growing,3294.0
+2026-01-26,Asia Pacific,Electronics,3432.0,3293.0,13.64,22.19,0.77,Growing,3308.0
+2026-02-02,Asia Pacific,Electronics,3452.0,3812.0,13.64,-10.0,0.91,Growing,3322.0
+2026-02-09,Asia Pacific,Electronics,3649.0,3111.0,13.64,3.76,0.78,Growing,3335.0
+2026-02-16,Asia Pacific,Electronics,3939.0,3857.0,13.64,9.08,0.6,Growing,3349.0
+2026-02-23,Asia Pacific,Electronics,3124.0,2662.0,13.64,1.72,0.69,Growing,3362.0
+2026-03-02,Asia Pacific,Electronics,3202.0,2878.0,13.64,12.42,0.75,Growing,3376.0
+2026-03-09,Asia Pacific,Electronics,3530.0,3402.0,13.64,19.48,0.75,Growing,3390.0
+2026-03-16,Asia Pacific,Electronics,3309.0,3716.0,13.64,-0.42,0.89,Growing,3403.0
+2026-03-23,Asia Pacific,Electronics,3561.0,3331.0,13.64,22.3,0.86,Growing,3417.0
+2026-03-30,Asia Pacific,Electronics,3269.0,2957.0,13.64,6.52,0.92,Growing,3431.0
+2026-04-06,Asia Pacific,Electronics,2831.0,2931.0,13.64,1.58,0.84,Growing,3444.0
+2026-04-13,Asia Pacific,Electronics,3208.0,2774.0,13.64,-2.49,0.61,Growing,3458.0
+2026-04-20,Asia Pacific,Electronics,3576.0,3149.0,13.64,11.4,0.67,Growing,3472.0
+2026-04-27,Asia Pacific,Electronics,3187.0,2853.0,13.64,19.08,0.69,Growing,3485.0
+2026-05-04,Asia Pacific,Electronics,3608.0,3404.0,13.64,9.74,0.73,Growing,3499.0
+2026-05-11,Asia Pacific,Electronics,3486.0,3308.0,13.64,8.55,0.9,Growing,3513.0
+2026-05-18,Asia Pacific,Electronics,2418.0,2096.0,13.64,23.74,0.96,Growing,3526.0
+2026-05-25,Asia Pacific,Electronics,3250.0,3583.0,13.64,8.81,0.67,Growing,3540.0
+2026-06-01,Asia Pacific,Electronics,3155.0,2797.0,13.64,22.69,0.91,Growing,3553.0
+2026-06-08,Asia Pacific,Electronics,3283.0,3517.0,13.64,20.85,0.77,Growing,3567.0
+2026-06-15,Asia Pacific,Electronics,3101.0,3353.0,13.64,-8.66,0.78,Growing,3581.0
+2026-06-22,Asia Pacific,Electronics,2628.0,2480.0,13.64,8.91,0.86,Growing,3594.0
+2026-06-29,Asia Pacific,Electronics,3245.0,2800.0,13.64,2.92,0.84,Growing,3608.0
+2026-07-06,Asia Pacific,Electronics,3640.0,3311.0,13.64,0.13,0.84,Growing,3622.0
+2026-07-13,Asia Pacific,Electronics,3293.0,3014.0,13.64,25.5,0.93,Growing,3635.0
+2026-07-20,Asia Pacific,Electronics,3705.0,3456.0,13.64,2.98,0.66,Growing,3649.0
+2026-07-27,Asia Pacific,Electronics,3711.0,3164.0,13.64,-5.21,0.9,Growing,3663.0
+2026-08-03,Asia Pacific,Electronics,3942.0,3790.0,13.64,9.01,0.83,Growing,3676.0
+2026-08-10,Asia Pacific,Electronics,3691.0,3239.0,13.64,-6.42,0.66,Growing,3690.0
+2026-08-17,Asia Pacific,Electronics,3219.0,2794.0,13.64,29.88,0.84,Growing,3703.0
+2026-08-24,Asia Pacific,Electronics,3301.0,3590.0,13.64,15.78,0.87,Growing,3717.0
+2025-09-01,Asia Pacific,Mechanical,1101.0,999.0,-0.35,22.22,0.77,Stable,1066.0
+2025-09-08,Asia Pacific,Mechanical,958.0,853.0,-0.35,17.57,0.74,Stable,1066.0
+2025-09-15,Asia Pacific,Mechanical,1207.0,1279.0,-0.35,7.5,0.71,Stable,1066.0
+2025-09-22,Asia Pacific,Mechanical,1100.0,1050.0,-0.35,-2.41,0.67,Stable,1065.0
+2025-09-29,Asia Pacific,Mechanical,1179.0,1199.0,-0.35,23.25,0.95,Stable,1065.0
+2025-10-06,Asia Pacific,Mechanical,1146.0,1075.0,-0.35,-7.24,0.66,Stable,1064.0
+2025-10-13,Asia Pacific,Mechanical,1231.0,1187.0,-0.35,-9.97,0.84,Stable,1064.0
+2025-10-20,Asia Pacific,Mechanical,1342.0,1485.0,-0.35,-2.58,0.61,Stable,1064.0
+2025-10-27,Asia Pacific,Mechanical,1290.0,1305.0,-0.35,18.84,0.85,Stable,1063.0
+2025-11-03,Asia Pacific,Mechanical,1233.0,1233.0,-0.35,5.5,0.8,Stable,1063.0
+2025-11-10,Asia Pacific,Mechanical,1197.0,1057.0,-0.35,2.9,0.84,Stable,1063.0
+2025-11-17,Asia Pacific,Mechanical,1280.0,1409.0,-0.35,10.93,0.63,Stable,1062.0
+2025-11-24,Asia Pacific,Mechanical,1442.0,1268.0,-0.35,-1.92,0.78,Stable,1062.0
+2025-12-01,Asia Pacific,Mechanical,1451.0,1519.0,-0.35,12.84,0.92,Stable,1062.0
+2025-12-08,Asia Pacific,Mechanical,1191.0,1229.0,-0.35,0.24,0.74,Stable,1061.0
+2025-12-15,Asia Pacific,Mechanical,1295.0,1182.0,-0.35,-7.17,0.95,Stable,1061.0
+2025-12-22,Asia Pacific,Mechanical,1127.0,979.0,-0.35,-6.8,0.9,Stable,1061.0
+2025-12-29,Asia Pacific,Mechanical,1303.0,1270.0,-0.35,12.32,0.96,Stable,1060.0
+2026-01-05,Asia Pacific,Mechanical,1185.0,1022.0,-0.35,22.95,0.7,Stable,1060.0
+2026-01-12,Asia Pacific,Mechanical,1354.0,1535.0,-0.35,-7.18,0.72,Stable,1060.0
+2026-01-19,Asia Pacific,Mechanical,1271.0,1152.0,-0.35,19.01,0.8,Stable,1059.0
+2026-01-26,Asia Pacific,Mechanical,1199.0,1244.0,-0.35,11.05,0.69,Stable,1059.0
+2026-02-02,Asia Pacific,Mechanical,1242.0,1294.0,-0.35,6.61,0.64,Stable,1059.0
+2026-02-09,Asia Pacific,Mechanical,1279.0,1343.0,-0.35,4.32,0.77,Stable,1058.0
+2026-02-16,Asia Pacific,Mechanical,1159.0,1102.0,-0.35,-2.78,0.75,Stable,1058.0
+2026-02-23,Asia Pacific,Mechanical,1055.0,1037.0,-0.35,-3.67,0.98,Stable,1058.0
+2026-03-02,Asia Pacific,Mechanical,1013.0,974.0,-0.35,29.66,0.72,Stable,1057.0
+2026-03-09,Asia Pacific,Mechanical,1085.0,1158.0,-0.35,20.57,0.76,Stable,1057.0
+2026-03-16,Asia Pacific,Mechanical,908.0,1025.0,-0.35,-1.44,0.89,Stable,1057.0
+2026-03-23,Asia Pacific,Mechanical,894.0,880.0,-0.35,0.16,0.97,Stable,1056.0
+2026-03-30,Asia Pacific,Mechanical,824.0,829.0,-0.35,29.32,0.83,Stable,1056.0
+2026-04-06,Asia Pacific,Mechanical,989.0,930.0,-0.35,29.74,0.71,Stable,1055.0
+2026-04-13,Asia Pacific,Mechanical,910.0,962.0,-0.35,-9.13,0.91,Stable,1055.0
+2026-04-20,Asia Pacific,Mechanical,1023.0,1041.0,-0.35,1.04,0.81,Stable,1055.0
+2026-04-27,Asia Pacific,Mechanical,882.0,787.0,-0.35,-8.49,0.74,Stable,1054.0
+2026-05-04,Asia Pacific,Mechanical,799.0,735.0,-0.35,4.68,0.82,Stable,1054.0
+2026-05-11,Asia Pacific,Mechanical,822.0,880.0,-0.35,5.99,0.95,Stable,1054.0
+2026-05-18,Asia Pacific,Mechanical,764.0,689.0,-0.35,18.94,0.9,Stable,1053.0
+2026-05-25,Asia Pacific,Mechanical,852.0,876.0,-0.35,13.05,0.94,Stable,1053.0
+2026-06-01,Asia Pacific,Mechanical,674.0,689.0,-0.35,2.02,0.88,Stable,1053.0
+2026-06-08,Asia Pacific,Mechanical,817.0,895.0,-0.35,20.84,0.73,Stable,1052.0
+2026-06-15,Asia Pacific,Mechanical,811.0,901.0,-0.35,6.66,0.93,Stable,1052.0
+2026-06-22,Asia Pacific,Mechanical,824.0,893.0,-0.35,14.09,0.6,Stable,1052.0
+2026-06-29,Asia Pacific,Mechanical,942.0,812.0,-0.35,5.3,0.72,Stable,1051.0
+2026-07-06,Asia Pacific,Mechanical,788.0,682.0,-0.35,10.1,0.68,Stable,1051.0
+2026-07-13,Asia Pacific,Mechanical,842.0,828.0,-0.35,19.26,0.75,Stable,1051.0
+2026-07-20,Asia Pacific,Mechanical,793.0,767.0,-0.35,-1.12,0.71,Stable,1050.0
+2026-07-27,Asia Pacific,Mechanical,844.0,862.0,-0.35,-4.71,0.63,Stable,1050.0
+2026-08-03,Asia Pacific,Mechanical,1010.0,1092.0,-0.35,-6.6,0.79,Stable,1050.0
+2026-08-10,Asia Pacific,Mechanical,982.0,1000.0,-0.35,-4.78,0.65,Stable,1049.0
+2026-08-17,Asia Pacific,Mechanical,862.0,923.0,-0.35,-2.16,0.83,Stable,1049.0
+2026-08-24,Asia Pacific,Mechanical,1026.0,1112.0,-0.35,-0.15,0.63,Stable,1049.0
+2025-09-01,Asia Pacific,Pneumatics,1878.0,1931.0,13.48,3.93,0.72,Growing,1955.0
+2025-09-08,Asia Pacific,Pneumatics,1840.0,2109.0,13.48,-9.03,0.72,Growing,1969.0
+2025-09-15,Asia Pacific,Pneumatics,1660.0,1433.0,13.48,7.69,0.66,Growing,1982.0
+2025-09-22,Asia Pacific,Pneumatics,1726.0,1660.0,13.48,22.73,0.68,Growing,1996.0
+2025-09-29,Asia Pacific,Pneumatics,2086.0,2367.0,13.48,-5.51,0.62,Growing,2009.0
+2025-10-06,Asia Pacific,Pneumatics,1792.0,1965.0,13.48,27.07,0.93,Growing,2023.0
+2025-10-13,Asia Pacific,Pneumatics,2364.0,2026.0,13.48,-5.55,0.77,Growing,2036.0
+2025-10-20,Asia Pacific,Pneumatics,2170.0,1977.0,13.48,-1.64,0.8,Growing,2050.0
+2025-10-27,Asia Pacific,Pneumatics,2053.0,1832.0,13.48,9.32,0.88,Growing,2063.0
+2025-11-03,Asia Pacific,Pneumatics,2177.0,2231.0,13.48,17.95,0.61,Growing,2077.0
+2025-11-10,Asia Pacific,Pneumatics,2190.0,2380.0,13.48,-3.19,0.71,Growing,2090.0
+2025-11-17,Asia Pacific,Pneumatics,2193.0,2294.0,13.48,14.72,0.62,Growing,2104.0
+2025-11-24,Asia Pacific,Pneumatics,2404.0,2519.0,13.48,0.85,0.92,Growing,2117.0
+2025-12-01,Asia Pacific,Pneumatics,2272.0,2522.0,13.48,24.57,0.61,Growing,2131.0
+2025-12-08,Asia Pacific,Pneumatics,2209.0,1944.0,13.48,5.23,0.97,Growing,2144.0
+2025-12-15,Asia Pacific,Pneumatics,2195.0,2216.0,13.48,2.62,0.93,Growing,2158.0
+2025-12-22,Asia Pacific,Pneumatics,2367.0,2027.0,13.48,8.32,0.95,Growing,2171.0
+2025-12-29,Asia Pacific,Pneumatics,2472.0,2349.0,13.48,-0.1,0.8,Growing,2185.0
+2026-01-05,Asia Pacific,Pneumatics,2236.0,2320.0,13.48,3.87,0.73,Growing,2198.0
+2026-01-12,Asia Pacific,Pneumatics,2368.0,2369.0,13.48,-0.55,0.97,Growing,2212.0
+2026-01-19,Asia Pacific,Pneumatics,2396.0,2623.0,13.48,25.15,0.94,Growing,2225.0
+2026-01-26,Asia Pacific,Pneumatics,2111.0,1972.0,13.48,-8.82,0.81,Growing,2238.0
+2026-02-02,Asia Pacific,Pneumatics,2507.0,2418.0,13.48,16.28,0.63,Growing,2252.0
+2026-02-09,Asia Pacific,Pneumatics,2585.0,2682.0,13.48,28.42,0.83,Growing,2265.0
+2026-02-16,Asia Pacific,Pneumatics,2327.0,2613.0,13.48,-3.89,0.97,Growing,2279.0
+2026-02-23,Asia Pacific,Pneumatics,2423.0,2210.0,13.48,3.17,0.81,Growing,2292.0
+2026-03-02,Asia Pacific,Pneumatics,2432.0,2292.0,13.48,22.0,0.93,Growing,2306.0
+2026-03-09,Asia Pacific,Pneumatics,2453.0,2184.0,13.48,18.21,0.8,Growing,2319.0
+2026-03-16,Asia Pacific,Pneumatics,2728.0,3069.0,13.48,-4.19,0.95,Growing,2333.0
+2026-03-23,Asia Pacific,Pneumatics,2288.0,2596.0,13.48,2.7,0.81,Growing,2346.0
+2026-03-30,Asia Pacific,Pneumatics,2399.0,2590.0,13.48,25.19,0.88,Growing,2360.0
+2026-04-06,Asia Pacific,Pneumatics,2390.0,2327.0,13.48,25.21,0.76,Growing,2373.0
+2026-04-13,Asia Pacific,Pneumatics,1957.0,1825.0,13.48,25.77,0.95,Growing,2387.0
+2026-04-20,Asia Pacific,Pneumatics,2429.0,2199.0,13.48,21.16,0.64,Growing,2400.0
+2026-04-27,Asia Pacific,Pneumatics,2321.0,2134.0,13.48,0.67,0.82,Growing,2414.0
+2026-05-04,Asia Pacific,Pneumatics,2095.0,2007.0,13.48,-0.71,0.86,Growing,2427.0
+2026-05-11,Asia Pacific,Pneumatics,2249.0,2392.0,13.48,10.09,0.83,Growing,2441.0
+2026-05-18,Asia Pacific,Pneumatics,2161.0,2155.0,13.48,4.96,0.92,Growing,2454.0
+2026-05-25,Asia Pacific,Pneumatics,2402.0,2053.0,13.48,-8.71,0.89,Growing,2468.0
+2026-06-01,Asia Pacific,Pneumatics,2426.0,2603.0,13.48,0.79,0.76,Growing,2481.0
+2026-06-08,Asia Pacific,Pneumatics,2626.0,3008.0,13.48,-7.35,0.95,Growing,2495.0
+2026-06-15,Asia Pacific,Pneumatics,2360.0,2236.0,13.48,24.69,0.79,Growing,2508.0
+2026-06-22,Asia Pacific,Pneumatics,2284.0,2445.0,13.48,6.19,0.62,Growing,2522.0
+2026-06-29,Asia Pacific,Pneumatics,2449.0,2530.0,13.48,5.21,0.72,Growing,2535.0
+2026-07-06,Asia Pacific,Pneumatics,2429.0,2638.0,13.48,11.01,0.93,Growing,2549.0
+2026-07-13,Asia Pacific,Pneumatics,2253.0,2474.0,13.48,10.83,0.77,Growing,2562.0
+2026-07-20,Asia Pacific,Pneumatics,2987.0,3198.0,13.48,10.75,0.75,Growing,2576.0
+2026-07-27,Asia Pacific,Pneumatics,2650.0,2754.0,13.48,12.31,0.8,Growing,2589.0
+2026-08-03,Asia Pacific,Pneumatics,2664.0,2926.0,13.48,5.92,0.72,Growing,2603.0
+2026-08-10,Asia Pacific,Pneumatics,2608.0,2697.0,13.48,8.45,0.76,Growing,2616.0
+2026-08-17,Asia Pacific,Pneumatics,2775.0,2735.0,13.48,-4.31,0.92,Growing,2629.0
+2026-08-24,Asia Pacific,Pneumatics,2690.0,2915.0,13.48,18.91,0.64,Growing,2643.0
+2025-09-01,South America,Structural,4366.0,4645.0,8.92,-2.84,0.82,Growing,4720.0
+2025-09-08,South America,Structural,4987.0,4613.0,8.92,-1.92,0.77,Growing,4729.0
+2025-09-15,South America,Structural,4530.0,4019.0,8.92,21.86,0.87,Growing,4738.0
+2025-09-22,South America,Structural,4107.0,3938.0,8.92,-5.43,0.77,Growing,4747.0
+2025-09-29,South America,Structural,4557.0,5172.0,8.92,21.64,0.79,Growing,4756.0
+2025-10-06,South America,Structural,4916.0,5312.0,8.92,5.15,0.74,Growing,4765.0
+2025-10-13,South America,Structural,5430.0,6031.0,8.92,16.38,0.66,Growing,4774.0
+2025-10-20,South America,Structural,4800.0,4684.0,8.92,-2.85,0.87,Growing,4783.0
+2025-10-27,South America,Structural,4855.0,4298.0,8.92,7.85,0.84,Growing,4792.0
+2025-11-03,South America,Structural,5724.0,5935.0,8.92,-4.74,0.68,Growing,4801.0
+2025-11-10,South America,Structural,5141.0,4379.0,8.92,24.22,0.81,Growing,4810.0
+2025-11-17,South America,Structural,5590.0,5739.0,8.92,25.31,0.69,Growing,4818.0
+2025-11-24,South America,Structural,4805.0,4437.0,8.92,-6.82,0.83,Growing,4827.0
+2025-12-01,South America,Structural,5259.0,5350.0,8.92,11.89,0.84,Growing,4836.0
+2025-12-08,South America,Structural,5261.0,4530.0,8.92,-4.07,0.85,Growing,4845.0
+2025-12-15,South America,Structural,5101.0,5618.0,8.92,24.15,0.85,Growing,4854.0
+2025-12-22,South America,Structural,4949.0,4471.0,8.92,-8.04,0.76,Growing,4863.0
+2025-12-29,South America,Structural,6005.0,6350.0,8.92,16.88,0.83,Growing,4872.0
+2026-01-05,South America,Structural,4631.0,4740.0,8.92,-2.9,0.77,Growing,4881.0
+2026-01-12,South America,Structural,4789.0,4500.0,8.92,27.26,0.64,Growing,4890.0
+2026-01-19,South America,Structural,4890.0,4964.0,8.92,-7.29,0.76,Growing,4899.0
+2026-01-26,South America,Structural,5385.0,5700.0,8.92,1.71,0.65,Growing,4908.0
+2026-02-02,South America,Structural,5015.0,5184.0,8.92,10.99,0.86,Growing,4917.0
+2026-02-09,South America,Structural,5511.0,5724.0,8.92,-5.63,0.88,Growing,4926.0
+2026-02-16,South America,Structural,5454.0,6250.0,8.92,17.55,0.95,Growing,4934.0
+2026-02-23,South America,Structural,4952.0,4680.0,8.92,1.49,0.83,Growing,4943.0
+2026-03-02,South America,Structural,3738.0,3808.0,8.92,4.15,0.65,Growing,4952.0
+2026-03-09,South America,Structural,4722.0,4711.0,8.92,10.79,0.84,Growing,4961.0
+2026-03-16,South America,Structural,5104.0,4341.0,8.92,18.34,0.97,Growing,4970.0
+2026-03-23,South America,Structural,5318.0,4709.0,8.92,-9.04,0.84,Growing,4979.0
+2026-03-30,South America,Structural,5210.0,4950.0,8.92,29.96,0.76,Growing,4988.0
+2026-04-06,South America,Structural,4238.0,3616.0,8.92,12.42,0.84,Growing,4997.0
+2026-04-13,South America,Structural,4857.0,4867.0,8.92,21.61,0.72,Growing,5006.0
+2026-04-20,South America,Structural,5035.0,5316.0,8.92,2.96,0.6,Growing,5015.0
+2026-04-27,South America,Structural,4395.0,3967.0,8.92,14.64,0.61,Growing,5024.0
+2026-05-04,South America,Structural,5220.0,5490.0,8.92,3.22,0.73,Growing,5033.0
+2026-05-11,South America,Structural,5285.0,5486.0,8.92,15.83,0.78,Growing,5041.0
+2026-05-18,South America,Structural,4358.0,4142.0,8.92,25.68,0.8,Growing,5050.0
+2026-05-25,South America,Structural,4781.0,4493.0,8.92,19.7,0.92,Growing,5059.0
+2026-06-01,South America,Structural,4323.0,4370.0,8.92,19.0,0.72,Growing,5068.0
+2026-06-08,South America,Structural,4865.0,4651.0,8.92,21.98,0.94,Growing,5077.0
+2026-06-15,South America,Structural,5288.0,4544.0,8.92,28.78,0.71,Growing,5086.0
+2026-06-22,South America,Structural,5282.0,5107.0,8.92,23.7,0.82,Growing,5095.0
+2026-06-29,South America,Structural,4727.0,5084.0,8.92,13.81,0.93,Growing,5104.0
+2026-07-06,South America,Structural,4722.0,4718.0,8.92,-8.73,0.76,Growing,5113.0
+2026-07-13,South America,Structural,4534.0,5147.0,8.92,-0.49,0.77,Growing,5122.0
+2026-07-20,South America,Structural,4957.0,5370.0,8.92,-5.51,0.9,Growing,5131.0
+2026-07-27,South America,Structural,5246.0,4499.0,8.92,26.53,0.77,Growing,5140.0
+2026-08-03,South America,Structural,4537.0,4854.0,8.92,-2.39,0.95,Growing,5149.0
+2026-08-10,South America,Structural,5077.0,4534.0,8.92,10.95,0.89,Growing,5157.0
+2026-08-17,South America,Structural,5565.0,4952.0,8.92,27.52,0.86,Growing,5166.0
+2026-08-24,South America,Structural,4625.0,4922.0,8.92,18.98,0.77,Growing,5175.0
+2025-09-01,South America,Electrical,2733.0,2360.0,-4.92,-6.52,0.78,Declining,2851.0
+2025-09-08,South America,Electrical,2644.0,2495.0,-4.92,10.82,0.85,Declining,2846.0
+2025-09-15,South America,Electrical,2828.0,2567.0,-4.92,25.69,0.72,Declining,2841.0
+2025-09-22,South America,Electrical,2982.0,2930.0,-4.92,1.07,0.72,Declining,2836.0
+2025-09-29,South America,Electrical,3240.0,3359.0,-4.92,0.95,0.61,Declining,2831.0
+2025-10-06,South America,Electrical,3296.0,3148.0,-4.92,10.56,0.68,Declining,2826.0
+2025-10-13,South America,Electrical,3215.0,2969.0,-4.92,18.17,0.71,Declining,2821.0
+2025-10-20,South America,Electrical,3435.0,3269.0,-4.92,-7.15,0.83,Declining,2816.0
+2025-10-27,South America,Electrical,3253.0,2868.0,-4.92,8.83,0.86,Declining,2811.0
+2025-11-03,South America,Electrical,3445.0,3113.0,-4.92,-7.85,0.76,Declining,2806.0
+2025-11-10,South America,Electrical,3180.0,3291.0,-4.92,23.45,0.87,Declining,2801.0
+2025-11-17,South America,Electrical,3277.0,3487.0,-4.92,2.5,0.91,Declining,2796.0
+2025-11-24,South America,Electrical,3326.0,3292.0,-4.92,28.95,0.89,Declining,2792.0
+2025-12-01,South America,Electrical,3213.0,3618.0,-4.92,-4.73,0.91,Declining,2787.0
+2025-12-08,South America,Electrical,3204.0,3171.0,-4.92,17.38,0.87,Declining,2782.0
+2025-12-15,South America,Electrical,3481.0,3858.0,-4.92,-0.73,0.69,Declining,2777.0
+2025-12-22,South America,Electrical,3028.0,3178.0,-4.92,5.68,0.87,Declining,2772.0
+2025-12-29,South America,Electrical,3026.0,2984.0,-4.92,21.55,0.94,Declining,2767.0
+2026-01-05,South America,Electrical,3571.0,3218.0,-4.92,4.06,0.78,Declining,2762.0
+2026-01-12,South America,Electrical,3311.0,2941.0,-4.92,20.72,0.83,Declining,2757.0
+2026-01-19,South America,Electrical,3535.0,3693.0,-4.92,21.87,0.72,Declining,2752.0
+2026-01-26,South America,Electrical,3384.0,3283.0,-4.92,21.7,0.8,Declining,2747.0
+2026-02-02,South America,Electrical,2784.0,2687.0,-4.92,11.92,0.97,Declining,2742.0
+2026-02-09,South America,Electrical,3141.0,3227.0,-4.92,3.63,0.91,Declining,2737.0
+2026-02-16,South America,Electrical,2946.0,2713.0,-4.92,21.49,0.81,Declining,2733.0
+2026-02-23,South America,Electrical,2571.0,2903.0,-4.92,16.5,0.63,Declining,2728.0
+2026-03-02,South America,Electrical,2487.0,2529.0,-4.92,13.69,0.78,Declining,2723.0
+2026-03-09,South America,Electrical,2518.0,2863.0,-4.92,22.88,0.67,Declining,2718.0
+2026-03-16,South America,Electrical,2651.0,2554.0,-4.92,22.56,0.89,Declining,2713.0
+2026-03-23,South America,Electrical,2515.0,2206.0,-4.92,9.77,0.85,Declining,2708.0
+2026-03-30,South America,Electrical,2585.0,2197.0,-4.92,26.13,0.84,Declining,2703.0
+2026-04-06,South America,Electrical,1880.0,1898.0,-4.92,-4.13,0.66,Declining,2698.0
+2026-04-13,South America,Electrical,2015.0,1905.0,-4.92,-2.17,0.86,Declining,2693.0
+2026-04-20,South America,Electrical,2375.0,2235.0,-4.92,12.81,0.95,Declining,2688.0
+2026-04-27,South America,Electrical,2357.0,2067.0,-4.92,29.3,0.73,Declining,2683.0
+2026-05-04,South America,Electrical,1997.0,1939.0,-4.92,-9.68,0.97,Declining,2678.0
+2026-05-11,South America,Electrical,2176.0,1884.0,-4.92,4.77,0.81,Declining,2674.0
+2026-05-18,South America,Electrical,2151.0,2060.0,-4.92,18.13,0.91,Declining,2669.0
+2026-05-25,South America,Electrical,2289.0,2216.0,-4.92,-0.59,0.87,Declining,2664.0
+2026-06-01,South America,Electrical,1635.0,1577.0,-4.92,2.73,0.75,Declining,2659.0
+2026-06-08,South America,Electrical,1662.0,1604.0,-4.92,8.99,0.67,Declining,2654.0
+2026-06-15,South America,Electrical,1900.0,1703.0,-4.92,26.98,0.92,Declining,2649.0
+2026-06-22,South America,Electrical,2353.0,2011.0,-4.92,-4.63,0.63,Declining,2644.0
+2026-06-29,South America,Electrical,2037.0,1998.0,-4.92,18.85,0.78,Declining,2639.0
+2026-07-06,South America,Electrical,2175.0,2146.0,-4.92,15.69,0.76,Declining,2634.0
+2026-07-13,South America,Electrical,2119.0,2072.0,-4.92,21.56,0.83,Declining,2629.0
+2026-07-20,South America,Electrical,2294.0,2194.0,-4.92,12.08,0.77,Declining,2624.0
+2026-07-27,South America,Electrical,2483.0,2541.0,-4.92,-2.57,0.83,Declining,2619.0
+2026-08-03,South America,Electrical,2397.0,2430.0,-4.92,10.07,0.76,Declining,2614.0
+2026-08-10,South America,Electrical,2233.0,2279.0,-4.92,4.68,0.97,Declining,2610.0
+2026-08-17,South America,Electrical,2412.0,2153.0,-4.92,9.26,0.86,Declining,2605.0
+2026-08-24,South America,Electrical,2411.0,2761.0,-4.92,19.25,0.97,Declining,2600.0
+2025-09-01,South America,Hydraulics,4111.0,4679.0,4.3,8.9,0.88,Growing,4005.0
+2025-09-08,South America,Hydraulics,3953.0,4306.0,4.3,-6.88,0.84,Growing,4009.0
+2025-09-15,South America,Hydraulics,4036.0,3998.0,4.3,3.74,0.9,Growing,4014.0
+2025-09-22,South America,Hydraulics,4209.0,4504.0,4.3,10.51,0.78,Growing,4018.0
+2025-09-29,South America,Hydraulics,3428.0,2950.0,4.3,21.93,0.71,Growing,4022.0
+2025-10-06,South America,Hydraulics,4564.0,4874.0,4.3,26.91,0.88,Growing,4026.0
+2025-10-13,South America,Hydraulics,4100.0,3548.0,4.3,8.93,0.66,Growing,4031.0
+2025-10-20,South America,Hydraulics,4187.0,4344.0,4.3,29.61,0.91,Growing,4035.0
+2025-10-27,South America,Hydraulics,4225.0,3944.0,4.3,10.22,0.92,Growing,4039.0
+2025-11-03,South America,Hydraulics,4406.0,4879.0,4.3,-4.7,0.71,Growing,4044.0
+2025-11-10,South America,Hydraulics,4449.0,3983.0,4.3,-3.02,0.82,Growing,4048.0
+2025-11-17,South America,Hydraulics,4321.0,4012.0,4.3,7.87,0.91,Growing,4052.0
+2025-11-24,South America,Hydraulics,4205.0,4007.0,4.3,21.97,0.93,Growing,4056.0
+2025-12-01,South America,Hydraulics,3972.0,4489.0,4.3,-6.62,0.66,Growing,4061.0
+2025-12-08,South America,Hydraulics,4539.0,4182.0,4.3,29.74,0.89,Growing,4065.0
+2025-12-15,South America,Hydraulics,4634.0,4232.0,4.3,7.61,0.84,Growing,4069.0
+2025-12-22,South America,Hydraulics,4291.0,3796.0,4.3,15.69,0.89,Growing,4074.0
+2025-12-29,South America,Hydraulics,4017.0,3778.0,4.3,-3.3,0.75,Growing,4078.0
+2026-01-05,South America,Hydraulics,4286.0,4550.0,4.3,11.3,0.74,Growing,4082.0
+2026-01-12,South America,Hydraulics,3748.0,4165.0,4.3,8.98,0.66,Growing,4087.0
+2026-01-19,South America,Hydraulics,4997.0,5689.0,4.3,7.95,0.86,Growing,4091.0
+2026-01-26,South America,Hydraulics,4299.0,4838.0,4.3,17.32,0.62,Growing,4095.0
+2026-02-02,South America,Hydraulics,3701.0,4099.0,4.3,7.27,0.95,Growing,4099.0
+2026-02-09,South America,Hydraulics,3588.0,3156.0,4.3,3.4,0.7,Growing,4104.0
+2026-02-16,South America,Hydraulics,3991.0,4271.0,4.3,20.93,0.88,Growing,4108.0
+2026-02-23,South America,Hydraulics,3881.0,3692.0,4.3,13.55,0.67,Growing,4112.0
+2026-03-02,South America,Hydraulics,4043.0,4445.0,4.3,11.9,0.86,Growing,4117.0
+2026-03-09,South America,Hydraulics,3902.0,3438.0,4.3,-9.52,0.64,Growing,4121.0
+2026-03-16,South America,Hydraulics,3850.0,3300.0,4.3,1.33,0.67,Growing,4125.0
+2026-03-23,South America,Hydraulics,4111.0,4305.0,4.3,-6.32,0.96,Growing,4130.0
+2026-03-30,South America,Hydraulics,4414.0,3910.0,4.3,15.52,0.87,Growing,4134.0
+2026-04-06,South America,Hydraulics,3314.0,3469.0,4.3,24.26,0.65,Growing,4138.0
+2026-04-13,South America,Hydraulics,4303.0,4555.0,4.3,28.69,0.94,Growing,4142.0
+2026-04-20,South America,Hydraulics,3706.0,4191.0,4.3,0.13,0.78,Growing,4147.0
+2026-04-27,South America,Hydraulics,3468.0,3888.0,4.3,1.06,0.76,Growing,4151.0
+2026-05-04,South America,Hydraulics,3368.0,3026.0,4.3,20.8,0.72,Growing,4155.0
+2026-05-11,South America,Hydraulics,4410.0,3828.0,4.3,5.31,0.73,Growing,4160.0
+2026-05-18,South America,Hydraulics,4158.0,4083.0,4.3,28.22,0.7,Growing,4164.0
+2026-05-25,South America,Hydraulics,3172.0,3165.0,4.3,14.41,0.67,Growing,4168.0
+2026-06-01,South America,Hydraulics,3948.0,3614.0,4.3,-4.25,0.89,Growing,4173.0
+2026-06-08,South America,Hydraulics,3476.0,3031.0,4.3,18.62,0.64,Growing,4177.0
+2026-06-15,South America,Hydraulics,3372.0,3317.0,4.3,12.85,0.7,Growing,4181.0
+2026-06-22,South America,Hydraulics,4084.0,4286.0,4.3,15.61,0.95,Growing,4185.0
+2026-06-29,South America,Hydraulics,3847.0,4314.0,4.3,0.66,0.87,Growing,4190.0
+2026-07-06,South America,Hydraulics,3634.0,3564.0,4.3,27.6,0.79,Growing,4194.0
+2026-07-13,South America,Hydraulics,3827.0,4155.0,4.3,23.76,0.9,Growing,4198.0
+2026-07-20,South America,Hydraulics,4003.0,3982.0,4.3,28.17,0.91,Growing,4203.0
+2026-07-27,South America,Hydraulics,4051.0,3880.0,4.3,12.69,0.96,Growing,4207.0
+2026-08-03,South America,Hydraulics,3954.0,3469.0,4.3,15.29,0.96,Growing,4211.0
+2026-08-10,South America,Hydraulics,3827.0,3346.0,4.3,11.39,0.97,Growing,4216.0
+2026-08-17,South America,Hydraulics,3628.0,3127.0,4.3,15.91,0.67,Growing,4220.0
+2026-08-24,South America,Hydraulics,4330.0,4584.0,4.3,5.37,0.67,Growing,4224.0
+2025-09-01,South America,Consumables,4976.0,4518.0,7.61,19.41,0.65,Growing,4534.0
+2025-09-08,South America,Consumables,4869.0,4854.0,7.61,18.79,0.83,Growing,4542.0
+2025-09-15,South America,Consumables,5099.0,5610.0,7.61,2.31,0.8,Growing,4549.0
+2025-09-22,South America,Consumables,4927.0,4243.0,7.61,7.97,0.98,Growing,4557.0
+2025-09-29,South America,Consumables,5421.0,5920.0,7.61,-8.29,0.64,Growing,4565.0
+2025-10-06,South America,Consumables,5106.0,5379.0,7.61,16.69,0.77,Growing,4572.0
+2025-10-13,South America,Consumables,5091.0,4384.0,7.61,13.17,0.95,Growing,4580.0
+2025-10-20,South America,Consumables,4855.0,4813.0,7.61,-4.34,0.85,Growing,4587.0
+2025-10-27,South America,Consumables,5146.0,4640.0,7.61,18.05,0.65,Growing,4595.0
+2025-11-03,South America,Consumables,5037.0,5481.0,7.61,-8.0,0.72,Growing,4603.0
+2025-11-10,South America,Consumables,4913.0,4333.0,7.61,13.64,0.91,Growing,4610.0
+2025-11-17,South America,Consumables,5215.0,4777.0,7.61,9.89,0.9,Growing,4618.0
+2025-11-24,South America,Consumables,5302.0,5586.0,7.61,22.46,0.97,Growing,4625.0
+2025-12-01,South America,Consumables,4825.0,4935.0,7.61,2.97,0.97,Growing,4633.0
+2025-12-08,South America,Consumables,5638.0,5795.0,7.61,21.72,0.89,Growing,4641.0
+2025-12-15,South America,Consumables,5709.0,5095.0,7.61,3.42,0.65,Growing,4648.0
+2025-12-22,South America,Consumables,4690.0,5289.0,7.61,12.14,0.77,Growing,4656.0
+2025-12-29,South America,Consumables,5437.0,6004.0,7.61,-8.37,0.64,Growing,4663.0
+2026-01-05,South America,Consumables,4647.0,3959.0,7.61,-9.37,0.79,Growing,4671.0
+2026-01-12,South America,Consumables,4684.0,4897.0,7.61,-2.82,0.63,Growing,4679.0
+2026-01-19,South America,Consumables,5338.0,5646.0,7.61,22.3,0.89,Growing,4686.0
+2026-01-26,South America,Consumables,4762.0,4795.0,7.61,-1.75,0.84,Growing,4694.0
+2026-02-02,South America,Consumables,4230.0,3824.0,7.61,14.42,0.61,Growing,4702.0
+2026-02-09,South America,Consumables,5354.0,5559.0,7.61,10.0,0.96,Growing,4709.0
+2026-02-16,South America,Consumables,4917.0,4353.0,7.61,-9.82,0.69,Growing,4717.0
+2026-02-23,South America,Consumables,4463.0,4278.0,7.61,11.21,0.64,Growing,4724.0
+2026-03-02,South America,Consumables,4764.0,4991.0,7.61,-1.23,0.89,Growing,4732.0
+2026-03-09,South America,Consumables,4222.0,4598.0,7.61,1.06,0.67,Growing,4740.0
+2026-03-16,South America,Consumables,4237.0,4454.0,7.61,8.98,0.67,Growing,4747.0
+2026-03-23,South America,Consumables,3683.0,3445.0,7.61,-8.28,0.85,Growing,4755.0
+2026-03-30,South America,Consumables,4206.0,3629.0,7.61,22.21,0.89,Growing,4762.0
+2026-04-06,South America,Consumables,4587.0,4141.0,7.61,19.62,0.95,Growing,4770.0
+2026-04-13,South America,Consumables,4504.0,4803.0,7.61,-5.36,0.94,Growing,4778.0
+2026-04-20,South America,Consumables,3964.0,3606.0,7.61,13.71,0.72,Growing,4785.0
+2026-04-27,South America,Consumables,4195.0,3689.0,7.61,21.16,0.72,Growing,4793.0
+2026-05-04,South America,Consumables,4023.0,3872.0,7.61,19.51,0.93,Growing,4801.0
+2026-05-11,South America,Consumables,4367.0,3901.0,7.61,9.38,0.94,Growing,4808.0
+2026-05-18,South America,Consumables,4682.0,4523.0,7.61,27.12,0.77,Growing,4816.0
+2026-05-25,South America,Consumables,4654.0,4238.0,7.61,15.28,0.97,Growing,4823.0
+2026-06-01,South America,Consumables,4716.0,4093.0,7.61,-4.91,0.86,Growing,4831.0
+2026-06-08,South America,Consumables,4754.0,4531.0,7.61,8.34,0.67,Growing,4839.0
+2026-06-15,South America,Consumables,4846.0,5267.0,7.61,25.46,0.83,Growing,4846.0
+2026-06-22,South America,Consumables,4014.0,4442.0,7.61,-3.2,0.97,Growing,4854.0
+2026-06-29,South America,Consumables,3992.0,3979.0,7.61,-6.54,0.93,Growing,4861.0
+2026-07-06,South America,Consumables,4900.0,5238.0,7.61,23.48,0.71,Growing,4869.0
+2026-07-13,South America,Consumables,4450.0,4219.0,7.61,19.45,0.69,Growing,4877.0
+2026-07-20,South America,Consumables,3846.0,3931.0,7.61,13.67,0.66,Growing,4884.0
+2026-07-27,South America,Consumables,4212.0,3631.0,7.61,-9.8,0.97,Growing,4892.0
+2026-08-03,South America,Consumables,4033.0,4008.0,7.61,-8.66,0.8,Growing,4899.0
+2026-08-10,South America,Consumables,4825.0,4756.0,7.61,21.92,0.91,Growing,4907.0
+2026-08-17,South America,Consumables,4810.0,5459.0,7.61,-9.5,0.88,Growing,4915.0
+2026-08-24,South America,Consumables,5319.0,5554.0,7.61,-4.69,0.71,Growing,4922.0
+2025-09-01,South America,Electronics,867.0,855.0,4.6,19.89,0.61,Growing,908.0
+2025-09-08,South America,Electronics,788.0,765.0,4.6,20.87,0.93,Growing,913.0
+2025-09-15,South America,Electronics,959.0,1063.0,4.6,8.57,0.84,Growing,917.0
+2025-09-22,South America,Electronics,890.0,845.0,4.6,-7.17,0.94,Growing,922.0
+2025-09-29,South America,Electronics,1048.0,1062.0,4.6,0.79,0.96,Growing,927.0
+2025-10-06,South America,Electronics,1004.0,878.0,4.6,21.78,0.9,Growing,931.0
+2025-10-13,South America,Electronics,1090.0,1147.0,4.6,-7.81,0.96,Growing,936.0
+2025-10-20,South America,Electronics,935.0,897.0,4.6,25.52,0.64,Growing,940.0
+2025-10-27,South America,Electronics,977.0,850.0,4.6,-2.99,0.81,Growing,945.0
+2025-11-03,South America,Electronics,992.0,1135.0,4.6,18.37,0.68,Growing,950.0
+2025-11-10,South America,Electronics,1051.0,1076.0,4.6,9.14,0.96,Growing,954.0
+2025-11-17,South America,Electronics,1092.0,1173.0,4.6,28.36,0.68,Growing,959.0
+2025-11-24,South America,Electronics,1074.0,1002.0,4.6,0.69,0.86,Growing,963.0
+2025-12-01,South America,Electronics,1136.0,1131.0,4.6,-7.47,0.73,Growing,968.0
+2025-12-08,South America,Electronics,1036.0,1046.0,4.6,18.39,0.86,Growing,973.0
+2025-12-15,South America,Electronics,1069.0,1165.0,4.6,1.69,0.84,Growing,977.0
+2025-12-22,South America,Electronics,1201.0,1342.0,4.6,27.64,0.62,Growing,982.0
+2025-12-29,South America,Electronics,1031.0,1154.0,4.6,8.31,0.63,Growing,986.0
+2026-01-05,South America,Electronics,1030.0,1091.0,4.6,-5.63,0.7,Growing,991.0
+2026-01-12,South America,Electronics,1248.0,1256.0,4.6,9.85,0.93,Growing,996.0
+2026-01-19,South America,Electronics,1025.0,912.0,4.6,28.78,0.81,Growing,1000.0
+2026-01-26,South America,Electronics,1019.0,1063.0,4.6,3.87,0.77,Growing,1005.0
+2026-02-02,South America,Electronics,1049.0,1190.0,4.6,24.87,0.69,Growing,1009.0
+2026-02-09,South America,Electronics,1075.0,1024.0,4.6,15.79,0.76,Growing,1014.0
+2026-02-16,South America,Electronics,1003.0,1106.0,4.6,13.73,0.86,Growing,1019.0
+2026-02-23,South America,Electronics,984.0,875.0,4.6,7.81,0.72,Growing,1023.0
+2026-03-02,South America,Electronics,1039.0,1185.0,4.6,0.4,0.78,Growing,1028.0
+2026-03-09,South America,Electronics,977.0,934.0,4.6,20.79,0.62,Growing,1032.0
+2026-03-16,South America,Electronics,971.0,908.0,4.6,26.97,0.87,Growing,1037.0
+2026-03-23,South America,Electronics,1018.0,1077.0,4.6,28.93,0.92,Growing,1042.0
+2026-03-30,South America,Electronics,978.0,924.0,4.6,-0.48,0.62,Growing,1046.0
+2026-04-06,South America,Electronics,957.0,867.0,4.6,-4.94,0.7,Growing,1051.0
+2026-04-13,South America,Electronics,971.0,934.0,4.6,2.68,0.73,Growing,1055.0
+2026-04-20,South America,Electronics,977.0,919.0,4.6,11.59,0.66,Growing,1060.0
+2026-04-27,South America,Electronics,1047.0,1033.0,4.6,9.98,0.66,Growing,1065.0
+2026-05-04,South America,Electronics,944.0,1012.0,4.6,2.81,0.6,Growing,1069.0
+2026-05-11,South America,Electronics,1044.0,978.0,4.6,18.22,0.78,Growing,1074.0
+2026-05-18,South America,Electronics,971.0,992.0,4.6,27.76,0.97,Growing,1078.0
+2026-05-25,South America,Electronics,1039.0,1098.0,4.6,26.28,0.77,Growing,1083.0
+2026-06-01,South America,Electronics,1062.0,947.0,4.6,19.27,0.94,Growing,1088.0
+2026-06-08,South America,Electronics,933.0,918.0,4.6,6.07,0.92,Growing,1092.0
+2026-06-15,South America,Electronics,979.0,1021.0,4.6,-6.3,0.62,Growing,1097.0
+2026-06-22,South America,Electronics,962.0,825.0,4.6,27.43,0.71,Growing,1101.0
+2026-06-29,South America,Electronics,991.0,1042.0,4.6,11.54,0.77,Growing,1106.0
+2026-07-06,South America,Electronics,1102.0,1137.0,4.6,-2.22,0.72,Growing,1110.0
+2026-07-13,South America,Electronics,1085.0,1040.0,4.6,27.74,0.95,Growing,1115.0
+2026-07-20,South America,Electronics,1138.0,1065.0,4.6,4.79,0.74,Growing,1120.0
+2026-07-27,South America,Electronics,1181.0,1314.0,4.6,4.05,0.97,Growing,1124.0
+2026-08-03,South America,Electronics,1182.0,1290.0,4.6,7.77,0.98,Growing,1129.0
+2026-08-10,South America,Electronics,1159.0,1323.0,4.6,1.55,0.91,Growing,1133.0
+2026-08-17,South America,Electronics,977.0,855.0,4.6,-4.42,0.82,Growing,1138.0
+2026-08-24,South America,Electronics,1202.0,1334.0,4.6,-1.69,0.78,Growing,1143.0
+2025-09-01,South America,Mechanical,4946.0,4820.0,-3.68,6.38,0.95,Declining,4940.0
+2025-09-08,South America,Mechanical,4910.0,5286.0,-3.68,12.23,0.87,Declining,4936.0
+2025-09-15,South America,Mechanical,5384.0,4645.0,-3.68,5.27,0.81,Declining,4933.0
+2025-09-22,South America,Mechanical,5545.0,5219.0,-3.68,23.05,0.92,Declining,4929.0
+2025-09-29,South America,Mechanical,5070.0,4709.0,-3.68,-8.93,0.6,Declining,4925.0
+2025-10-06,South America,Mechanical,5440.0,5395.0,-3.68,28.24,0.92,Declining,4921.0
+2025-10-13,South America,Mechanical,5236.0,5531.0,-3.68,6.69,0.79,Declining,4918.0
+2025-10-20,South America,Mechanical,5122.0,4780.0,-3.68,-0.21,0.65,Declining,4914.0
+2025-10-27,South America,Mechanical,6041.0,6160.0,-3.68,19.82,0.82,Declining,4910.0
+2025-11-03,South America,Mechanical,5960.0,5917.0,-3.68,24.73,0.84,Declining,4907.0
+2025-11-10,South America,Mechanical,5952.0,6569.0,-3.68,10.5,0.82,Declining,4903.0
+2025-11-17,South America,Mechanical,5873.0,5555.0,-3.68,-3.49,0.62,Declining,4899.0
+2025-11-24,South America,Mechanical,6236.0,6086.0,-3.68,-3.47,0.7,Declining,4896.0
+2025-12-01,South America,Mechanical,5940.0,5566.0,-3.68,26.48,0.74,Declining,4892.0
+2025-12-08,South America,Mechanical,5164.0,4673.0,-3.68,10.55,0.89,Declining,4888.0
+2025-12-15,South America,Mechanical,5874.0,5951.0,-3.68,-6.22,0.89,Declining,4885.0
+2025-12-22,South America,Mechanical,6514.0,6876.0,-3.68,17.4,0.71,Declining,4881.0
+2025-12-29,South America,Mechanical,5404.0,5534.0,-3.68,17.53,0.64,Declining,4877.0
+2026-01-05,South America,Mechanical,5886.0,5859.0,-3.68,10.73,0.74,Declining,4874.0
+2026-01-12,South America,Mechanical,5708.0,5027.0,-3.68,3.61,0.95,Declining,4870.0
+2026-01-19,South America,Mechanical,5817.0,6015.0,-3.68,-2.46,0.94,Declining,4866.0
+2026-01-26,South America,Mechanical,5772.0,5828.0,-3.68,23.26,0.8,Declining,4863.0
+2026-02-02,South America,Mechanical,4784.0,4176.0,-3.68,-5.44,0.77,Declining,4859.0
+2026-02-09,South America,Mechanical,5070.0,5038.0,-3.68,22.75,0.95,Declining,4855.0
+2026-02-16,South America,Mechanical,4996.0,5143.0,-3.68,22.68,0.94,Declining,4852.0
+2026-02-23,South America,Mechanical,5339.0,5676.0,-3.68,20.54,0.73,Declining,4848.0
+2026-03-02,South America,Mechanical,5558.0,4962.0,-3.68,-1.11,0.93,Declining,4844.0
+2026-03-09,South America,Mechanical,4827.0,4291.0,-3.68,-0.94,0.65,Declining,4841.0
+2026-03-16,South America,Mechanical,5084.0,5503.0,-3.68,21.36,0.63,Declining,4837.0
+2026-03-23,South America,Mechanical,4696.0,4144.0,-3.68,20.29,0.62,Declining,4833.0
+2026-03-30,South America,Mechanical,4401.0,4075.0,-3.68,-7.63,0.65,Declining,4830.0
+2026-04-06,South America,Mechanical,3690.0,3971.0,-3.68,-7.35,0.85,Declining,4826.0
+2026-04-13,South America,Mechanical,4209.0,3811.0,-3.68,-1.78,0.94,Declining,4822.0
+2026-04-20,South America,Mechanical,3054.0,3370.0,-3.68,4.06,0.63,Declining,4819.0
+2026-04-27,South America,Mechanical,4731.0,4732.0,-3.68,3.91,0.66,Declining,4815.0
+2026-05-04,South America,Mechanical,3408.0,3480.0,-3.68,19.14,0.69,Declining,4811.0
+2026-05-11,South America,Mechanical,4111.0,3731.0,-3.68,-9.44,0.68,Declining,4807.0
+2026-05-18,South America,Mechanical,3946.0,3990.0,-3.68,1.27,0.94,Declining,4804.0
+2026-05-25,South America,Mechanical,3791.0,4027.0,-3.68,-1.44,0.79,Declining,4800.0
+2026-06-01,South America,Mechanical,3571.0,3506.0,-3.68,4.66,0.82,Declining,4796.0
+2026-06-08,South America,Mechanical,3847.0,3517.0,-3.68,4.19,0.74,Declining,4793.0
+2026-06-15,South America,Mechanical,3563.0,4081.0,-3.68,-0.9,0.64,Declining,4789.0
+2026-06-22,South America,Mechanical,3804.0,4037.0,-3.68,-4.56,0.89,Declining,4785.0
+2026-06-29,South America,Mechanical,3857.0,3658.0,-3.68,12.29,0.62,Declining,4782.0
+2026-07-06,South America,Mechanical,4035.0,4612.0,-3.68,14.02,0.72,Declining,4778.0
+2026-07-13,South America,Mechanical,4094.0,3837.0,-3.68,7.76,0.81,Declining,4774.0
+2026-07-20,South America,Mechanical,4135.0,4105.0,-3.68,-7.22,0.92,Declining,4771.0
+2026-07-27,South America,Mechanical,3886.0,4468.0,-3.68,17.17,0.67,Declining,4767.0
+2026-08-03,South America,Mechanical,4022.0,3521.0,-3.68,7.52,0.85,Declining,4763.0
+2026-08-10,South America,Mechanical,4345.0,4464.0,-3.68,-4.27,0.75,Declining,4760.0
+2026-08-17,South America,Mechanical,5192.0,5933.0,-3.68,29.11,0.62,Declining,4756.0
+2026-08-24,South America,Mechanical,5145.0,5903.0,-3.68,3.55,0.83,Declining,4752.0
+2025-09-01,South America,Pneumatics,1029.0,1118.0,11.76,13.28,0.7,Growing,1052.0
+2025-09-08,South America,Pneumatics,1220.0,1211.0,11.76,15.75,0.75,Growing,1064.0
+2025-09-15,South America,Pneumatics,1057.0,1142.0,11.76,9.38,0.71,Growing,1076.0
+2025-09-22,South America,Pneumatics,1109.0,1108.0,11.76,-5.68,0.7,Growing,1088.0
+2025-09-29,South America,Pneumatics,1164.0,1013.0,11.76,-6.02,0.62,Growing,1099.0
+2025-10-06,South America,Pneumatics,1195.0,1153.0,11.76,17.12,0.97,Growing,1111.0
+2025-10-13,South America,Pneumatics,1238.0,1081.0,11.76,14.88,0.64,Growing,1123.0
+2025-10-20,South America,Pneumatics,1245.0,1354.0,11.76,20.06,0.89,Growing,1135.0
+2025-10-27,South America,Pneumatics,1352.0,1289.0,11.76,9.61,0.7,Growing,1147.0
+2025-11-03,South America,Pneumatics,1458.0,1656.0,11.76,24.39,0.81,Growing,1158.0
+2025-11-10,South America,Pneumatics,1450.0,1369.0,11.76,26.6,0.75,Growing,1170.0
+2025-11-17,South America,Pneumatics,1399.0,1203.0,11.76,5.05,0.77,Growing,1182.0
+2025-11-24,South America,Pneumatics,1241.0,1238.0,11.76,2.12,0.87,Growing,1194.0
+2025-12-01,South America,Pneumatics,1352.0,1347.0,11.76,-4.62,0.87,Growing,1205.0
+2025-12-08,South America,Pneumatics,1518.0,1551.0,11.76,16.4,0.86,Growing,1217.0
+2025-12-15,South America,Pneumatics,1508.0,1511.0,11.76,9.04,0.92,Growing,1229.0
+2025-12-22,South America,Pneumatics,1356.0,1296.0,11.76,28.83,0.83,Growing,1241.0
+2025-12-29,South America,Pneumatics,1496.0,1284.0,11.76,29.11,0.72,Growing,1252.0
+2026-01-05,South America,Pneumatics,1587.0,1362.0,11.76,3.96,0.88,Growing,1264.0
+2026-01-12,South America,Pneumatics,1474.0,1296.0,11.76,25.65,0.73,Growing,1276.0
+2026-01-19,South America,Pneumatics,1379.0,1275.0,11.76,4.05,0.85,Growing,1288.0
+2026-01-26,South America,Pneumatics,1481.0,1664.0,11.76,15.92,0.83,Growing,1299.0
+2026-02-02,South America,Pneumatics,1472.0,1396.0,11.76,3.5,0.61,Growing,1311.0
+2026-02-09,South America,Pneumatics,1424.0,1454.0,11.76,8.44,0.93,Growing,1323.0
+2026-02-16,South America,Pneumatics,1438.0,1647.0,11.76,17.84,0.82,Growing,1335.0
+2026-02-23,South America,Pneumatics,1333.0,1362.0,11.76,5.11,0.75,Growing,1346.0
+2026-03-02,South America,Pneumatics,1372.0,1373.0,11.76,17.0,0.73,Growing,1358.0
+2026-03-09,South America,Pneumatics,1309.0,1354.0,11.76,20.6,0.73,Growing,1370.0
+2026-03-16,South America,Pneumatics,1274.0,1383.0,11.76,9.88,0.92,Growing,1382.0
+2026-03-23,South America,Pneumatics,1389.0,1300.0,11.76,23.62,0.8,Growing,1394.0
+2026-03-30,South America,Pneumatics,1579.0,1694.0,11.76,6.08,0.69,Growing,1405.0
+2026-04-06,South America,Pneumatics,1383.0,1215.0,11.76,-6.32,0.92,Growing,1417.0
+2026-04-13,South America,Pneumatics,1276.0,1165.0,11.76,22.05,0.78,Growing,1429.0
+2026-04-20,South America,Pneumatics,1314.0,1236.0,11.76,21.83,0.85,Growing,1441.0
+2026-04-27,South America,Pneumatics,1313.0,1275.0,11.76,11.6,0.68,Growing,1452.0
+2026-05-04,South America,Pneumatics,1198.0,1292.0,11.76,15.0,0.77,Growing,1464.0
+2026-05-11,South America,Pneumatics,1291.0,1321.0,11.76,18.13,0.93,Growing,1476.0
+2026-05-18,South America,Pneumatics,1303.0,1398.0,11.76,-1.48,0.97,Growing,1488.0
+2026-05-25,South America,Pneumatics,1102.0,1191.0,11.76,11.31,0.83,Growing,1499.0
+2026-06-01,South America,Pneumatics,1346.0,1398.0,11.76,7.35,0.82,Growing,1511.0
+2026-06-08,South America,Pneumatics,1240.0,1309.0,11.76,-4.09,0.66,Growing,1523.0
+2026-06-15,South America,Pneumatics,1324.0,1252.0,11.76,2.01,0.77,Growing,1535.0
+2026-06-22,South America,Pneumatics,1369.0,1502.0,11.76,-1.86,0.76,Growing,1546.0
+2026-06-29,South America,Pneumatics,1350.0,1391.0,11.76,15.84,0.7,Growing,1558.0
+2026-07-06,South America,Pneumatics,1367.0,1501.0,11.76,-2.32,0.69,Growing,1570.0
+2026-07-13,South America,Pneumatics,1451.0,1423.0,11.76,8.57,0.81,Growing,1582.0
+2026-07-20,South America,Pneumatics,1443.0,1339.0,11.76,-3.63,0.65,Growing,1593.0
+2026-07-27,South America,Pneumatics,1470.0,1327.0,11.76,22.14,0.85,Growing,1605.0
+2026-08-03,South America,Pneumatics,1652.0,1830.0,11.76,9.43,0.61,Growing,1617.0
+2026-08-10,South America,Pneumatics,1383.0,1535.0,11.76,-6.64,0.83,Growing,1629.0
+2026-08-17,South America,Pneumatics,1661.0,1457.0,11.76,4.54,0.85,Growing,1641.0
+2026-08-24,South America,Pneumatics,1577.0,1407.0,11.76,27.73,0.88,Growing,1652.0

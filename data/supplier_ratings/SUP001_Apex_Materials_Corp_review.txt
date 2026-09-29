@@ -1,0 +1,46 @@
+SUPPLIER PERFORMANCE REVIEW
+============================================================
+Supplier: Apex Materials Corp
+Supplier ID: SUP001
+Country: United States | Region: North America
+Tier: 1 | Certifications: ISO 9001
+Review Date: 2026-09-12
+Overall Rating: 85.6/100 | Classification: PREFERRED
+Risk Level: Low
+
+SCORECARD
+------------------------------------------------------------
+Quality Score:           74.4/100
+Delivery Score:          98.9/100
+Cost Competitiveness:    90.3/100
+Responsiveness:          84.9/100
+Sustainability:          70.4/100
+Innovation:              88.9/100
+Overall Weighted Rating: 85.6/100
+
+STRENGTHS
+------------------------------------------------------------
+  - Excellent delivery reliability and on-time performance
+  - Competitive pricing structure with transparent cost breakdown
+  - Proactive in proposing design improvements and new materials
+
+AREAS FOR IMPROVEMENT
+------------------------------------------------------------
+  - Quality score of 74.4 indicates room for improvement in defect management
+  - Sustainability score of 70.4 falls short of corporate ESG targets
+
+CAPACITY & OPERATIONS
+------------------------------------------------------------
+Supplier has demonstrated capacity to handle 20% surge orders within 2-week notice.
+
+AUDIT HISTORY
+------------------------------------------------------------
+Last audit (2026-Q2): One corrective action issued for incoming inspection procedure gaps.
+
+RECOMMENDATION
+------------------------------------------------------------
+Based on the overall rating of 85.6/100, this supplier is classified as
+PREFERRED. This supplier should be prioritized for critical and high-value purchase orders.
+
+============================================================
+End of Review - Confidential

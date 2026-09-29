@@ -1,0 +1,45 @@
+SUPPLIER PERFORMANCE REVIEW
+============================================================
+Supplier: Shenzhen PCB Tech Co
+Supplier ID: SUP015
+Country: China | Region: Asia Pacific
+Tier: 2 | Certifications: ISO 9001
+Review Date: 2026-09-12
+Overall Rating: 75.5/100 | Classification: APPROVED
+Risk Level: Medium
+
+SCORECARD
+------------------------------------------------------------
+Quality Score:           66.0/100
+Delivery Score:          90.7/100
+Cost Competitiveness:    60.1/100
+Responsiveness:          83.1/100
+Sustainability:          87.3/100
+Innovation:              61.6/100
+Overall Weighted Rating: 75.5/100
+
+STRENGTHS
+------------------------------------------------------------
+  - Excellent delivery reliability and on-time performance
+  - Strong sustainability practices with environmental certifications
+
+AREAS FOR IMPROVEMENT
+------------------------------------------------------------
+  - Quality score of 66.0 indicates room for improvement in defect management
+  - Cost competitiveness at 60.1 is below benchmark; consider renegotiation
+
+CAPACITY & OPERATIONS
+------------------------------------------------------------
+Capacity constraints observed during Q4 peak season; requires advance planning.
+
+AUDIT HISTORY
+------------------------------------------------------------
+Last audit (2025-Q4): Clean audit. All corrective actions from prior audits verified closed.
+
+RECOMMENDATION
+------------------------------------------------------------
+Based on the overall rating of 75.5/100, this supplier is classified as
+APPROVED. This supplier may be used for standard orders but should not be sole-sourced for critical parts.
+
+============================================================
+End of Review - Confidential

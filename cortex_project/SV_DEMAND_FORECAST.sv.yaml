@@ -1,0 +1,145 @@
+name: SV_DEMAND_FORECAST
+description: >-
+  Demand forecasting analytics. Part-level demand forecasts, market trend analysis,
+  regional demand signals. Used by Demand Forecasting Agent.
+tables:
+  - name: DEMAND_FORECAST
+    base_table:
+      database: __SF_DATABASE__
+      schema: __SF_SCHEMA__
+      table: DEMAND_FORECAST
+    primary_key:
+      columns: [FORECAST_DATE, REGION, PART_ID]
+    dimensions:
+      - name: FORECAST_DATE
+        expr: FORECAST_DATE
+        data_type: DATE
+      - name: REGION
+        expr: REGION
+        data_type: VARCHAR
+      - name: PART_ID
+        expr: PART_ID
+        data_type: VARCHAR
+      - name: MODEL_VERSION
+        expr: MODEL_VERSION
+        data_type: VARCHAR
+    facts:
+      - name: FORECAST_QTY
+        expr: FORECAST_QTY
+        data_type: NUMBER
+        description: Predicted demand quantity
+      - name: LOWER_BOUND
+        expr: LOWER_BOUND
+        data_type: NUMBER
+      - name: UPPER_BOUND
+        expr: UPPER_BOUND
+        data_type: NUMBER
+      - name: CONFIDENCE
+        expr: CONFIDENCE
+        data_type: FLOAT
+  - name: MARKET_TRENDS
+    base_table:
+      database: __SF_DATABASE__
+      schema: __SF_SCHEMA__
+      table: MARKET_TRENDS
+    primary_key:
+      columns: [WEEK_DATE, REGION, CATEGORY]
+    dimensions:
+      - name: WEEK_DATE
+        expr: WEEK_DATE
+        data_type: DATE
+      - name: REGION
+        expr: REGION
+        data_type: VARCHAR
+      - name: CATEGORY
+        expr: CATEGORY
+        data_type: VARCHAR
+      - name: TREND_SIGNAL
+        expr: TREND_SIGNAL
+        data_type: VARCHAR
+    facts:
+      - name: DEMAND_UNITS
+        expr: DEMAND_UNITS
+        data_type: NUMBER
+      - name: FORECAST_UNITS
+        expr: FORECAST_UNITS
+        data_type: NUMBER
+      - name: TREND_SLOPE
+        expr: TREND_SLOPE
+        data_type: FLOAT
+      - name: YOY_GROWTH_PCT
+        expr: YOY_GROWTH_PCT
+        data_type: FLOAT
+      - name: CONFIDENCE_SCORE
+        expr: CONFIDENCE_SCORE
+        data_type: FLOAT
+      - name: BASELINE_DEMAND
+        expr: BASELINE_DEMAND
+        data_type: NUMBER
+  - name: PARTS
+    base_table:
+      database: __SF_DATABASE__
+      schema: __SF_SCHEMA__
+      table: PARTS
+    primary_key:
+      columns: [PART_ID]
+    dimensions:
+      - name: PART_ID
+        expr: PART_ID
+        data_type: VARCHAR
+      - name: PART_NAME
+        expr: PART_NAME
+        data_type: VARCHAR
+      - name: CATEGORY
+        expr: CATEGORY
+        data_type: VARCHAR
+      - name: CRITICAL_FLAG
+        expr: CRITICAL_FLAG
+        data_type: BOOLEAN
+relationships:
+  - name: FORECAST_TO_PARTS
+    left_table: DEMAND_FORECAST
+    right_table: PARTS
+    join_type: inner
+    relationship_type: many_to_one
+    relationship_columns:
+      - left_column: PART_ID
+        right_column: PART_ID
+verified_queries:
+  - name: top_demand_forecast
+    question: What are the top demand forecasts for the next 12 weeks by part?
+    sql: >-
+      SELECT p.PART_NAME, p.CATEGORY, df.REGION, df.FORECAST_DATE,
+        df.FORECAST_QTY, df.LOWER_BOUND, df.UPPER_BOUND, df.CONFIDENCE
+      FROM DEMAND_FORECAST df JOIN PARTS p ON df.PART_ID = p.PART_ID
+      WHERE df.FORECAST_DATE >= CURRENT_DATE()
+      ORDER BY df.FORECAST_QTY DESC LIMIT 50
+    verified_at: 1726099200
+    verified_by: SCM Ontology Generator
+  - name: growing_trends
+    question: Which categories and regions have growing demand trends?
+    sql: >-
+      SELECT REGION, CATEGORY, ROUND(AVG(TREND_SLOPE),2) AS avg_trend,
+        ROUND(AVG(YOY_GROWTH_PCT),2) AS avg_yoy_growth
+      FROM MARKET_TRENDS WHERE TREND_SIGNAL = 'Growing'
+      GROUP BY 1,2 ORDER BY avg_yoy_growth DESC
+    verified_at: 1726099200
+    verified_by: SCM Ontology Generator
+  - name: demand_trend_by_region
+    question: What is the demand trend by region over time?
+    sql: >-
+      SELECT REGION, WEEK_DATE, SUM(DEMAND_UNITS) AS total_demand,
+        SUM(FORECAST_UNITS) AS total_forecast
+      FROM MARKET_TRENDS GROUP BY 1,2 ORDER BY 1,2
+    verified_at: 1726099200
+    verified_by: SCM Ontology Generator
+  - name: critical_parts_forecast
+    question: What is the forecast for critical parts?
+    sql: >-
+      SELECT p.PART_NAME, df.REGION, df.FORECAST_DATE,
+        SUM(df.FORECAST_QTY) AS total_forecast
+      FROM DEMAND_FORECAST df JOIN PARTS p ON df.PART_ID = p.PART_ID
+      WHERE p.CRITICAL_FLAG = TRUE AND df.FORECAST_DATE >= CURRENT_DATE()
+      GROUP BY 1,2,3 ORDER BY total_forecast DESC
+    verified_at: 1726099200
+    verified_by: SCM Ontology Generator

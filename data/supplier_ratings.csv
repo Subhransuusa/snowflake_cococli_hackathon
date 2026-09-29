@@ -1,0 +1,16 @@
+SUPPLIER_ID,SUPPLIER_NAME,COUNTRY,REGION,TIER,QUALITY_SCORE,DELIVERY_SCORE,COST_COMPETITIVENESS,RESPONSIVENESS,SUSTAINABILITY_SCORE,INNOVATION_SCORE,OVERALL_RATING,RISK_LEVEL,CERTIFICATIONS,RATING_DATE
+SUP001,Apex Materials Corp,United States,North America,1,74.4,98.9,90.3,84.9,70.4,88.9,85.6,Low,ISO 9001,2026-09-12
+SUP002,Yangtze Components Ltd,China,Asia Pacific,2,77.9,90.4,64.6,77.9,79.2,59.0,77.6,Medium,ISO 9001,2026-09-12
+SUP003,Rhine Precision GmbH,Germany,Europe,1,71.4,101.7,63.3,77.5,53.5,77.1,76.8,Medium,ISO 9001,2026-09-12
+SUP004,Tata Industrial Supply,India,Asia Pacific,2,91.1,90.1,75.0,64.2,73.2,64.9,80.5,Medium,ISO 9001,2026-09-12
+SUP005,Maple Fasteners Inc,Canada,North America,2,69.5,93.5,57.8,88.4,77.5,68.3,76.7,Medium,None,2026-09-12
+SUP006,Sakura Electronics Co,Japan,Asia Pacific,1,98.8,101.7,57.8,75.8,54.3,82.2,82.6,Medium,"ISO 9001, ISO 14001",2026-09-12
+SUP007,Sao Paulo Metals SA,Brazil,South America,3,87.9,79.7,94.6,87.2,64.1,87.2,84.7,Medium,"ISO 9001, ISO 14001",2026-09-12
+SUP008,Nordic Alloys AB,Sweden,Europe,2,71.4,91.7,87.9,89.2,60.0,82.2,81.8,Medium,None,2026-09-12
+SUP009,Delta Plastics LLC,United States,North America,3,84.5,81.8,86.5,63.9,86.6,84.1,81.3,Medium,None,2026-09-12
+SUP010,Seoul Semiconductor Inc,South Korea,Asia Pacific,1,89.4,92.0,61.8,75.7,58.7,91.1,79.5,Medium,"ISO 9001, AS9100",2026-09-12
+SUP011,Anatolian Castings AS,Turkey,Europe,3,68.2,75.5,80.7,62.8,89.5,72.1,74.0,Medium,ISO 9001,2026-09-12
+SUP012,Melbourne Rubber Pty,Australia,Asia Pacific,3,89.5,79.7,82.6,72.6,64.8,61.6,79.3,Medium,"ISO 9001, IATF 16949",2026-09-12
+SUP013,Guadalajara Motors SA,Mexico,North America,2,83.2,92.3,60.9,71.0,52.2,66.7,75.3,Medium,"ISO 9001, IATF 16949",2026-09-12
+SUP014,Thames Bearings Ltd,United Kingdom,Europe,1,87.8,92.3,83.6,81.6,56.8,82.1,83.8,Medium,"ISO 9001, IATF 16949",2026-09-12
+SUP015,Shenzhen PCB Tech Co,China,Asia Pacific,2,66.0,90.7,60.1,83.1,87.3,61.6,75.5,Medium,ISO 9001,2026-09-12

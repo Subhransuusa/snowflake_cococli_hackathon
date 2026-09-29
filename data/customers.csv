@@ -1,0 +1,21 @@
+CUSTOMER_ID,CUSTOMER_NAME,SEGMENT,INDUSTRY,CITY,COUNTRY,REGION,PRIORITY
+CUS001,Titan Automotive Group,Enterprise,Automotive,Detroit,United States,North America,High
+CUS002,EuroTech Industries AG,Enterprise,Industrial,Munich,Germany,Europe,High
+CUS003,Pacific Manufacturing Co,Mid-Market,Manufacturing,Osaka,Japan,Asia Pacific,Medium
+CUS004,Northwind Aerospace Ltd,Enterprise,Aerospace,London,United Kingdom,Europe,High
+CUS005,Green Valley Energy,Mid-Market,Energy,Denver,United States,North America,Medium
+CUS006,Atlas Construction SA,Mid-Market,Construction,Madrid,Spain,Europe,Medium
+CUS007,Horizon Medical Devices,Enterprise,Healthcare,Boston,United States,North America,High
+CUS008,Dragon Heavy Industries,Enterprise,Heavy Industry,Beijing,China,Asia Pacific,High
+CUS009,Maple Leaf Robotics,SMB,Robotics,Vancouver,Canada,North America,Low
+CUS010,Fjord Marine Systems,Mid-Market,Marine,Oslo,Norway,Europe,Medium
+CUS011,Southern Cross Mining,Enterprise,Mining,Perth,Australia,Asia Pacific,High
+CUS012,Ganges Textiles Ltd,SMB,Textile,Mumbai,India,Asia Pacific,Low
+CUS013,Liberty Defense Corp,Enterprise,Defense,Arlington,United States,North America,High
+CUS014,Andes Agricultural SA,Mid-Market,Agriculture,Santiago,Chile,South America,Medium
+CUS015,Rhine Pharma GmbH,Mid-Market,Pharmaceutical,Basel,Switzerland,Europe,Medium
+CUS016,Silk Road Electronics,SMB,Electronics,Istanbul,Turkey,Europe,Low
+CUS017,Great Plains Agri-Tech,SMB,Agriculture,Omaha,United States,North America,Low
+CUS018,Samurai Precision Tools,Mid-Market,Tooling,Tokyo,Japan,Asia Pacific,Medium
+CUS019,Nordic Wind Power AS,Mid-Market,Energy,Copenhagen,Denmark,Europe,Medium
+CUS020,Amazon Basin Logistics,SMB,Logistics,Manaus,Brazil,South America,Low

@@ -1,0 +1,113 @@
+models:
+  orchestration: "auto"
+
+instructions:
+  system: >-
+    You are the Supply Chain Analyst — a governed conversational analytics agent
+    for manufacturing supply chain management. You answer questions across four
+    domains using canonical, governed metrics so that every persona (procurement,
+    planning, logistics, sales) gets the same trustworthy answer.
+
+    The four canonical supply chain metrics you govern are:
+    1. **On-Time Delivery (OTD)** — percentage of purchase orders received by the
+       promised date. Use the procurement_analytics tool.
+    2. **Landed Cost** — total cost of goods including material, freight, duty, and
+       handling per unit. Use the procurement_analytics tool.
+    3. **Days of Inventory (DOI)** — on-hand quantity divided by average daily usage,
+       measuring how many days current stock will last. Use the inventory_analytics tool.
+    4. **Fill Rate** — percentage of customer-ordered quantity that was actually
+       fulfilled. Use the fulfillment_analytics tool.
+    5. **Delivery OTD** — percentage of shipments delivered to customers on or before
+       the promised date. Use the logistics_analytics tool.
+
+    When a question spans multiple domains, query each relevant tool and synthesize
+    a unified answer. Always name the metric definition so the user knows exactly
+    what was measured.
+
+  orchestration: >-
+    Route questions using these rules:
+    - Supplier performance, purchase orders, lead times, landed cost, procurement OTD
+      → procurement_analytics
+    - Inventory levels, days of inventory, safety stock, reorder, stockout risk
+      → inventory_analytics
+    - Customer orders, fill rate, order fulfillment, order lines
+      → fulfillment_analytics
+    - Shipments, delivery OTD, carriers, transport modes, freight cost, transit time
+      → logistics_analytics
+    - Cross-domain or executive summary questions → query multiple tools and combine
+
+  response: >-
+    Be concise and data-driven. Present numbers in tables when comparing across
+    entities. Always state the metric name and its definition on first use.
+    Round percentages to 2 decimal places. When showing trends, order by time
+    ascending. If a question is ambiguous about which metric to use, state the
+    metric you chose and why.
+
+  sample_questions:
+    - question: "What is the on-time delivery rate by supplier this quarter?"
+    - question: "Which plants have the lowest days of inventory for critical parts?"
+    - question: "What is the fill rate by customer segment this month?"
+    - question: "Which carrier has the best delivery OTD?"
+    - question: "Compare the landed cost per unit across supplier regions"
+    - question: "Give me an executive summary of all supply chain KPIs for the last 3 months"
+    - question: "Which suppliers have both high OTD and low landed cost?"
+    - question: "Are there parts with low fill rate that are also below safety stock?"
+
+tools:
+  - tool_spec:
+      type: "cortex_analyst_text_to_sql"
+      name: "procurement_analytics"
+      description: >-
+        Procurement domain analytics. Query supplier performance metrics including
+        On-Time Delivery (OTD) rate, Landed Cost per unit (material + freight + duty +
+        handling), supplier lead time compliance, and purchase order analysis. Covers
+        tables: SUPPLIERS, PARTS, PLANTS, SUPPLIER_PARTS, PURCHASE_ORDERS.
+
+  - tool_spec:
+      type: "cortex_analyst_text_to_sql"
+      name: "inventory_analytics"
+      description: >-
+        Inventory domain analytics. Query Days of Inventory (DOI), safety stock
+        coverage, reorder status, and inventory health across plants and parts.
+        Covers tables: PLANTS, PARTS, PLANT_INVENTORY.
+
+  - tool_spec:
+      type: "cortex_analyst_text_to_sql"
+      name: "fulfillment_analytics"
+      description: >-
+        Order fulfillment domain analytics. Query Fill Rate percentage, ordered vs
+        fulfilled quantities, and order line status across customers, plants, parts,
+        and time periods. Covers tables: CUSTOMERS, SALES_ORDERS, ORDER_LINES, PARTS, PLANTS.
+
+  - tool_spec:
+      type: "cortex_analyst_text_to_sql"
+      name: "logistics_analytics"
+      description: >-
+        Logistics and shipment domain analytics. Query Delivery On-Time Delivery (OTD)
+        rate, freight costs, transit times, carrier and transport mode performance.
+        Covers tables: SHIPMENTS, SHIPMENT_LINES, CUSTOMERS, PLANTS, PARTS.
+
+tool_resources:
+  procurement_analytics:
+    execution_environment:
+      type: "warehouse"
+      warehouse: "__SF_WAREHOUSE__"
+    semantic_view: "__SF_DATABASE__.__SF_SCHEMA__.SCM_PROCUREMENT"
+
+  inventory_analytics:
+    execution_environment:
+      type: "warehouse"
+      warehouse: "__SF_WAREHOUSE__"
+    semantic_view: "__SF_DATABASE__.__SF_SCHEMA__.SCM_INVENTORY"
+
+  fulfillment_analytics:
+    execution_environment:
+      type: "warehouse"
+      warehouse: "__SF_WAREHOUSE__"
+    semantic_view: "__SF_DATABASE__.__SF_SCHEMA__.SCM_FULFILLMENT"
+
+  logistics_analytics:
+    execution_environment:
+      type: "warehouse"
+      warehouse: "__SF_WAREHOUSE__"
+    semantic_view: "__SF_DATABASE__.__SF_SCHEMA__.SCM_LOGISTICS"

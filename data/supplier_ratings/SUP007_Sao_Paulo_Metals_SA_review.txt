@@ -1,0 +1,47 @@
+SUPPLIER PERFORMANCE REVIEW
+============================================================
+Supplier: Sao Paulo Metals SA
+Supplier ID: SUP007
+Country: Brazil | Region: South America
+Tier: 3 | Certifications: ISO 9001, ISO 14001
+Review Date: 2026-09-12
+Overall Rating: 84.7/100 | Classification: APPROVED
+Risk Level: Medium
+
+SCORECARD
+------------------------------------------------------------
+Quality Score:           87.9/100
+Delivery Score:          79.7/100
+Cost Competitiveness:    94.6/100
+Responsiveness:          87.2/100
+Sustainability:          64.1/100
+Innovation:              87.2/100
+Overall Weighted Rating: 84.7/100
+
+STRENGTHS
+------------------------------------------------------------
+  - Consistently high product quality with minimal defect rates
+  - Competitive pricing structure with transparent cost breakdown
+  - Highly responsive to urgent orders and change requests
+  - Proactive in proposing design improvements and new materials
+
+AREAS FOR IMPROVEMENT
+------------------------------------------------------------
+  - Delivery score of 79.7 suggests late shipments are a recurring concern
+  - Sustainability score of 64.1 falls short of corporate ESG targets
+
+CAPACITY & OPERATIONS
+------------------------------------------------------------
+Dual-facility capability provides redundancy for critical part supply.
+
+AUDIT HISTORY
+------------------------------------------------------------
+Last audit (2025-Q4): Clean audit. All corrective actions from prior audits verified closed.
+
+RECOMMENDATION
+------------------------------------------------------------
+Based on the overall rating of 84.7/100, this supplier is classified as
+APPROVED. This supplier may be used for standard orders but should not be sole-sourced for critical parts.
+
+============================================================
+End of Review - Confidential

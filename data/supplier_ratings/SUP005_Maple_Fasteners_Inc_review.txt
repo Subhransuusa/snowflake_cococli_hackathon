@@ -1,0 +1,46 @@
+SUPPLIER PERFORMANCE REVIEW
+============================================================
+Supplier: Maple Fasteners Inc
+Supplier ID: SUP005
+Country: Canada | Region: North America
+Tier: 2 | Certifications: None
+Review Date: 2026-09-12
+Overall Rating: 76.7/100 | Classification: APPROVED
+Risk Level: Medium
+
+SCORECARD
+------------------------------------------------------------
+Quality Score:           69.5/100
+Delivery Score:          93.5/100
+Cost Competitiveness:    57.8/100
+Responsiveness:          88.4/100
+Sustainability:          77.5/100
+Innovation:              68.3/100
+Overall Weighted Rating: 76.7/100
+
+STRENGTHS
+------------------------------------------------------------
+  - Excellent delivery reliability and on-time performance
+  - Highly responsive to urgent orders and change requests
+  - Strong sustainability practices with environmental certifications
+
+AREAS FOR IMPROVEMENT
+------------------------------------------------------------
+  - Quality score of 69.5 indicates room for improvement in defect management
+  - Cost competitiveness at 57.8 is below benchmark; consider renegotiation
+
+CAPACITY & OPERATIONS
+------------------------------------------------------------
+Single-site operation presents concentration risk; suggest qualifying backup.
+
+AUDIT HISTORY
+------------------------------------------------------------
+Last audit (2026-Q2): One corrective action issued for incoming inspection procedure gaps.
+
+RECOMMENDATION
+------------------------------------------------------------
+Based on the overall rating of 76.7/100, this supplier is classified as
+APPROVED. This supplier may be used for standard orders but should not be sole-sourced for critical parts.
+
+============================================================
+End of Review - Confidential

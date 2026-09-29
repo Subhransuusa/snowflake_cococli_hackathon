@@ -1,0 +1,46 @@
+SUPPLIER PERFORMANCE REVIEW
+============================================================
+Supplier: Thames Bearings Ltd
+Supplier ID: SUP014
+Country: United Kingdom | Region: Europe
+Tier: 1 | Certifications: ISO 9001, IATF 16949
+Review Date: 2026-09-12
+Overall Rating: 83.8/100 | Classification: APPROVED
+Risk Level: Medium
+
+SCORECARD
+------------------------------------------------------------
+Quality Score:           87.8/100
+Delivery Score:          92.3/100
+Cost Competitiveness:    83.6/100
+Responsiveness:          81.6/100
+Sustainability:          56.8/100
+Innovation:              82.1/100
+Overall Weighted Rating: 83.8/100
+
+STRENGTHS
+------------------------------------------------------------
+  - Consistently high product quality with minimal defect rates
+  - Excellent delivery reliability and on-time performance
+  - Competitive pricing structure with transparent cost breakdown
+  - Proactive in proposing design improvements and new materials
+
+AREAS FOR IMPROVEMENT
+------------------------------------------------------------
+  - Sustainability score of 56.8 falls short of corporate ESG targets
+
+CAPACITY & OPERATIONS
+------------------------------------------------------------
+Capacity constraints observed during Q4 peak season; requires advance planning.
+
+AUDIT HISTORY
+------------------------------------------------------------
+Last audit (2026-Q2): One corrective action issued for incoming inspection procedure gaps.
+
+RECOMMENDATION
+------------------------------------------------------------
+Based on the overall rating of 83.8/100, this supplier is classified as
+APPROVED. This supplier may be used for standard orders but should not be sole-sourced for critical parts.
+
+============================================================
+End of Review - Confidential

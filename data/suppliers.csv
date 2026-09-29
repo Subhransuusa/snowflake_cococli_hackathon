@@ -1,0 +1,16 @@
+SUPPLIER_ID,SUPPLIER_NAME,COUNTRY,REGION,TIER,LEAD_TIME_DAYS,RELIABILITY_SCORE,ACTIVE
+SUP001,Apex Materials Corp,United States,North America,1,7,96.50,TRUE
+SUP002,Yangtze Components Ltd,China,Asia Pacific,2,21,88.20,TRUE
+SUP003,Rhine Precision GmbH,Germany,Europe,1,10,97.80,TRUE
+SUP004,Tata Industrial Supply,India,Asia Pacific,2,18,85.40,TRUE
+SUP005,Maple Fasteners Inc,Canada,North America,2,8,91.30,TRUE
+SUP006,Sakura Electronics Co,Japan,Asia Pacific,1,14,98.10,TRUE
+SUP007,Sao Paulo Metals SA,Brazil,South America,3,25,78.60,TRUE
+SUP008,Nordic Alloys AB,Sweden,Europe,2,12,92.70,TRUE
+SUP009,Delta Plastics LLC,United States,North America,3,5,82.40,TRUE
+SUP010,Seoul Semiconductor Inc,South Korea,Asia Pacific,1,15,95.90,TRUE
+SUP011,Anatolian Castings AS,Turkey,Europe,3,20,79.50,TRUE
+SUP012,Melbourne Rubber Pty,Australia,Asia Pacific,3,22,81.30,TRUE
+SUP013,Guadalajara Motors SA,Mexico,North America,2,9,89.70,TRUE
+SUP014,Thames Bearings Ltd,United Kingdom,Europe,1,11,94.20,TRUE
+SUP015,Shenzhen PCB Tech Co,China,Asia Pacific,2,19,87.60,TRUE

@@ -1,0 +1,21 @@
+PART_ID,PART_NAME,CATEGORY,SUBCATEGORY,UNIT_OF_MEASURE,STANDARD_COST,WEIGHT_KG,CRITICAL_FLAG
+PRT001,Steel Mounting Bracket,Structural,Brackets,EA,12.50,0.450,FALSE
+PRT002,Servo Motor Assembly,Electrical,Motors,EA,245.00,2.100,TRUE
+PRT003,Hydraulic Cylinder 50mm,Hydraulics,Cylinders,EA,189.00,3.800,TRUE
+PRT004,Nylon Bushing Kit,Consumables,Bushings,KIT,8.75,0.120,FALSE
+PRT005,Control Board PCB v3,Electronics,PCBs,EA,67.30,0.085,TRUE
+PRT006,Aluminum Extrusion 2m,Structural,Extrusions,EA,34.20,1.600,FALSE
+PRT007,Bearing SKF 6205,Mechanical,Bearings,EA,15.80,0.210,FALSE
+PRT008,Pneumatic Valve 3-way,Pneumatics,Valves,EA,52.40,0.380,FALSE
+PRT009,Rubber Seal O-Ring Set,Consumables,Seals,KIT,3.20,0.045,FALSE
+PRT010,Stainless Shaft 25mm,Structural,Shafts,EA,28.90,1.200,FALSE
+PRT011,Power Supply 24V 10A,Electrical,Power,EA,78.50,0.950,TRUE
+PRT012,Timing Belt HTD 5M,Mechanical,Belts,EA,22.10,0.180,FALSE
+PRT013,Proximity Sensor NPN,Electronics,Sensors,EA,41.60,0.065,FALSE
+PRT014,Cast Iron Housing,Structural,Housings,EA,95.00,5.400,FALSE
+PRT015,Copper Wire Harness,Electrical,Wiring,EA,56.80,0.720,FALSE
+PRT016,Thermal Paste Tube 50g,Consumables,Thermal,EA,6.40,0.055,FALSE
+PRT017,Gearbox Planetary 10:1,Mechanical,Gearboxes,EA,310.00,4.200,TRUE
+PRT018,LED Indicator Panel,Electronics,Displays,EA,29.50,0.140,FALSE
+PRT019,Silicone Hose 12mm,Pneumatics,Hoses,M,4.80,0.095,FALSE
+PRT020,Spring Compression 50N,Mechanical,Springs,EA,2.90,0.035,FALSE

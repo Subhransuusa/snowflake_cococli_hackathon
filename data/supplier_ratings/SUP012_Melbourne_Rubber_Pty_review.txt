@@ -1,0 +1,45 @@
+SUPPLIER PERFORMANCE REVIEW
+============================================================
+Supplier: Melbourne Rubber Pty
+Supplier ID: SUP012
+Country: Australia | Region: Asia Pacific
+Tier: 3 | Certifications: ISO 9001, IATF 16949
+Review Date: 2026-09-12
+Overall Rating: 79.3/100 | Classification: APPROVED
+Risk Level: Medium
+
+SCORECARD
+------------------------------------------------------------
+Quality Score:           89.5/100
+Delivery Score:          79.7/100
+Cost Competitiveness:    82.6/100
+Responsiveness:          72.6/100
+Sustainability:          64.8/100
+Innovation:              61.6/100
+Overall Weighted Rating: 79.3/100
+
+STRENGTHS
+------------------------------------------------------------
+  - Consistently high product quality with minimal defect rates
+  - Competitive pricing structure with transparent cost breakdown
+
+AREAS FOR IMPROVEMENT
+------------------------------------------------------------
+  - Delivery score of 79.7 suggests late shipments are a recurring concern
+  - Sustainability score of 64.8 falls short of corporate ESG targets
+
+CAPACITY & OPERATIONS
+------------------------------------------------------------
+Supplier has demonstrated capacity to handle 20% surge orders within 2-week notice.
+
+AUDIT HISTORY
+------------------------------------------------------------
+Last audit (2025-Q4): Clean audit. All corrective actions from prior audits verified closed.
+
+RECOMMENDATION
+------------------------------------------------------------
+Based on the overall rating of 79.3/100, this supplier is classified as
+APPROVED. This supplier may be used for standard orders but should not be sole-sourced for critical parts.
+
+============================================================
+End of Review - Confidential

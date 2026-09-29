@@ -1,0 +1,57 @@
+version: 1
+artifacts:
+  - path: SCM_LOGISTICS.sv.yaml
+    type: semantic_view
+    targets:
+      default:
+        object: __SF_DATABASE__.__SF_SCHEMA__.SCM_LOGISTICS
+  - path: SCM_INVENTORY.sv.yaml
+    type: semantic_view
+    targets:
+      default:
+        object: __SF_DATABASE__.__SF_SCHEMA__.SCM_INVENTORY
+  - path: SCM_FULFILLMENT.sv.yaml
+    type: semantic_view
+    targets:
+      default:
+        object: __SF_DATABASE__.__SF_SCHEMA__.SCM_FULFILLMENT
+  - path: SCM_PROCUREMENT.sv.yaml
+    type: semantic_view
+    targets:
+      default:
+        object: __SF_DATABASE__.__SF_SCHEMA__.SCM_PROCUREMENT
+  - path: SCM_ANALYST.agent.yaml
+    type: cortex_agent
+    targets:
+      default:
+        object: __SF_DATABASE__.__SF_SCHEMA__.SCM_ANALYST
+  - path: SV_GEOSPATIAL_DEMAND.sv.yaml
+    type: semantic_view
+    targets:
+      default:
+        object: __SF_DATABASE__.__SF_SCHEMA__.SV_GEOSPATIAL_DEMAND
+  - path: SV_DEMAND_FORECAST.sv.yaml
+    type: semantic_view
+    targets:
+      default:
+        object: __SF_DATABASE__.__SF_SCHEMA__.SV_DEMAND_FORECAST
+  - path: ROUTE_OPTIMIZER.agent.yaml
+    type: cortex_agent
+    targets:
+      default:
+        object: __SF_DATABASE__.__SF_SCHEMA__.ROUTE_OPTIMIZER
+  - path: SUPPLIER_REVIEWER.agent.yaml
+    type: cortex_agent
+    targets:
+      default:
+        object: __SF_DATABASE__.__SF_SCHEMA__.SUPPLIER_REVIEWER
+  - path: DEMAND_FORECASTER.agent.yaml
+    type: cortex_agent
+    targets:
+      default:
+        object: __SF_DATABASE__.__SF_SCHEMA__.DEMAND_FORECASTER
+  - path: SCM_ROUTER.agent.yaml
+    type: cortex_agent
+    targets:
+      default:
+        object: __SF_DATABASE__.__SF_SCHEMA__.SCM_ROUTER

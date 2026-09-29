@@ -1,0 +1,46 @@
+SUPPLIER PERFORMANCE REVIEW
+============================================================
+Supplier: Seoul Semiconductor Inc
+Supplier ID: SUP010
+Country: South Korea | Region: Asia Pacific
+Tier: 1 | Certifications: ISO 9001, AS9100
+Review Date: 2026-09-12
+Overall Rating: 79.5/100 | Classification: APPROVED
+Risk Level: Medium
+
+SCORECARD
+------------------------------------------------------------
+Quality Score:           89.4/100
+Delivery Score:          92.0/100
+Cost Competitiveness:    61.8/100
+Responsiveness:          75.7/100
+Sustainability:          58.7/100
+Innovation:              91.1/100
+Overall Weighted Rating: 79.5/100
+
+STRENGTHS
+------------------------------------------------------------
+  - Consistently high product quality with minimal defect rates
+  - Excellent delivery reliability and on-time performance
+  - Proactive in proposing design improvements and new materials
+
+AREAS FOR IMPROVEMENT
+------------------------------------------------------------
+  - Cost competitiveness at 61.8 is below benchmark; consider renegotiation
+  - Sustainability score of 58.7 falls short of corporate ESG targets
+
+CAPACITY & OPERATIONS
+------------------------------------------------------------
+Capacity constraints observed during Q4 peak season; requires advance planning.
+
+AUDIT HISTORY
+------------------------------------------------------------
+Last audit (2026-Q1): Two observations noted regarding environmental waste handling procedures.
+
+RECOMMENDATION
+------------------------------------------------------------
+Based on the overall rating of 79.5/100, this supplier is classified as
+APPROVED. This supplier may be used for standard orders but should not be sole-sourced for critical parts.
+
+============================================================
+End of Review - Confidential

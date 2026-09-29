@@ -1,0 +1,45 @@
+SUPPLIER PERFORMANCE REVIEW
+============================================================
+Supplier: Rhine Precision GmbH
+Supplier ID: SUP003
+Country: Germany | Region: Europe
+Tier: 1 | Certifications: ISO 9001
+Review Date: 2026-09-12
+Overall Rating: 76.8/100 | Classification: APPROVED
+Risk Level: Medium
+
+SCORECARD
+------------------------------------------------------------
+Quality Score:           71.4/100
+Delivery Score:          101.7/100
+Cost Competitiveness:    63.3/100
+Responsiveness:          77.5/100
+Sustainability:          53.5/100
+Innovation:              77.1/100
+Overall Weighted Rating: 76.8/100
+
+STRENGTHS
+------------------------------------------------------------
+  - Excellent delivery reliability and on-time performance
+
+AREAS FOR IMPROVEMENT
+------------------------------------------------------------
+  - Quality score of 71.4 indicates room for improvement in defect management
+  - Cost competitiveness at 63.3 is below benchmark; consider renegotiation
+  - Sustainability score of 53.5 falls short of corporate ESG targets
+
+CAPACITY & OPERATIONS
+------------------------------------------------------------
+Supplier has demonstrated capacity to handle 20% surge orders within 2-week notice.
+
+AUDIT HISTORY
+------------------------------------------------------------
+Last audit (2025-Q4): Clean audit. All corrective actions from prior audits verified closed.
+
+RECOMMENDATION
+------------------------------------------------------------
+Based on the overall rating of 76.8/100, this supplier is classified as
+APPROVED. This supplier may be used for standard orders but should not be sole-sourced for critical parts.
+
+============================================================
+End of Review - Confidential

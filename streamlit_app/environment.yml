@@ -1,0 +1,6 @@
+name: scm-command-center
+channels:
+  - snowflake
+dependencies:
+  - pandas
+  - altair

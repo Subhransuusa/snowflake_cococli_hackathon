@@ -1,0 +1,131 @@
+models:
+  orchestration: "auto"
+
+instructions:
+  system: >-
+    You are the SCM Router Agent — the master orchestrator for the supply chain
+    multi-agent system. You have 7 data tools and 5 domain skills. Use the skills
+    to adopt the right domain persona and expertise before querying data tools.
+
+    Architecture:
+    - Skills provide domain expertise (how to interpret and present results)
+    - Tools provide data access (semantic views and search services)
+    - You combine the right skill + tool(s) for each question
+
+    Domain routing:
+    - Supplier OTD, landed cost, POs → procurement_skill + procurement_metrics
+    - Fill rate, order fulfillment → procurement_skill + fulfillment_metrics
+    - Inventory, DOI, safety stock → demand_skill + inventory_metrics
+    - Delivery OTD, carriers, freight → logistics_skill + logistics_metrics
+    - Supplier quality, audits, risk → supplier_review_skill + supplier_reviews + procurement_metrics
+    - Demand forecasts, trends, growth → demand_skill + demand_analytics
+    - Routes, geospatial, distances → route_optimizer_skill + route_data
+    - Cross-domain or executive → combine multiple skills and tools, synthesize
+
+  orchestration: >-
+    For every question:
+    1. Load the relevant domain skill(s) to adopt the right expertise
+    2. Use the skill's instructions to guide which tool(s) to call
+    3. Query the data tool(s) to get governed results
+    4. Apply the skill's response formatting rules
+    5. If cross-domain, load multiple skills and synthesize across tool results
+
+  response: >-
+    Be concise and data-driven. Always state which domain skill and tool(s) you used.
+    Present data in tables when comparing entities. State metric definitions on first use.
+    For cross-domain questions, explicitly note the domains you combined.
+
+  sample_questions:
+    - question: "Which supplier should we use for servo motor procurement?"
+    - question: "What demand should we plan for in Electronics next quarter?"
+    - question: "What is the optimal shipping route from Germany to Detroit?"
+    - question: "Give me a full executive summary of all supply chain KPIs"
+    - question: "Which parts have growing demand but are below safety stock?"
+    - question: "Review Rhine Precision and recommend for critical orders"
+
+tools:
+  - tool_spec:
+      type: "cortex_analyst_text_to_sql"
+      name: "procurement_metrics"
+      description: "Procurement data: Supplier OTD, landed cost, POs, lead times"
+  - tool_spec:
+      type: "cortex_analyst_text_to_sql"
+      name: "fulfillment_metrics"
+      description: "Fulfillment data: Fill rate, ordered vs fulfilled quantities"
+  - tool_spec:
+      type: "cortex_analyst_text_to_sql"
+      name: "inventory_metrics"
+      description: "Inventory data: DOI, safety stock, reorder status"
+  - tool_spec:
+      type: "cortex_analyst_text_to_sql"
+      name: "logistics_metrics"
+      description: "Logistics data: Delivery OTD, carriers, freight cost"
+  - tool_spec:
+      type: "cortex_search"
+      name: "supplier_reviews"
+      description: "Search supplier review documents for ratings, audits, risk"
+  - tool_spec:
+      type: "cortex_analyst_text_to_sql"
+      name: "demand_analytics"
+      description: "Demand data: Forecasts, market trends, YoY growth"
+  - tool_spec:
+      type: "cortex_analyst_text_to_sql"
+      name: "route_data"
+      description: "Route data: Shipping distances, costs, transit times, risk"
+
+tool_resources:
+  procurement_metrics:
+    execution_environment:
+      type: "warehouse"
+      warehouse: "__SF_WAREHOUSE__"
+    semantic_view: "__SF_DATABASE__.__SF_SCHEMA__.SCM_PROCUREMENT"
+  fulfillment_metrics:
+    execution_environment:
+      type: "warehouse"
+      warehouse: "__SF_WAREHOUSE__"
+    semantic_view: "__SF_DATABASE__.__SF_SCHEMA__.SCM_FULFILLMENT"
+  inventory_metrics:
+    execution_environment:
+      type: "warehouse"
+      warehouse: "__SF_WAREHOUSE__"
+    semantic_view: "__SF_DATABASE__.__SF_SCHEMA__.SCM_INVENTORY"
+  logistics_metrics:
+    execution_environment:
+      type: "warehouse"
+      warehouse: "__SF_WAREHOUSE__"
+    semantic_view: "__SF_DATABASE__.__SF_SCHEMA__.SCM_LOGISTICS"
+  supplier_reviews:
+    search_service: "__SF_DATABASE__.__SF_SCHEMA__.SUPPLIER_REVIEW_SEARCH"
+    max_results: 5
+  demand_analytics:
+    execution_environment:
+      type: "warehouse"
+      warehouse: "__SF_WAREHOUSE__"
+    semantic_view: "__SF_DATABASE__.__SF_SCHEMA__.SV_DEMAND_FORECAST"
+  route_data:
+    execution_environment:
+      type: "warehouse"
+      warehouse: "__SF_WAREHOUSE__"
+    semantic_view: "__SF_DATABASE__.__SF_SCHEMA__.SV_GEOSPATIAL_DEMAND"
+
+skills:
+  - name: "procurement_skill"
+    source:
+      type: "STAGE"
+      path: "@__SF_DATABASE__.__SF_SCHEMA__.AGENT_SKILLS/skills/procurement_skill"
+  - name: "logistics_skill"
+    source:
+      type: "STAGE"
+      path: "@__SF_DATABASE__.__SF_SCHEMA__.AGENT_SKILLS/skills/logistics_skill"
+  - name: "demand_skill"
+    source:
+      type: "STAGE"
+      path: "@__SF_DATABASE__.__SF_SCHEMA__.AGENT_SKILLS/skills/demand_skill"
+  - name: "supplier_review_skill"
+    source:
+      type: "STAGE"
+      path: "@__SF_DATABASE__.__SF_SCHEMA__.AGENT_SKILLS/skills/supplier_review_skill"
+  - name: "route_optimizer_skill"
+    source:
+      type: "STAGE"
+      path: "@__SF_DATABASE__.__SF_SCHEMA__.AGENT_SKILLS/skills/route_optimizer_skill"

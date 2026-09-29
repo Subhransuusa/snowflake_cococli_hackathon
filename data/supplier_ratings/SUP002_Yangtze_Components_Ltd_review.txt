@@ -1,0 +1,45 @@
+SUPPLIER PERFORMANCE REVIEW
+============================================================
+Supplier: Yangtze Components Ltd
+Supplier ID: SUP002
+Country: China | Region: Asia Pacific
+Tier: 2 | Certifications: ISO 9001
+Review Date: 2026-09-12
+Overall Rating: 77.6/100 | Classification: APPROVED
+Risk Level: Medium
+
+SCORECARD
+------------------------------------------------------------
+Quality Score:           77.9/100
+Delivery Score:          90.4/100
+Cost Competitiveness:    64.6/100
+Responsiveness:          77.9/100
+Sustainability:          79.2/100
+Innovation:              59.0/100
+Overall Weighted Rating: 77.6/100
+
+STRENGTHS
+------------------------------------------------------------
+  - Excellent delivery reliability and on-time performance
+  - Strong sustainability practices with environmental certifications
+
+AREAS FOR IMPROVEMENT
+------------------------------------------------------------
+  - Quality score of 77.9 indicates room for improvement in defect management
+  - Cost competitiveness at 64.6 is below benchmark; consider renegotiation
+
+CAPACITY & OPERATIONS
+------------------------------------------------------------
+Dual-facility capability provides redundancy for critical part supply.
+
+AUDIT HISTORY
+------------------------------------------------------------
+Last audit (2026-Q2): One corrective action issued for incoming inspection procedure gaps.
+
+RECOMMENDATION
+------------------------------------------------------------
+Based on the overall rating of 77.6/100, this supplier is classified as
+APPROVED. This supplier may be used for standard orders but should not be sole-sourced for critical parts.
+
+============================================================
+End of Review - Confidential
